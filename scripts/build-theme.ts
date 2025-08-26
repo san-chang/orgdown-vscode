@@ -52,7 +52,7 @@ const scopeToSettingsMap: Record<string, { foreground?: string; fontStyle?: stri
   [scopes.BOLD]: { fontStyle: 'bold' },
   [scopes.ITALIC]: { fontStyle: 'italic' },
   [scopes.UNDERLINE]: { fontStyle: 'underline' },
-  [scopes.STRIKETHROUGH]: { fontStyle: 'strikethrough' },
+  [scopes.STRIKE_THROUGH]: { fontStyle: 'strikethrough' },
   [scopes.CODE]: { foreground: palette.cyan },
   // [scopes.VERBATIM]: { foreground: palette.const },
   [scopes.LINK]: { foreground: palette.blue, fontStyle: 'underline' },

@@ -331,7 +331,7 @@ export const MACRO_PARAMETER = 'variable.parameter.macro.org';
 export const BOLD = 'markup.bold.org';
 export const ITALIC = 'markup.italic.org';
 export const UNDERLINE = 'markup.underline.org';
-export const STRIKETHROUGH = 'markup.strikethrough.org';
+export const STRIKE_THROUGH = 'markup.strikethrough.org';
 export const CODE = 'markup.inline.raw.org';
 export const VERBATIM = 'markup.inline.raw.org';
 export const LINK = 'markup.underline.link.org';
@@ -343,7 +343,7 @@ export const SUB_SUPER_SCRIPT = 'markup.other.sub-super-script.org';
 export const BOLD_PUNCTUATION = 'punctuation.definition.bold.org';
 export const ITALIC_PUNCTUATION = 'punctuation.definition.italic.org';
 export const UNDERLINE_PUNCTUATION = 'punctuation.definition.underline.org';
-export const STRIKETHROUGH_PUNCTUATION = 'punctuation.definition.strikethrough.org';
+export const STRIKE_THROUGH_PUNCTUATION = 'punctuation.definition.strikethrough.org';
 export const CODE_PUNCTUATION = 'punctuation.definition.raw.code.org';
 export const VERBATIM_PUNCTUATION = 'punctuation.definition.raw.verbatim.org';
 
@@ -351,7 +351,7 @@ export const VERBATIM_PUNCTUATION = 'punctuation.definition.raw.verbatim.org';
 export const META_INLINE_BOLD = 'meta.inline.bold.org';
 export const META_INLINE_ITALIC = 'meta.inline.italic.org';
 export const META_INLINE_UNDERLINE = 'meta.inline.underline.org';
-export const META_INLINE_STRIKETHROUGH = 'meta.inline.strikethrough.org';
+export const META_INLINE_STRIKE_THROUGH = 'meta.inline.strikethrough.org';
 export const META_INLINE_CODE = 'meta.inline.code.org';
 export const META_INLINE_VERBATIM = 'meta.inline.verbatim.org';
 

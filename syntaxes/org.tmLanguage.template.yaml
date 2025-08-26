@@ -67,7 +67,7 @@
 # ├── bold -> includes #inline-markup
 # ├── italic -> includes #inline-markup
 # ├── underline -> includes #inline-markup
-# ├── strikethrough -> includes #inline-markup
+# ├── strike-through -> includes #inline-markup
 # ├── code
 # ├── verbatim
 # ├── entities
@@ -77,7 +77,7 @@
 
 fileTypes: [org]
 name: Org Mode
-scopeName: "{{scopes.META_DOCUMENT}}"
+scopeName: "{{scope.META_DOCUMENT}}"
 patterns:
   - include: "#document-root"
 
@@ -95,7 +95,7 @@ repository:
     - include: "#bold"
     - include: "#italic"
     - include: "#underline"
-    - include: "#strikethrough"
+    - include: "#strike-through"
     - include: "#code"
     - include: "#verbatim"
     - include: "#entities"
@@ -134,15 +134,15 @@ repository:
       - include: "#outline-active-level-more-than-6"
 
   file-header:
-    name: "{{scopes.META_HEADER}}"
-    begin: "{{regexs.fileHeaderBeginRegex}}" # Anchor to start only if not immediately a headline.
-    end: "{{regexs.headlineDetectToCloseBlockRegex}}" # End before the first headline.
+    name: "{{scope.META_HEADER}}"
+    begin: "{{regex.fileHeaderBeginRegex}}" # Anchor to start only if not immediately a headline.
+    end: "{{regex.headlineDetectToCloseBlockRegex}}" # End before the first headline.
     patterns: *common-section-patterns
 
   section-content:
-    name: "{{scopes.META_SECTION}}"
-    begin: "{{regexs.sectionContentBeginRegex}}"
-    end: "{{regexs.headlineDetectToCloseBlockRegex}}"
+    name: "{{scope.META_SECTION}}"
+    begin: "{{regex.sectionContentBeginRegex}}"
+    end: "{{regex.headlineDetectToCloseBlockRegex}}"
     patterns: *common-section-patterns
   #endregion
 
@@ -150,7 +150,7 @@ repository:
   outline-level-base: &outline-level-base
     beginCaptures:
       "0":
-        name: "{{scopes.HEADING_BLOCK}}"
+        name: "{{scope.HEADING_BLOCK}}"
         patterns:
           - include: "#headline-block"
     patterns:
@@ -159,132 +159,132 @@ repository:
 
   outline-inactive-level-1:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_INACTIVE}} {{scopes.META_OUTLINE_1}}"
-    begin: "{{regexs.inactiveHeadlineLevel1Regex}}"
-    end: "{{regexs.outlineEndLevel1Regex}}"
+    name: "{{scope.META_OUTLINE_INACTIVE}} {{scope.META_OUTLINE_1}}"
+    begin: "{{regex.inactiveHeadlineLevel1Regex}}"
+    end: "{{regex.outlineEndLevel1Regex}}"
 
   outline-inactive-level-2:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_INACTIVE}} {{scopes.META_OUTLINE_2}}"
-    begin: "{{regexs.inactiveHeadlineLevel2Regex}}"
-    end: "{{regexs.outlineEndLevel2Regex}}"
+    name: "{{scope.META_OUTLINE_INACTIVE}} {{scope.META_OUTLINE_2}}"
+    begin: "{{regex.inactiveHeadlineLevel2Regex}}"
+    end: "{{regex.outlineEndLevel2Regex}}"
 
   outline-inactive-level-3:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_INACTIVE}} {{scopes.META_OUTLINE_3}}"
-    begin: "{{regexs.inactiveHeadlineLevel3Regex}}"
-    end: "{{regexs.outlineEndLevel3Regex}}"
+    name: "{{scope.META_OUTLINE_INACTIVE}} {{scope.META_OUTLINE_3}}"
+    begin: "{{regex.inactiveHeadlineLevel3Regex}}"
+    end: "{{regex.outlineEndLevel3Regex}}"
 
   outline-inactive-level-4:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_INACTIVE}} {{scopes.META_OUTLINE_4}}"
-    begin: "{{regexs.inactiveHeadlineLevel4Regex}}"
-    end: "{{regexs.outlineEndLevel4Regex}}"
+    name: "{{scope.META_OUTLINE_INACTIVE}} {{scope.META_OUTLINE_4}}"
+    begin: "{{regex.inactiveHeadlineLevel4Regex}}"
+    end: "{{regex.outlineEndLevel4Regex}}"
 
   outline-inactive-level-5:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_INACTIVE}} {{scopes.META_OUTLINE_5}}"
-    begin: "{{regexs.inactiveHeadlineLevel5Regex}}"
-    end: "{{regexs.outlineEndLevel5Regex}}"
+    name: "{{scope.META_OUTLINE_INACTIVE}} {{scope.META_OUTLINE_5}}"
+    begin: "{{regex.inactiveHeadlineLevel5Regex}}"
+    end: "{{regex.outlineEndLevel5Regex}}"
 
   outline-inactive-level-6:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_INACTIVE}} {{scopes.META_OUTLINE_6}}"
-    begin: "{{regexs.inactiveHeadlineLevel6Regex}}"
-    end: "{{regexs.outlineEndLevel6Regex}}"
+    name: "{{scope.META_OUTLINE_INACTIVE}} {{scope.META_OUTLINE_6}}"
+    begin: "{{regex.inactiveHeadlineLevel6Regex}}"
+    end: "{{regex.outlineEndLevel6Regex}}"
 
   outline-inactive-level-more-than-6:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_INACTIVE}} {{scopes.META_OUTLINE_MORE_THAN_6}}"
-    begin: "{{regexs.inactiveHeadlineLevelMoreThan6Regex}}"
-    end: "{{regexs.headlineDetectToCloseBlockRegex}}" # Any headline terminates this
+    name: "{{scope.META_OUTLINE_INACTIVE}} {{scope.META_OUTLINE_MORE_THAN_6}}"
+    begin: "{{regex.inactiveHeadlineLevelMoreThan6Regex}}"
+    end: "{{regex.headlineDetectToCloseBlockRegex}}" # Any headline terminates this
 
   outline-active-level-1:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_1}}"
-    begin: "{{regexs.headlineLevel1Regex}}"
-    end: "{{regexs.outlineEndLevel1Regex}}"
+    name: "{{scope.META_OUTLINE_1}}"
+    begin: "{{regex.headlineLevel1Regex}}"
+    end: "{{regex.outlineEndLevel1Regex}}"
 
   outline-active-level-2:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_2}}"
-    begin: "{{regexs.headlineLevel2Regex}}"
-    end: "{{regexs.outlineEndLevel2Regex}}"
+    name: "{{scope.META_OUTLINE_2}}"
+    begin: "{{regex.headlineLevel2Regex}}"
+    end: "{{regex.outlineEndLevel2Regex}}"
 
   outline-active-level-3:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_3}}"
-    begin: "{{regexs.headlineLevel3Regex}}"
-    end: "{{regexs.outlineEndLevel3Regex}}"
+    name: "{{scope.META_OUTLINE_3}}"
+    begin: "{{regex.headlineLevel3Regex}}"
+    end: "{{regex.outlineEndLevel3Regex}}"
 
   outline-active-level-4:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_4}}"
-    begin: "{{regexs.headlineLevel4Regex}}"
-    end: "{{regexs.outlineEndLevel4Regex}}"
+    name: "{{scope.META_OUTLINE_4}}"
+    begin: "{{regex.headlineLevel4Regex}}"
+    end: "{{regex.outlineEndLevel4Regex}}"
 
   outline-active-level-5:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_5}}"
-    begin: "{{regexs.headlineLevel5Regex}}"
-    end: "{{regexs.outlineEndLevel5Regex}}"
+    name: "{{scope.META_OUTLINE_5}}"
+    begin: "{{regex.headlineLevel5Regex}}"
+    end: "{{regex.outlineEndLevel5Regex}}"
 
   outline-active-level-6:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_6}}"
-    begin: "{{regexs.headlineLevel6Regex}}"
-    end: "{{regexs.outlineEndLevel6Regex}}"
+    name: "{{scope.META_OUTLINE_6}}"
+    begin: "{{regex.headlineLevel6Regex}}"
+    end: "{{regex.outlineEndLevel6Regex}}"
 
   outline-active-level-more-than-6:
     <<: *outline-level-base
-    name: "{{scopes.META_OUTLINE_MORE_THAN_6}}"
-    begin: "{{regexs.headlineLevelMoreThan6Regex}}"
-    end: "{{regexs.headlineDetectToCloseBlockRegex}}" # Any headline terminates this
+    name: "{{scope.META_OUTLINE_MORE_THAN_6}}"
+    begin: "{{regex.headlineLevelMoreThan6Regex}}"
+    end: "{{regex.headlineDetectToCloseBlockRegex}}" # Any headline terminates this
   #endregion
 
   #region Content Elements
 
   #region Headings
   headline-captures: &headline-captures
-    "1": { name: "{{scopes.HEADING_PUNCTUATION}}" }
-    "2": { name: "{{scopes.TODO_KEYWORD}}" }
-    "3": { name: "{{scopes.PRIORITY_COOKIE}}" }
-    "4": { name: "{{scopes.PRIORITY_VALUE}}" }
+    "1": { name: "{{scope.HEADING_PUNCTUATION}}" }
+    "2": { name: "{{scope.TODO_KEYWORD}}" }
+    "3": { name: "{{scope.PRIORITY_COOKIE}}" }
+    "4": { name: "{{scope.PRIORITY_VALUE}}" }
     "5":
-      name: "{{scopes.HEADING_TITLE}}"
+      name: "{{scope.HEADING_TITLE}}"
       patterns: *inline-markup-patterns
-    "6": { name: "{{scopes.PROGRESS_COOKIE}}" }
-    "7": { name: "{{scopes.TAG}}" }
+    "6": { name: "{{scope.PROGRESS_COOKIE}}" }
+    "7": { name: "{{scope.TAG}}" }
 
   headline-block:
-    name: "{{scopes.HEADING_BLOCK}}"
+    name: "{{scope.HEADING_BLOCK}}"
     patterns:
-      - name: "{{scopes.HEADING_LEVEL_1}}"
-        match: "{{regexs.headlineLevel1Regex}}"
+      - name: "{{scope.HEADING_LEVEL_1}}"
+        match: "{{regex.headlineLevel1Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scopes.HEADING_LEVEL_2}}"
-        match: "{{regexs.headlineLevel2Regex}}"
+      - name: "{{scope.HEADING_LEVEL_2}}"
+        match: "{{regex.headlineLevel2Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scopes.HEADING_LEVEL_3}}"
-        match: "{{regexs.headlineLevel3Regex}}"
+      - name: "{{scope.HEADING_LEVEL_3}}"
+        match: "{{regex.headlineLevel3Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scopes.HEADING_LEVEL_4}}"
-        match: "{{regexs.headlineLevel4Regex}}"
+      - name: "{{scope.HEADING_LEVEL_4}}"
+        match: "{{regex.headlineLevel4Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scopes.HEADING_LEVEL_5}}"
-        match: "{{regexs.headlineLevel5Regex}}"
+      - name: "{{scope.HEADING_LEVEL_5}}"
+        match: "{{regex.headlineLevel5Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scopes.HEADING_LEVEL_6}}"
-        match: "{{regexs.headlineLevel6Regex}}"
+      - name: "{{scope.HEADING_LEVEL_6}}"
+        match: "{{regex.headlineLevel6Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scopes.HEADING_LEVEL_MORE_THAN_6}}"
-        match: "{{regexs.headlineLevelMoreThan6Regex}}"
+      - name: "{{scope.HEADING_LEVEL_MORE_THAN_6}}"
+        match: "{{regex.headlineLevelMoreThan6Regex}}"
         captures: { <<: *headline-captures }
   #endregion
 
   #region Keywords & Directives
   keyword-like-lines:
-    name: "{{scopes.META_DIRECTIVE}}"
+    name: "{{scope.META_DIRECTIVE}}"
     patterns:
       - include: "#include-directive"
       - include: "#planning-lines"
@@ -293,57 +293,57 @@ repository:
       - include: "#keywords"
 
   include-directive:
-    name: "{{scopes.META_DIRECTIVE}}"
-    begin: "{{regexs.includeDirectiveBeginRegex}}"
-    end: "{{regexs.endOfLine}}" # End at the end of the line
+    name: "{{scope.META_DIRECTIVE}}"
+    begin: "{{regex.includeDirectiveBeginRegex}}"
+    end: "{{regex.endOfLine}}" # End at the end of the line
     beginCaptures:
-      "1": { name: "{{scopes.INCLUDE_KEYWORD}}" }
-      "2": { name: "{{scopes.INCLUDE_PATH}}" }
+      "1": { name: "{{scope.INCLUDE_KEYWORD}}" }
+      "2": { name: "{{scope.INCLUDE_PATH}}" }
     patterns:
       - include: "#block-parameter-pair"
 
   keywords:
-    name: "{{scopes.KEYWORD}}"
-    match: "{{regexs.genericKeywordRegex}}"
+    name: "{{scope.KEYWORD}}"
+    match: "{{regex.genericKeywordRegex}}"
     captures:
-      "1": { name: "{{scopes.KEYWORD_KEY}}" }
-      "2": { name: "{{scopes.KEYWORD_NAME}}" }
-      "3": { name: "{{scopes.KEYWORD_VALUE}}" }
+      "1": { name: "{{scope.KEYWORD_KEY}}" }
+      "2": { name: "{{scope.KEYWORD_NAME}}" }
+      "3": { name: "{{scope.KEYWORD_VALUE}}" }
 
   link-abbreviations:
-    match: "{{regexs.linkAbbreviationRegex}}"
-    name: "{{scopes.LINK_ABBREVIATION_META}}"
+    match: "{{regex.linkAbbreviationRegex}}"
+    name: "{{scope.LINK_ABBREVIATION_META}}"
     captures:
-      "2": { name: "{{scopes.LINK_ABBREVIATION_KEYWORD}}" }
-      "3": { name: "{{scopes.LINK_ABBREVIATION_KEY}}" }
-      "4": { name: "{{scopes.LINK_ABBREVIATION_URL}}" }
+      "2": { name: "{{scope.LINK_ABBREVIATION_KEYWORD}}" }
+      "3": { name: "{{scope.LINK_ABBREVIATION_KEY}}" }
+      "4": { name: "{{scope.LINK_ABBREVIATION_URL}}" }
 
   macro-definition:
-    match: "{{regexs.macroDefinitionRegex}}"
-    name: "{{scopes.KEYWORD}}"
+    match: "{{regex.macroDefinitionRegex}}"
+    name: "{{scope.KEYWORD}}"
     captures:
-      "1": { name: "{{scopes.KEYWORD_KEY}}" }
-      "2": { name: "{{scopes.MACRO_NAME}}" }
+      "1": { name: "{{scope.KEYWORD_KEY}}" }
+      "2": { name: "{{scope.MACRO_NAME}}" }
       "3":
-        name: "{{scopes.KEYWORD_VALUE}}"
+        name: "{{scope.KEYWORD_VALUE}}"
         patterns:
-          - match: "(\\$[0-9]+)"
-            name: "{{scopes.MACRO_PARAMETER}}"
+          - match: "{{regex.macroParameter}}"
+            name: "{{scope.MACRO_PARAMETER}}"
 
   planning-lines:
-    name: "{{scopes.PLANNING_LINE_META}}"
-    match: "{{regexs.planningLineRegex}}"
+    name: "{{scope.PLANNING_LINE_META}}"
+    match: "{{regex.planningLineRegex}}"
     captures:
-      "1": { name: "{{scopes.PLANNING_KEYWORD}}" }
+      "1": { name: "{{scope.PLANNING_KEYWORD}}" }
       "2":
-        name: "{{scopes.PLANNING_TIMESTAMP}}"
+        name: "{{scope.PLANNING_TIMESTAMP}}"
         patterns:
           - include: "#timestamps"
   #endregion
 
   #region Blocks
   blocks:
-    name: "{{scopes.META_BLOCK}}"
+    name: "{{scope.META_BLOCK}}"
     patterns:
       - include: "#begin-end-blocks"
       - include: "#latex-environment-block"
@@ -352,32 +352,32 @@ repository:
       - include: "#horizontal-rules"
 
   block-captures: &block-captures
-    "1": { name: "{{scopes.LEADING_WHITESPACE}}" }
-    "2": { name: "{{scopes.BLOCK_KEYWORD}}" }
-    "3": { name: "{{scopes.BLOCK_NAME}}" }
+    "1": { name: "{{scope.LEADING_WHITESPACE}}" }
+    "2": { name: "{{scope.BLOCK_KEYWORD}}" }
+    "3": { name: "{{scope.BLOCK_NAME}}" }
     "4":
-      name: "{{scopes.BLOCK_PARAMETERS}}"
+      name: "{{scope.BLOCK_PARAMETERS}}"
       patterns:
         - include: "#block-parameter-pair"
 
   end-captures: &end-captures
-    "1": { name: "{{scopes.LEADING_WHITESPACE}}" }
-    "2": { name: "{{scopes.BLOCK_KEYWORD}}" }
-    "3": { name: "{{scopes.BLOCK_NAME}}" }
+    "1": { name: "{{scope.LEADING_WHITESPACE}}" }
+    "2": { name: "{{scope.BLOCK_KEYWORD}}" }
+    "3": { name: "{{scope.BLOCK_NAME}}" }
 
   block-parameter-pair:
-    match: "{{regexs.blockParameterRegex}}"
+    match: "{{regex.blockParameterRegex}}"
     captures:
-      "1": { name: "{{scopes.BLOCK_PARAMETER_KEY}}" }
-      "2": { name: "{{scopes.BLOCK_PARAMETER_VALUE}}" }
+      "1": { name: "{{scope.BLOCK_PARAMETER_KEY}}" }
+      "2": { name: "{{scope.BLOCK_PARAMETER_VALUE}}" }
 
   horizontal-rules:
-    name: "{{scopes.HORIZONTAL_RULE}}"
-    match: "{{regexs.horizontalRuleRegex}}"
+    name: "{{scope.HORIZONTAL_RULE}}"
+    match: "{{regex.horizontalRuleRegex}}"
 
   #region Begin/End Blocks
   begin-end-blocks:
-    name: "{{scopes.META_BEGIN_END_BLOCK}}"
+    name: "{{scope.META_BEGIN_END_BLOCK}}"
     patterns:
       - include: "#comment-block"
       - include: "#standard-blocks"
@@ -386,45 +386,45 @@ repository:
       - include: "#customized-blocks"
 
   comment-block:
-    name: "{{scopes.COMMENT_BLOCK}}"
-    begin: "{{regexs.commentBlockBeginRegex}}"
-    end: "{{regexs.commentBlockEndRegex}}"
-    contentName: "{{scopes.COMMENT_BLOCK_CONTENT}}"
+    name: "{{scope.COMMENT_BLOCK}}"
+    begin: "{{regex.commentBlockBeginRegex}}"
+    end: "{{regex.commentBlockEndRegex}}"
+    contentName: "{{scope.COMMENT_BLOCK_CONTENT}}"
     beginCaptures:
-      "2": { name: "{{scopes.BLOCK_KEYWORD}}" }
+      "2": { name: "{{scope.BLOCK_KEYWORD}}" }
     endCaptures:
-      "2": { name: "{{scopes.BLOCK_KEYWORD}}" }
+      "2": { name: "{{scope.BLOCK_KEYWORD}}" }
 
   standard-blocks:
     patterns:
-      - name: "{{scopes.META_BEGIN_END_BLOCK}} {{scopes.BLOCK_STANDARD_META}}"
-        contentName: "{{scopes.BLOCK_CONTENT}} {{scopes.BLOCK_STANDARD_CONTENT}}"
-        begin: "{{regexs.standardBlockVerbatimBeginRegex}}"
-        end: "{{regexs.standardBlockVerbatimEndRegex}}"
+      - name: "{{scope.META_BEGIN_END_BLOCK}} {{scope.BLOCK_STANDARD_META}}"
+        contentName: "{{scope.BLOCK_CONTENT}} {{scope.BLOCK_STANDARD_CONTENT}}"
+        begin: "{{regex.standardBlockVerbatimBeginRegex}}"
+        end: "{{regex.standardBlockVerbatimEndRegex}}"
         beginCaptures: { <<: *block-captures }
         endCaptures: { <<: *end-captures }
-      - name: "{{scopes.META_BEGIN_END_BLOCK}} {{scopes.BLOCK_STANDARD_META}}"
-        contentName: "{{scopes.BLOCK_CONTENT}} {{scopes.BLOCK_STANDARD_CONTENT}}"
-        begin: "{{regexs.standardBlockMarkupBeginRegex}}"
-        end: "{{regexs.standardBlockMarkupEndRegex}}"
+      - name: "{{scope.META_BEGIN_END_BLOCK}} {{scope.BLOCK_STANDARD_META}}"
+        contentName: "{{scope.BLOCK_CONTENT}} {{scope.BLOCK_STANDARD_CONTENT}}"
+        begin: "{{regex.standardBlockMarkupBeginRegex}}"
+        end: "{{regex.standardBlockMarkupEndRegex}}"
         beginCaptures: { <<: *block-captures }
         endCaptures: { <<: *end-captures }
         patterns: *inline-markup-patterns
 
   dynamic-blocks:
-    name: "{{scopes.META_BEGIN_END_BLOCK}} {{scopes.DYNAMIC_BLOCK_META}}"
-    contentName: "{{scopes.BLOCK_CONTENT}} {{scopes.DYNAMIC_BLOCK_CONTENT}}"
-    begin: "{{regexs.dynamicBlockBeginRegex}}"
-    end: "{{regexs.dynamicBlockEndRegex}}"
+    name: "{{scope.META_BEGIN_END_BLOCK}} {{scope.DYNAMIC_BLOCK_META}}"
+    contentName: "{{scope.BLOCK_CONTENT}} {{scope.DYNAMIC_BLOCK_CONTENT}}"
+    begin: "{{regex.dynamicBlockBeginRegex}}"
+    end: "{{regex.dynamicBlockEndRegex}}"
     beginCaptures: { <<: *block-captures }
     endCaptures: { <<: *end-captures }
     patterns: *inline-markup-patterns
 
   customized-blocks:
-    name: "{{scopes.META_BEGIN_END_BLOCK}} {{scopes.BLOCK_CUSTOMIZED_META}}"
-    contentName: "{{scopes.BLOCK_CONTENT}} {{scopes.BLOCK_CUSTOMIZED_CONTENT}}"
-    begin: "{{regexs.customizedBlockBeginRegex}}"
-    end: "{{regexs.customizedBlockEndRegex}}"
+    name: "{{scope.META_BEGIN_END_BLOCK}} {{scope.BLOCK_CUSTOMIZED_META}}"
+    contentName: "{{scope.BLOCK_CONTENT}} {{scope.BLOCK_CUSTOMIZED_CONTENT}}"
+    begin: "{{regex.customizedBlockBeginRegex}}"
+    end: "{{regex.customizedBlockEndRegex}}"
     beginCaptures: { <<: *block-captures }
     endCaptures: { <<: *end-captures }
     patterns: *inline-markup-patterns
@@ -432,9 +432,9 @@ repository:
   org-src-blocks: { patterns: [] } # Injected by build script
 
   latex-environment-block:
-    name: "{{scopes.LATEX}}"
-    begin: "{{regexs.latexEnvironmentBeginRegex}}"
-    end: "{{regexs.latexEnvironmentEndRegex}}"
+    name: "{{scope.LATEX}}"
+    begin: "{{regex.latexEnvironmentBeginRegex}}"
+    end: "{{regex.latexEnvironmentEndRegex}}"
     beginCaptures:
       "0": { name: "keyword.control.math.block.latex" }
     endCaptures:
@@ -443,101 +443,101 @@ repository:
 
   #region Drawers
   drawer-blocks:
-    name: "{{scopes.META_DRAWER}}"
+    name: "{{scope.META_DRAWER}}"
     patterns:
       - include: "#property-drawer"
       - include: "#drawers"
 
   property-drawer:
-    name: "{{scopes.META_DRAWER}} {{scopes.PROPERTY_DRAWER_META}}"
-    begin: "{{regexs.propertyDrawerBeginRegex}}"
-    end: "{{regexs.drawerEndRegex}}"
+    name: "{{scope.META_DRAWER}} {{scope.PROPERTY_DRAWER_META}}"
+    begin: "{{regex.propertyDrawerBeginRegex}}"
+    end: "{{regex.drawerEndRegex}}"
     beginCaptures:
-      "0": { name: "{{scopes.DRAWER_BEGIN_KEYWORD}}" }
+      "0": { name: "{{scope.DRAWER_BEGIN_KEYWORD}}" }
     endCaptures:
-      "0": { name: "{{scopes.DRAWER_END_KEYWORD}}" }
+      "0": { name: "{{scope.DRAWER_END_KEYWORD}}" }
     patterns:
       - include: "#property-line"
 
   property-line:
-    match: "{{regexs.propertyRegex}}"
-    name: "{{scopes.PROPERTY_META}}"
+    match: "{{regex.propertyRegex}}"
+    name: "{{scope.PROPERTY_META}}"
     captures:
-      "1": { name: "{{scopes.PROPERTY_KEY}}" }
-      "2": { name: "{{scopes.PROPERTY_VALUE}}" }
+      "1": { name: "{{scope.PROPERTY_KEY}}" }
+      "2": { name: "{{scope.PROPERTY_VALUE}}" }
 
   drawers:
-    name: "{{scopes.META_DRAWER}}"
-    contentName: "{{scopes.DRAWER_CONTENT}}"
-    begin: "{{regexs.genericDrawerBeginRegex}}"
-    end: "{{regexs.drawerEndRegex}}"
+    name: "{{scope.META_DRAWER}}"
+    contentName: "{{scope.DRAWER_CONTENT}}"
+    begin: "{{regex.genericDrawerBeginRegex}}"
+    end: "{{regex.drawerEndRegex}}"
     beginCaptures:
-      "0": { name: "{{scopes.DRAWER_BEGIN_KEYWORD}}" }
-      "1": { name: "{{scopes.DRAWER_NAME}}" }
+      "0": { name: "{{scope.DRAWER_BEGIN_KEYWORD}}" }
+      "1": { name: "{{scope.DRAWER_NAME}}" }
     endCaptures:
-      "0": { name: "{{scopes.DRAWER_END_KEYWORD}}" }
+      "0": { name: "{{scope.DRAWER_END_KEYWORD}}" }
   #endregion
   #endregion
 
   #region Lists
   lists:
     patterns:
-      - name: "{{scopes.LIST_UNORDERED_TEXT}}"
-        begin: "{{regexs.unorderedListRegex}}"
-        end: "{{regexs.endOfLine}}"
+      - name: "{{scope.LIST_UNORDERED_TEXT}}"
+        begin: "{{regex.unorderedListRegex}}"
+        end: "{{regex.endOfLine}}"
         beginCaptures:
-          "1": { name: "{{scopes.LEADING_WHITESPACE}}" }
-          "2": { name: "{{scopes.LIST_BULLET}}" }
-          "3": { name: "{{scopes.CHECKBOX}}" }
+          "1": { name: "{{scope.LEADING_WHITESPACE}}" }
+          "2": { name: "{{scope.LIST_BULLET}}" }
+          "3": { name: "{{scope.CHECKBOX}}" }
         patterns:
           - include: "#list-description-separator"
           - patterns: *inline-markup-patterns
-      - name: "{{scopes.LIST_ORDERED_TEXT}}"
-        begin: "{{regexs.orderedListRegex}}"
-        end: "{{regexs.endOfLine}}"
+      - name: "{{scope.LIST_ORDERED_TEXT}}"
+        begin: "{{regex.orderedListRegex}}"
+        end: "{{regex.endOfLine}}"
         beginCaptures:
-          "1": { name: "{{scopes.LEADING_WHITESPACE}}" }
-          "2": { name: "{{scopes.LIST_BULLET}}" }
-          "3": { name: "{{scopes.CHECKBOX}}" }
+          "1": { name: "{{scope.LEADING_WHITESPACE}}" }
+          "2": { name: "{{scope.LIST_BULLET}}" }
+          "3": { name: "{{scope.CHECKBOX}}" }
         patterns:
           - include: "#list-counter"
           - patterns: *inline-markup-patterns
 
   list-description-separator:
-    match: "{{regexs.descriptionSeparatorRegex}}"
+    match: "{{regex.descriptionSeparatorRegex}}"
     captures:
-      "1": { name: "{{scopes.DESCRIPTION_TERM}}" }
-      "2": { name: "{{scopes.DESCRIPTION_SEPARATOR}}" }
+      "1": { name: "{{scope.DESCRIPTION_TERM}}" }
+      "2": { name: "{{scope.DESCRIPTION_SEPARATOR}}" }
 
   list-counter:
-    match: "{{regexs.listCounterRegex}}"
-    name: "{{scopes.LIST_COUNTER}}"
+    match: "{{regex.listCounterRegex}}"
+    name: "{{scope.LIST_COUNTER}}"
     captures:
-      "1": { name: "{{scopes.LIST_COUNTER_VALUE}}" }
+      "1": { name: "{{scope.LIST_COUNTER_VALUE}}" }
   #endregion
 
   #region Tables
   tables:
-    name: "{{scopes.META_TABLE}}"
-    contentName: "{{scopes.TABLE_CONTENT}}"
-    begin: "(?={{regexs.tableRegex}})"
-    end: "(?={{regexs.emptyLine}}|{{regexs.headlineDetectToCloseBlockRegex}})"
+    name: "{{scope.META_TABLE}}"
+    contentName: "{{scope.TABLE_CONTENT}}"
+    begin: "(?={{regex.tableRegex}})"
+    end: "(?={{regex.emptyLine}}|{{regex.headlineDetectToCloseBlockRegex}})"
     beginCaptures:
-      "0": { name: "{{scopes.TABLE_META}}" }
+      "0": { name: "{{scope.TABLE_META}}" }
     patterns:
       - include: "#line-comments"
-      - match: "{{regexs.tableRowSeparatorLine}}"
-        name: "{{scopes.TABLE_ROW_SEPARATOR}}"
-      - begin: "{{regexs.tableRowBeginRegex}}"
-        name: "{{scopes.TABLE_ROW}}"
-        contentName: "{{scopes.TABLE_CONTENT}} {{scopes.TABLE_ROW}}"
-        end: "{{regexs.endOfLine}}"
+      - match: "{{regex.tableRowSeparatorLine}}"
+        name: "{{scope.TABLE_ROW_SEPARATOR}}"
+      - begin: "{{regex.tableRowBeginRegex}}"
+        name: "{{scope.TABLE_ROW}}"
+        contentName: "{{scope.TABLE_CONTENT}} {{scope.TABLE_ROW}}"
+        end: "{{regex.endOfLine}}"
         patterns:
-          - begin: "{{regexs.tableCellBeginRegex}}"
+          - begin: "{{regex.tableCellBeginRegex}}"
             beginCaptures:
-              "0": { name: "{{scopes.TABLE_CELL_PUNCTUATION}}" }
-            contentName: "{{scopes.TABLE_CELL}}"
-            end: "{{regexs.tableCellEndRegex}}"
+              "0": { name: "{{scope.TABLE_CELL_PUNCTUATION}}" }
+            contentName: "{{scope.TABLE_CELL}}"
+            end: "{{regex.tableCellEndRegex}}"
             patterns: *inline-markup-patterns
   #endregion
 
@@ -546,195 +546,196 @@ repository:
   # see #comment-block inside the 'Blocks > Begin/End Blocks' region.
 
   line-comments:
-    begin: "{{regexs.lineCommentBeginCaptureRegex}}"
-    end: "{{regexs.endOfLine}}"
-    name: "{{scopes.COMMENT_LINE}}"
+    begin: "{{regex.lineCommentBeginCaptureRegex}}"
+    end: "{{regex.endOfLine}}"
+    name: "{{scope.COMMENT_LINE}}"
     beginCaptures:
-      "1": { name: "{{scopes.PUNCTUATION_WHITESPACE}}" }
+      "1": { name: "{{scope.PUNCTUATION_WHITESPACE}}" }
     patterns: *inline-markup-patterns
   #endregion
 
   #region Inline Markup
   timestamps:
     patterns:
-      - name: "{{scopes.TIMESTAMP_ACTIVE_RANGE}}"
-        match: "{{regexs.timestampActiveRangeRegex}}"
-      - name: "{{scopes.TIMESTAMP_INACTIVE_RANGE}}"
-        match: "{{regexs.timestampInactiveRangeRegex}}"
-      - name: "{{scopes.TIMESTAMP_ACTIVE}}"
-        match: "{{regexs.timestampActiveRegex}}"
-      - name: "{{scopes.TIMESTAMP_INACTIVE}}"
-        match: "{{regexs.timestampInactiveRegex}}"
+      - name: "{{scope.TIMESTAMP_ACTIVE_RANGE}}"
+        match: "{{regex.timestampActiveRangeRegex}}"
+      - name: "{{scope.TIMESTAMP_INACTIVE_RANGE}}"
+        match: "{{regex.timestampInactiveRangeRegex}}"
+      - name: "{{scope.TIMESTAMP_ACTIVE}}"
+        match: "{{regex.timestampActiveRegex}}"
+      - name: "{{scope.TIMESTAMP_INACTIVE}}"
+        match: "{{regex.timestampInactiveRegex}}"
 
   entities:
-    name: "{{scopes.ENTITY}}"
-    match: "{{regexs.entitiesRegex}}"
+    name: "{{scope.ENTITY}}"
+    match: "{{regex.entitiesRegex}}"
 
   sub-super-scripts:
-    name: "{{scopes.SUB_SUPER_SCRIPT}}"
-    match: "{{regexs.subSuperScriptRegex}}"
+    name: "{{scope.SUB_SUPER_SCRIPT}}"
+    match: "{{regex.subSuperScriptRegex}}"
 
   latex-inline:
-    name: "{{scopes.LATEX}}"
-    match: "{{regexs.latexInlineRegex}}"
+    name: "{{scope.LATEX}}"
+    match: "{{regex.latexInlineRegex}}"
 
   #region Links
   plain-link:
-    name: "{{scopes.LINK_PLAIN}}"
-    match: "{{regexs.plainLinkRegex}}"
+    name: "{{scope.LINK_PLAIN}}"
+    match: "{{regex.plainLinkRegex}}"
 
   angle-bracket-link:
-    name: "{{scopes.LINK_ANGLE}}"
-    match: "{{regexs.angleBracketLinkRegex}}"
+    name: "{{scope.LINK_ANGLE}}"
+    match: "{{regex.angleBracketLinkRegex}}"
 
   links:
-    match: "{{regexs.linkRegex}}"
-    name: "{{scopes.LINK_META}}"
+    match: "{{regex.linkRegex}}"
+    name: "{{scope.LINK_META}}"
     captures:
-      "1": { name: "{{scopes.LINK_BEGIN_PUNCTUATION}}" }
+      "1": { name: "{{scope.LINK_BEGIN_PUNCTUATION}}" }
       "2":
-        name: "{{scopes.LINK}}"
+        name: "{{scope.LINK}}"
         patterns:
           - include: "#link-protocol"
-      "3": { name: "{{scopes.LINK_SEPARATOR_PUNCTUATION}}" }
-      "4": { name: "{{scopes.LINK_DESCRIPTION}}" }
-      "5": { name: "{{scopes.LINK_END_PUNCTUATION}}" }
+      "3": { name: "{{scope.LINK_SEPARATOR_PUNCTUATION}}" }
+      "4": { name: "{{scope.LINK_DESCRIPTION}}" }
+      "5": { name: "{{scope.LINK_END_PUNCTUATION}}" }
 
   link-protocol:
-    match: "{{regexs.linkProtocolRegex}}"
+    match: "{{regex.linkProtocolRegex}}"
     captures:
-      "1": { name: "{{scopes.LINK_PROTOCOL}}" }
+      "1": { name: "{{scope.LINK_PROTOCOL}}" }
   #endregion
 
   #region Footnotes
   footnotes:
     patterns:
       # Unified rule for all footnote definitions
-      - name: "{{scopes.FOOTNOTE_DEFINITION}}"
-        begin: "{{regexs.footnoteDefinitionStartRegex}}"
-        end: "{{regexs.footnoteDefinitionEndRegex}}"
+      - name: "{{scope.FOOTNOTE_DEFINITION}}"
+        begin: "{{regex.footnoteDefinitionStartRegex}}"
+        end: "{{regex.footnoteDefinitionEndRegex}}"
         beginCaptures:
-          "1": { name: "{{scopes.LEADING_WHITESPACE}}" }
-          "2": { name: "{{scopes.FOOTNOTE_PUNCTUATION}}" }
-          "3": { name: "{{scopes.FOOTNOTE_LABEL}}" }
-          "4": { name: "{{scopes.PUNCTUATION_WHITESPACE}}" }
+          "1": { name: "{{scope.LEADING_WHITESPACE}}" }
+          "2": { name: "{{scope.FOOTNOTE_PUNCTUATION}}" }
+          "3": { name: "{{scope.FOOTNOTE_LABEL}}" }
+          "4": { name: "{{scope.PUNCTUATION_WHITESPACE}}" }
           "5":
             {
-              name: "{{scopes.FOOTNOTE_CONTENT}}",
+              name: "{{scope.FOOTNOTE_CONTENT}}",
               patterns: *inline-markup-patterns,
             }
         patterns:
-          - name: "{{scopes.FOOTNOTE_CONTENT}}"
-            match: '.*\S.*'
+          # lines after footnote definition and start with a indent should also belongs to footnote content
+          - name: "{{scope.FOOTNOTE_CONTENT}}"
+            match: '{{regex.footnoteContentRegex}}'
             patterns: *inline-markup-patterns
 
       # Rule 3: Inline anonymous definition
-      - match: "{{regexs.footnoteInlineDefinitionRegex}}"
-        name: "{{scopes.FOOTNOTE_REFERENCE}} {{scopes.FOOTNOTE_PUNCTUATION}}"
+      - match: "{{regex.footnoteInlineDefinitionRegex}}"
+        name: "{{scope.FOOTNOTE_REFERENCE}} {{scope.FOOTNOTE_PUNCTUATION}}"
         captures:
-          "1": { name: "{{scopes.FOOTNOTE_CONTENT}}" }
+          "1": { name: "{{scope.FOOTNOTE_CONTENT}}" }
 
       # Rule 4: Standard reference
-      - match: "{{regexs.footnoteReferenceRegex}}"
-        name: "{{scopes.FOOTNOTE_REFERENCE}} {{scopes.FOOTNOTE_PUNCTUATION}}"
+      - match: "{{regex.footnoteReferenceRegex}}"
+        name: "{{scope.FOOTNOTE_REFERENCE}} {{scope.FOOTNOTE_PUNCTUATION}}"
         captures:
-          "1": { name: "{{scopes.FOOTNOTE_LABEL}}" }
+          "1": { name: "{{scope.FOOTNOTE_LABEL}}" }
 
       # Rule 5: Anonymous reference
-      - match: "{{regexs.footnoteAnonymousReferenceRegex}}"
-        name: "{{scopes.FOOTNOTE_REFERENCE}} {{scopes.FOOTNOTE_PUNCTUATION}}"
+      - match: "{{regex.footnoteAnonymousReferenceRegex}}"
+        name: "{{scope.FOOTNOTE_REFERENCE}} {{scope.FOOTNOTE_PUNCTUATION}}"
   #endregion
 
   #region Macros
   macros:
-    name: "{{scopes.META_INLINE_MACRO}}"
-    match: "{{regexs.inlineMacroRegex}}"
+    name: "{{scope.META_INLINE_MACRO}}"
+    match: "{{regex.inlineMacroRegex}}"
     captures:
       "1":
-        name: "{{scopes.MACRO_PUNCTUATION}}"
+        name: "{{scope.MACRO_PUNCTUATION}}"
       "2":
-        name: "{{scopes.MACRO}}"
+        name: "{{scope.MACRO}}"
         patterns:
-          - match: "{{regexs.macroNameFragment}}"
-            name: "{{scopes.MACRO_NAME}}"
-          - match: "{{regexs.macroArgsFragment}}"
-            name: "{{scopes.MACRO_PARAMETER}}"
+          - match: "{{regex.macroNameFragment}}"
+            name: "{{scope.MACRO_NAME}}"
+          - match: "{{regex.macroArgsFragment}}"
+            name: "{{scope.MACRO_PARAMETER}}"
       "3":
-        name: "{{scopes.MACRO_PUNCTUATION}}"
+        name: "{{scope.MACRO_PUNCTUATION}}"
   #endregion
 
   #region Emphasis & Verbatim
   bold:
-    name: "{{scopes.META_INLINE_BOLD}}"
-    contentName: "{{scopes.BOLD}}"
-    begin: "{{regexs.boldBeginRegex}}"
-    end: "{{regexs.boldEndRegex}}"
+    name: "{{scope.META_INLINE_BOLD}}"
+    contentName: "{{scope.BOLD}}"
+    begin: "{{regex.boldBeginRegex}}"
+    end: "{{regex.boldEndRegex}}"
     beginCaptures:
-      "1": { name: "{{scopes.BOLD_PUNCTUATION}}" }
+      "1": { name: "{{scope.BOLD_PUNCTUATION}}" }
     endCaptures:
-      "1": { name: "{{scopes.BOLD_PUNCTUATION}}" }
+      "1": { name: "{{scope.BOLD_PUNCTUATION}}" }
     patterns: *inline-markup-patterns
 
   italic:
-    name: "{{scopes.META_INLINE_ITALIC}}"
-    contentName: "{{scopes.ITALIC}}"
-    begin: "{{regexs.italicBeginRegex}}"
-    end: "{{regexs.italicEndRegex}}"
+    name: "{{scope.META_INLINE_ITALIC}}"
+    contentName: "{{scope.ITALIC}}"
+    begin: "{{regex.italicBeginRegex}}"
+    end: "{{regex.italicEndRegex}}"
     beginCaptures:
-      "1": { name: "{{scopes.ITALIC_PUNCTUATION}}" }
+      "1": { name: "{{scope.ITALIC_PUNCTUATION}}" }
     endCaptures:
-      "1": { name: "{{scopes.ITALIC_PUNCTUATION}}" }
+      "1": { name: "{{scope.ITALIC_PUNCTUATION}}" }
     patterns: *inline-markup-patterns
 
   underline:
-    name: "{{scopes.META_INLINE_UNDERLINE}}"
-    contentName: "{{scopes.UNDERLINE}}"
-    begin: "{{regexs.underlineBeginRegex}}"
-    end: "{{regexs.underlineEndRegex}}"
+    name: "{{scope.META_INLINE_UNDERLINE}}"
+    contentName: "{{scope.UNDERLINE}}"
+    begin: "{{regex.underlineBeginRegex}}"
+    end: "{{regex.underlineEndRegex}}"
     beginCaptures:
-      "1": { name: "{{scopes.UNDERLINE_PUNCTUATION}}" }
+      "1": { name: "{{scope.UNDERLINE_PUNCTUATION}}" }
     endCaptures:
-      "1": { name: "{{scopes.UNDERLINE_PUNCTUATION}}" }
+      "1": { name: "{{scope.UNDERLINE_PUNCTUATION}}" }
     patterns: *inline-markup-patterns
 
-  strikethrough:
-    name: "{{scopes.META_INLINE_STRIKETHROUGH}}"
-    contentName: "{{scopes.STRIKETHROUGH}}"
-    begin: "{{regexs.strikethroughBeginRegex}}"
-    end: "{{regexs.strikethroughEndRegex}}"
+  strike-through:
+    name: "{{scope.META_INLINE_STRIKE_THROUGH}}"
+    contentName: "{{scope.STRIKE_THROUGH}}"
+    begin: "{{regex.strikeThroughBeginRegex}}"
+    end: "{{regex.strikeThroughEndRegex}}"
     beginCaptures:
-      "1": { name: "{{scopes.STRIKETHROUGH_PUNCTUATION}}" }
+      "1": { name: "{{scope.STRIKE_THROUGH_PUNCTUATION}}" }
     endCaptures:
-      "1": { name: "{{scopes.STRIKETHROUGH_PUNCTUATION}}" }
+      "1": { name: "{{scope.STRIKE_THROUGH_PUNCTUATION}}" }
     patterns: *inline-markup-patterns
 
   code:
-    name: "{{scopes.META_INLINE_CODE}}"
-    contentName: "{{scopes.CODE}}"
-    begin: "{{regexs.codeBeginRegex}}"
-    end: "{{regexs.codeEndRegex}}"
+    name: "{{scope.META_INLINE_CODE}}"
+    contentName: "{{scope.CODE}}"
+    begin: "{{regex.codeBeginRegex}}"
+    end: "{{regex.codeEndRegex}}"
     beginCaptures:
-      "1": { name: "{{scopes.CODE_PUNCTUATION}}" }
+      "1": { name: "{{scope.CODE_PUNCTUATION}}" }
     endCaptures:
-      "1": { name: "{{scopes.CODE_PUNCTUATION}}" }
+      "1": { name: "{{scope.CODE_PUNCTUATION}}" }
 
   verbatim:
-    name: "{{scopes.META_INLINE_VERBATIM}}"
-    contentName: "{{scopes.VERBATIM}}"
-    begin: "{{regexs.verbatimBeginRegex}}"
-    end: "{{regexs.verbatimEndRegex}}"
+    name: "{{scope.META_INLINE_VERBATIM}}"
+    contentName: "{{scope.VERBATIM}}"
+    begin: "{{regex.verbatimBeginRegex}}"
+    end: "{{regex.verbatimEndRegex}}"
     beginCaptures:
-      "1": { name: "{{scopes.VERBATIM_PUNCTUATION}}" }
+      "1": { name: "{{scope.VERBATIM_PUNCTUATION}}" }
     endCaptures:
-      "1": { name: "{{scopes.VERBATIM_PUNCTUATION}}" }
+      "1": { name: "{{scope.VERBATIM_PUNCTUATION}}" }
   #endregion
   #endregion
 
   #region Paragraphs
   paragraph:
-    name: "{{scopes.META_PARAGRAPH}} {{scopes.PARAGRAPH}}"
-    begin: "{{regexs.paragraphBeginRegex}}"
-    end: "{{regexs.paragraphEndRegex}}"
+    name: "{{scope.META_PARAGRAPH}} {{scope.PARAGRAPH}}"
+    begin: "{{regex.paragraphBeginRegex}}"
+    end: "{{regex.paragraphEndRegex}}"
     patterns: *inline-markup-patterns
   #endregion
 

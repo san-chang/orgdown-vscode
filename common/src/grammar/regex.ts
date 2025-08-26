@@ -1,5 +1,5 @@
 // src/grammar/regex.ts
-// Centralized Org Mode regex definitions for grammar, tests, and codegen
+// Centralized Org Mode regex definitions for grammar, tests, and code generation
 // All regex patterns used in the TextMate grammar are defined here as the single source of truth
 
 /**
@@ -334,6 +334,10 @@ export const macroDefinitionRegex = createRegexPattern(
   /^\s*(#\+MACRO:)\s+([a-zA-Z_][a-zA-Z0-9_-]*)\s+(.*)$/i
 );
 
+export const macroParameter = createRegexPattern(
+  /(\$[0-9]+)/
+);
+
 
 // #region DRAWERS
 /**
@@ -512,6 +516,10 @@ export const footnoteInlineDefinitionRegex = createRegexPattern(
 export const footnoteDefinitionStartRegex = createRegexPattern(
   /^(\s*)(\[fn:([^\]]+)\])(\s*)(.*)$/
 );
+
+export const footnoteContentRegex = createRegexPattern(
+  /.*\S.*/
+);
 // #endregion
 
 // #region PARAGRAPHS
@@ -551,10 +559,10 @@ export const underlineEndRegex = createRegexPattern(
   /(?<=[^\s_])(_)(?!\w)/
 );
 
-export const strikethroughBeginRegex = createRegexPattern(
+export const strikeThroughBeginRegex = createRegexPattern(
   /(?<=^|\s)(\+)(?=[^\s+])(?=.*?([^\s+])\+(?!\w))/
 );
-export const strikethroughEndRegex = createRegexPattern(
+export const strikeThroughEndRegex = createRegexPattern(
   /(?<=[^\s+])(\+)(?!\w)/
 );
 
@@ -622,7 +630,7 @@ export const subSuperScriptRegex = createRegexPattern(
 // Anchor to the very start of the document, only if not immediately a headline
 export const fileHeaderBeginRegex = "\\A(?!\\*+\\s)";
 
-// Outline end lookaheads per level
+// Outline end look ahead per level
 export const outlineEndLevel1Regex = "(?=^\\*{1,1}\\s)";
 export const outlineEndLevel2Regex = "(?=^\\*{1,2}\\s)";
 export const outlineEndLevel3Regex = "(?=^\\*{1,3}\\s)";

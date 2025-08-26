@@ -1,5 +1,5 @@
 #+TITLE: Test Suite for Inline Markup
-#+AUTHOR: Orgdown Team
+#+AUTHOR: Org down Team
 
 # This fixture tests basic and nested inline markup using begin/end rules.
 
@@ -93,16 +93,16 @@ This is _underline_ text.
 "underline" => {{scopes.UNDERLINE}}
 "_" => {{scopes.UNDERLINE_PUNCTUATION}}
 
-* Strikethrough
+* Strike through
 
-#+NAME: Strikethrough: Showcase
+#+NAME: Strike through: Showcase
 #+BEGIN_FIXTURE
-This is +strikethrough+ text.
+This is +strike through+ text.
 #+END_FIXTURE
 #+EXPECTED: :type scope
-"+" => {{scopes.STRIKETHROUGH_PUNCTUATION}}
-"strikethrough" => {{scopes.STRIKETHROUGH}}
-"+" => {{scopes.STRIKETHROUGH_PUNCTUATION}}
+"+" => {{scopes.STRIKE_THROUGH_PUNCTUATION}}
+"strike through" => {{scopes.STRIKE_THROUGH}}
+"+" => {{scopes.STRIKE_THROUGH_PUNCTUATION}}
 
 * Code
 
@@ -139,7 +139,7 @@ This is =verbatim= text.
 
 #+NAME: F18: Inline Markup - Contexts
 #+BEGIN_FIXTURE
-/italic/ *bold* _underline_ +strikethrough+ =code= ~verbatim~
+/italic/ *bold* _underline_ +strike through+ =code= ~verbatim~
 sub^script sub_script
 
 * Inline markup in headline
@@ -149,7 +149,7 @@ sub^script sub_script
 - /italic/ item
 - *bold* item
 - _underline_ item
-- +strikethrough+ item
+- +strike through+ item
 - =code= item
 - ~verbatim~ item
 

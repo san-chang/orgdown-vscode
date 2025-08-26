@@ -91,7 +91,7 @@ function generateOrgSrcBlockDefinitions(): any[] {
       : [{ include: lang.source }];
 
     // Start with our new generic scopes
-    let contentName = '{{scopes.BLOCK_CONTENT}} {{scopes.BLOCK_SRC_CONTENT}}';
+    let contentName = '{{scope.BLOCK_CONTENT}} {{scope.BLOCK_SRC_CONTENT}}';
 
     // Add the language-specific meta scope
     contentName += lang.language ? ` meta.embedded.block.${lang.language}` : ` meta.embedded.block.${lang.name}`;
@@ -104,15 +104,15 @@ function generateOrgSrcBlockDefinitions(): any[] {
     // This rule is highly specific to one language. It matches the language identifier
     // and then includes the correct grammar.
     return {
-      name: '{{scopes.META_BLOCK}} {{scopes.BLOCK_SRC_META}}',
+      name: '{{scope.META_BLOCK}} {{scope.BLOCK_SRC_META}}',
       begin: '(?i)^(\\s*)(#\\+BEGIN_SRC)[ \\t]+(' + lang.identifiers.join('|') + ')\\b([ \\t].*)?$',
-      end: '{{regexs.srcBlockEndRegex}}',
+      end: '{{regex.srcBlockEndRegex}}',
       beginCaptures: {
-        '1': { name: '{{scopes.LEADING_WHITESPACE}}' },
-        '2': { name: '{{scopes.BLOCK_KEYWORD}}' },
-        '3': { name: '{{scopes.BLOCK_LANGUAGE}}' },
+        '1': { name: '{{scope.LEADING_WHITESPACE}}' },
+        '2': { name: '{{scope.BLOCK_KEYWORD}}' },
+        '3': { name: '{{scope.BLOCK_LANGUAGE}}' },
         '4': {
-          name: '{{scopes.BLOCK_PARAMETERS}}',
+          name: '{{scope.BLOCK_PARAMETERS}}',
           patterns: [
             { include: '#src-block-switch' },
             { include: '#src-block-header' }
@@ -120,12 +120,12 @@ function generateOrgSrcBlockDefinitions(): any[] {
         }
       } as any,
       endCaptures: {
-        '1': { name: '{{scopes.LEADING_WHITESPACE}}' },
-        '2': { name: '{{scopes.BLOCK_KEYWORD}}' }
+        '1': { name: '{{scope.LEADING_WHITESPACE}}' },
+        '2': { name: '{{scope.BLOCK_KEYWORD}}' }
        },
       patterns: [{
         begin: '(^|\\G)',
-        while: '{{regexs.srcBlockWhileRegex}}',
+        while: '{{regex.srcBlockWhileRegex}}',
         contentName,
         patterns: includes,
       }],
@@ -134,14 +134,14 @@ function generateOrgSrcBlockDefinitions(): any[] {
 
   // Fallback for unknown languages. It's a separate rule.
   patterns.push({
-    name: '{{scopes.META_BLOCK}} {{scopes.BLOCK_SRC_META}}',
-    begin: '{{regexs.srcBlockBeginRegex}}',
-    end: '{{regexs.srcBlockEndRegex}}',
+    name: '{{scope.META_BLOCK}} {{scope.BLOCK_SRC_META}}',
+    begin: '{{regex.srcBlockBeginRegex}}',
+    end: '{{regex.srcBlockEndRegex}}',
     beginCaptures: {
-        '1': { name: '{{scopes.LEADING_WHITESPACE}}' },
-        '2': { name: '{{scopes.BLOCK_KEYWORD}}' },
+        '1': { name: '{{scope.LEADING_WHITESPACE}}' },
+        '2': { name: '{{scope.BLOCK_KEYWORD}}' },
         '3': {
-          name: '{{scopes.BLOCK_PARAMETERS}}',
+          name: '{{scope.BLOCK_PARAMETERS}}',
           patterns: [
             { include: '#src-block-switch' },
             { include: '#src-block-header' }
@@ -149,13 +149,13 @@ function generateOrgSrcBlockDefinitions(): any[] {
         }
     } as any,
     endCaptures: {
-      '1': { name: '{{scopes.LEADING_WHITESPACE}}' },
-      '2': { name: '{{scopes.BLOCK_KEYWORD}}' }
+      '1': { name: '{{scope.LEADING_WHITESPACE}}' },
+      '2': { name: '{{scope.BLOCK_KEYWORD}}' }
     },
     patterns: [{
       begin: '(^|\G)',
-      while: '{{regexs.srcBlockWhileRegex}}',
-      contentName: '{{scopes.BLOCK_CONTENT}} {{scopes.BLOCK_SRC_CONTENT}} meta.embedded.block.fallback',
+      while: '{{regex.srcBlockWhileRegex}}',
+      contentName: '{{scope.BLOCK_CONTENT}} {{scope.BLOCK_SRC_CONTENT}} meta.embedded.block.fallback',
       patterns: [],
     }],
   });
@@ -188,7 +188,7 @@ async function buildGrammar() {
     // Handle both old string format and new RegexPattern format
     const regexSource = typeof value === 'string' ? value : value?.source;
     if (regexSource) {
-      const placeholder = `{{regexs.${key}}}`;
+      const placeholder = `{{regex.${key}}}`;
       // In JSON, backslashes in the regex need to be double-escaped.
       const escapedValue = regexSource.replace(/\\/g, '\\\\').replace(/"/g, '\\"');
       grammarWithPlaceholders = grammarWithPlaceholders.replace(new RegExp(placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), escapedValue);
@@ -198,7 +198,7 @@ async function buildGrammar() {
   // Replace all scope placeholders with actual patterns
   for (const [key, value] of Object.entries(scopeModule)) {
     if (typeof value === 'string') {
-      const placeholder = `{{scopes.${key}}}`;
+      const placeholder = `{{scope.${key}}}`;
       // Scopes don't need escaping.
       grammarWithPlaceholders = grammarWithPlaceholders.replace(new RegExp(placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), value);
     }
