@@ -420,7 +420,7 @@
 		}
 	},
 	{
-		"c": "Orgdown Team",
+		"c": "Org down Team",
 		"t": "text.org meta.file.header.org meta.directive.keyword.org string.unquoted.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
@@ -1568,7 +1568,7 @@
 		}
 	},
 	{
-		"c": "Strikethrough",
+		"c": "Strike through",
 		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
@@ -1610,7 +1610,7 @@
 		}
 	},
 	{
-		"c": "Test: Strikethrough: Showcase",
+		"c": "Test: Strike through: Showcase",
 		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
@@ -1652,7 +1652,7 @@
 		}
 	},
 	{
-		"c": "strikethrough",
+		"c": "strike through",
 		"t": "text.org meta.outline.2.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.strikethrough.org markup.strikethrough.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
@@ -2380,7 +2380,7 @@
 		}
 	},
 	{
-		"c": "strikethrough",
+		"c": "strike through",
 		"t": "text.org meta.outline.2.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.strikethrough.org markup.strikethrough.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
@@ -3108,7 +3108,7 @@
 		}
 	},
 	{
-		"c": "strikethrough",
+		"c": "strike through",
 		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org markup.list.unnumbered.org meta.inline.strikethrough.org markup.strikethrough.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
