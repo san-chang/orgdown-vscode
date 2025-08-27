@@ -7,6 +7,7 @@ export default defineConfig({
       'test/unit/**/*.test.ts',
     ],
     forceRerunTriggers: [
+      path.resolve(__dirname, 'syntaxes/org.tmLanguage.json'),
       path.resolve(__dirname, 'test/fixtures/**/*.org'),
       path.resolve(__dirname, 'test/unit/**/*.test.ts'),
     ],
