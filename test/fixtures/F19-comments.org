@@ -13,23 +13,23 @@
 #+BEGIN_COMMENT
 This block should be ignored by export and colorization.
 It can contain headlines, lists, tables, etc.
-** COMMENT Nested headline in block
+,** COMMENT Nested headline in block
 - List item in comment block
 | Table | In | Comment |
 #+END_COMMENT
 #+END_FIXTURE
 
 #+EXPECTED: :type scope
-"#+BEGIN_COMMENT" => {{scopes.META_BEGIN_END_BLOCK}}, {{scopes.BLOCK_STANDARD_META}}
+"#+BEGIN_COMMENT" => {{scopes.META_COMMENT_BLOCK}}
 "This block should be ignored by export and colorization." => {{scopes.COMMENT_BLOCK_CONTENT}}
 "** COMMENT Nested headline in block" => {{scopes.COMMENT_BLOCK_CONTENT}}
 "- List item in comment block" => {{scopes.COMMENT_BLOCK_CONTENT}}
 "| Table | In | Comment |" => {{scopes.COMMENT_BLOCK_CONTENT}}
-"#+END_COMMENT" => {{scopes.META_BEGIN_END_BLOCK}}, {{scopes.BLOCK_STANDARD_META}}
+"#+END_COMMENT" => {{scopes.META_COMMENT_BLOCK}}
 
 #+NAME: Commented subtree headline
 #+BEGIN_FIXTURE
-** COMMENT This subtree is commented
+,** COMMENT This subtree is commented
 Some content in a commented subtree.
 #+END_FIXTURE
 
@@ -85,9 +85,9 @@ This should also be a comment.
 #+end_comment
 #+END_FIXTURE
 #+EXPECTED: :type scope
-"#+begin_comment" => {{scopes.META_BEGIN_END_BLOCK}}
+"#+begin_comment" => {{scopes.META_COMMENT_BLOCK}}
 "This should also be a comment." => {{scopes.COMMENT_BLOCK_CONTENT}}
-"#+end_comment" => {{scopes.META_BEGIN_END_BLOCK}}
+"#+end_comment" => {{scopes.META_COMMENT_BLOCK}}
 
 #+NAME: Inline markup inside a line comment
 #+BEGIN_FIXTURE
@@ -104,5 +104,5 @@ This should also be a comment.
 #+END_COMMENT
 #+END_FIXTURE
 #+EXPECTED: :type scope
-"#+BEGIN_COMMENT" => {{scopes.META_BEGIN_END_BLOCK}}
-"#+END_COMMENT" => {{scopes.META_BEGIN_END_BLOCK}}
+"#+BEGIN_COMMENT" => {{scopes.META_COMMENT_BLOCK}}
+"#+END_COMMENT" => {{scopes.META_COMMENT_BLOCK}}

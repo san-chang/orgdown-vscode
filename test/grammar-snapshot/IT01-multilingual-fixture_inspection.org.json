@@ -3361,7 +3361,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3375,7 +3375,7 @@
 	},
 	{
 		"c": "#+BEGIN_",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -3389,7 +3389,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -3403,7 +3403,7 @@
 	},
 	{
 		"c": "  Hello, Bonjour, Hallo, Hola, こんにちは, 안녕하세요, Привет, مرحبا, שלום, 你好",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3417,7 +3417,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3431,7 +3431,7 @@
 	},
 	{
 		"c": "#+END_",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -3445,7 +3445,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",

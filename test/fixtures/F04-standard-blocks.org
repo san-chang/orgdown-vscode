@@ -153,20 +153,6 @@ cannot be unit-tested here due to their use of backreferences.
 | 3       | EXAMPLE        |
 | 4       |                |
 
-#+NAME: Unit Test: Verbatim Begin (COMMENT, case-insensitive, with params)
-#+BEGIN_FIXTURE
-#+begin_comment with params
-#+end_comment
-#+END_FIXTURE
-
-#+EXPECTED: :type regex :name standardBlockVerbatimBeginRegex
-| Group # | Expected Value |
-|---------+----------------|
-| 1       |                |
-| 2       | #+begin_       |
-| 3       | comment        |
-| 4       | with params    |
-
 #+NAME: Unit Test: Non-match (SRC should not match standard block regex)
 #+BEGIN_FIXTURE
 #+BEGIN_SRC
@@ -210,7 +196,7 @@ This is a simple quote block with *markup*.
 #+END_EXAMPLE
 #+END_FIXTURE
 #+EXPECTED: :type scope
-'#+BEGIN_QUOTE :author "John Doe"' => {{scopes.META_BEGIN_END_BLOCK}}, {{scopes.BLOCK_STANDARD_META}}
+'#+BEGIN_QUOTE :author "John Doe"' => {{scopes.BLOCK_STANDARD_META}}
   - "#+BEGIN_" => {{scopes.BLOCK_KEYWORD}}
   - "QUOTE" => {{scopes.BLOCK_NAME}}
   - ":author" => {{scopes.BLOCK_PARAMETER_KEY}}
@@ -218,11 +204,11 @@ This is a simple quote block with *markup*.
 "This is a simple quote block with *markup*." => {{scopes.BLOCK_STANDARD_CONTENT}}
   - "*markup*" => {{scopes.META_INLINE_BOLD}}
     - "markup" => {{scopes.BOLD}}
-"#+END_QUOTE" => {{scopes.META_BEGIN_END_BLOCK}}, {{scopes.BLOCK_STANDARD_META}}
+"#+END_QUOTE" => {{scopes.BLOCK_STANDARD_META}}
 
-"#+BEGIN_EXAMPLE" => {{scopes.META_BEGIN_END_BLOCK}}, {{scopes.BLOCK_STANDARD_META}}
+"#+BEGIN_EXAMPLE" => {{scopes.BLOCK_STANDARD_META}}
   - "#+BEGIN_" => {{scopes.BLOCK_KEYWORD}}
   - "EXAMPLE" => {{scopes.BLOCK_NAME}}
 "*This is literal text*, not markup." => {{scopes.BLOCK_STANDARD_CONTENT}}
   - "*This is literal text*" => !{{scopes.META_INLINE_BOLD}}, !{{scopes.BOLD}}
-"#+END_EXAMPLE" => {{scopes.META_BEGIN_END_BLOCK}}, {{scopes.BLOCK_STANDARD_META}}
+"#+END_EXAMPLE" => {{scopes.BLOCK_STANDARD_META}}

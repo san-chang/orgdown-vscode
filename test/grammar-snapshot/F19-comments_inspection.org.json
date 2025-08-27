@@ -505,7 +505,7 @@
 	},
 	{
 		"c": "#+BEGIN_COMMENT",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -519,7 +519,7 @@
 	},
 	{
 		"c": "This block should be ignored by export and colorization.",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org comment.block.content.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org comment.block.content.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -533,7 +533,7 @@
 	},
 	{
 		"c": "It can contain headlines, lists, tables, etc.",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org comment.block.content.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org comment.block.content.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -547,7 +547,7 @@
 	},
 	{
 		"c": "*** COMMENT Nested headline in block",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org comment.block.content.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org comment.block.content.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -561,7 +561,7 @@
 	},
 	{
 		"c": "- List item in comment block",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org comment.block.content.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org comment.block.content.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -575,7 +575,7 @@
 	},
 	{
 		"c": "| Table | In | Comment |",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org comment.block.content.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org comment.block.content.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -589,7 +589,7 @@
 	},
 	{
 		"c": "#+END_COMMENT",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1415,7 +1415,7 @@
 	},
 	{
 		"c": "#+begin_comment",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1429,7 +1429,7 @@
 	},
 	{
 		"c": "This should also be a comment.",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org comment.block.content.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org comment.block.content.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -1443,7 +1443,7 @@
 	},
 	{
 		"c": "#+end_comment",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1625,7 +1625,7 @@
 	},
 	{
 		"c": "#+BEGIN_COMMENT",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1639,7 +1639,7 @@
 	},
 	{
 		"c": "#+END_COMMENT",
-		"t": "text.org meta.outline.1.org meta.section.org comment.block.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.comment.org comment.block.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",

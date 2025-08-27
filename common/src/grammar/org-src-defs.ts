@@ -73,7 +73,7 @@ export function generateOrgSrcBlockDefinitions(): any[] {
       ? lang.source.map(scope => ({ include: scope }))
       : [{ include: lang.source }];
 
-    let contentName = '{{scope.BLOCK_CONTENT}} {{scope.BLOCK_SRC_CONTENT}}';
+    let contentName = '{{scope.BLOCK_SRC_CONTENT}}';
 
     contentName += lang.language ? ` meta.embedded.block.${lang.language}` : ` meta.embedded.block.${lang.name}`;
 
@@ -82,7 +82,7 @@ export function generateOrgSrcBlockDefinitions(): any[] {
     }
 
     return {
-      name: '{{scope.META_BLOCK}} {{scope.BLOCK_SRC_META}}',
+      name: '{{scope.BLOCK_SRC_META}}',
       begin: '(?i)^(\\s*)(#\\+BEGIN_SRC)[ \\t]+(' + lang.identifiers.join('|') + ')\\b([ \\t].*)?$',
       end: '{{regex.srcBlockEndRegex}}',
       beginCaptures: {
@@ -111,7 +111,7 @@ export function generateOrgSrcBlockDefinitions(): any[] {
   });
 
   patterns.push({
-    name: '{{scope.META_BLOCK}} {{scope.BLOCK_SRC_META}}',
+    name: '{{scope.BLOCK_SRC_META}}',
     begin: '{{regex.srcBlockBeginRegex}}',
     end: '{{regex.srcBlockEndRegex}}',
     beginCaptures: {
@@ -132,7 +132,7 @@ export function generateOrgSrcBlockDefinitions(): any[] {
     patterns: [{
       begin: '(^|\\G)',
       while: '{{regex.srcBlockWhileRegex}}',
-      contentName: '{{scope.BLOCK_CONTENT}} {{scope.BLOCK_SRC_CONTENT}} meta.embedded.block.fallback',
+      contentName: '{{scope.BLOCK_SRC_CONTENT}} meta.embedded.block.fallback',
       patterns: [],
     }],
   });

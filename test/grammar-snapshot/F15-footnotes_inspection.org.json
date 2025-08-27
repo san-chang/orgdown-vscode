@@ -2451,7 +2451,7 @@
 	},
 	{
 		"c": "#+BEGIN_",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -2465,7 +2465,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -2479,7 +2479,7 @@
 	},
 	{
 		"c": "See ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2493,7 +2493,7 @@
 	},
 	{
 		"c": "[fn:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org markup.footnote.reference.org punctuation.definition.footnote.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org markup.footnote.reference.org punctuation.definition.footnote.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2507,7 +2507,7 @@
 	},
 	{
 		"c": "block",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org markup.footnote.reference.org punctuation.definition.footnote.org constant.other.footnote.label.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org markup.footnote.reference.org punctuation.definition.footnote.org constant.other.footnote.label.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2521,7 +2521,7 @@
 	},
 	{
 		"c": "]",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org markup.footnote.reference.org punctuation.definition.footnote.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org markup.footnote.reference.org punctuation.definition.footnote.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2535,7 +2535,7 @@
 	},
 	{
 		"c": " for details.",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2549,7 +2549,7 @@
 	},
 	{
 		"c": "#+END_",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -2563,7 +2563,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",

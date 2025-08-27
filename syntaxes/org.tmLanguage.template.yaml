@@ -85,9 +85,9 @@ repository:
   #region Anchors
   # Anchor used across many features; defined within this region for cohesion
   inline-markup-patterns: &inline-markup-patterns
-    - include: "#plain-link"
     - include: "#angle-bracket-link"
     - include: "#links"
+    - include: "#plain-link"
     - include: "#timestamps"
     - include: "#footnotes"
     - include: "#macros"
@@ -98,7 +98,6 @@ repository:
     - include: "#strike-through"
     - include: "#code"
     - include: "#verbatim"
-    - include: "#entities"
     - include: "#sub-super-scripts"
 
   # Common section body patterns used by file header and section-content
@@ -107,6 +106,7 @@ repository:
     - include: "#blocks"
     - include: "#keyword-like-lines"
     - include: "#lists"
+    - include: "#horizontal-rules"
     - include: "#paragraph"
   #endregion
 
@@ -282,7 +282,7 @@ repository:
         captures: { <<: *headline-captures }
   #endregion
 
-  #region Comments
+  #region Line Comments
   # This rule handles line comments.
   # For block comments (#+BEGIN_COMMENT), see #comment-block inside the 'Blocks > Begin/End Blocks' region.
   line-comments:
@@ -294,15 +294,14 @@ repository:
     patterns: *inline-markup-patterns
   #endregion
 
-    #region Blocks
+  #region Blocks
   blocks:
-    name: "{{scope.META_BLOCK}}"
+    # name: "{{META_BLOCK}}"
     patterns:
       - include: "#begin-end-blocks"
       - include: "#latex-environment-block"
       - include: "#drawer-blocks"
       - include: "#tables"
-      - include: "#horizontal-rules"
 
   block-captures: &block-captures
     "1": { name: "{{scope.LEADING_WHITESPACE}}" }
@@ -324,22 +323,19 @@ repository:
       "1": { name: "{{scope.BLOCK_PARAMETER_KEY}}" }
       "2": { name: "{{scope.BLOCK_PARAMETER_VALUE}}" }
 
-  horizontal-rules:
-    name: "{{scope.HORIZONTAL_RULE}}"
-    match: "{{regex.horizontalRuleRegex}}"
-
-  #region Begin/End Blocks
+  #region Blocks / Begin-End
   begin-end-blocks:
-    name: "{{scope.META_BEGIN_END_BLOCK}}"
+    # name: "{{META_BEGIN_END_BLOCK}}"
     patterns:
       - include: "#comment-block"
       - include: "#standard-blocks"
-      - include: "#dynamic-blocks"
       - include: "#org-src-blocks"
       - include: "#customized-blocks"
+      - include: "#dynamic-blocks"
 
+  #region Blocks / Begin-End / Comment
   comment-block:
-    name: "{{scope.COMMENT_BLOCK}}"
+    name: "{{scope.META_COMMENT_BLOCK}} {{scope.COMMENT_BLOCK}}"
     begin: "{{regex.commentBlockBeginRegex}}"
     end: "{{regex.commentBlockEndRegex}}"
     contentName: "{{scope.COMMENT_BLOCK_CONTENT}}"
@@ -348,44 +344,50 @@ repository:
     endCaptures:
       "2": { name: "{{scope.BLOCK_KEYWORD}}" }
 
+  #region Blocks / Begin-End / Standard
   standard-blocks:
     patterns:
-      - name: "{{scope.META_BEGIN_END_BLOCK}} {{scope.BLOCK_STANDARD_META}}"
-        contentName: "{{scope.BLOCK_CONTENT}} {{scope.BLOCK_STANDARD_CONTENT}}"
+      - name: "{{scope.BLOCK_STANDARD_META}}"
+        contentName: "{{scope.BLOCK_STANDARD_CONTENT}}"
         begin: "{{regex.standardBlockVerbatimBeginRegex}}"
         end: "{{regex.standardBlockVerbatimEndRegex}}"
         beginCaptures: { <<: *block-captures }
         endCaptures: { <<: *end-captures }
-      - name: "{{scope.META_BEGIN_END_BLOCK}} {{scope.BLOCK_STANDARD_META}}"
-        contentName: "{{scope.BLOCK_CONTENT}} {{scope.BLOCK_STANDARD_CONTENT}}"
+      - name: "{{scope.BLOCK_STANDARD_META}}"
+        contentName: "{{scope.BLOCK_STANDARD_CONTENT}}"
         begin: "{{regex.standardBlockMarkupBeginRegex}}"
         end: "{{regex.standardBlockMarkupEndRegex}}"
         beginCaptures: { <<: *block-captures }
         endCaptures: { <<: *end-captures }
         patterns: *inline-markup-patterns
 
+  #region Blocks / Begin-End / src
+  org-src-blocks: { patterns: [] } # Injected by build script
+
+  #region Blocks / Begin-End / Customized
+  customized-blocks:
+    name: "{{scope.BLOCK_CUSTOMIZED_META}}"
+    contentName: "{{scope.BLOCK_CUSTOMIZED_CONTENT}}"
+    begin: "{{regex.customizedBlockBeginRegex}}"
+    end: "{{regex.customizedBlockEndRegex}}"
+    beginCaptures: { <<: *block-captures }
+    endCaptures: { <<: *end-captures }
+    patterns: *inline-markup-patterns
+  #endregion Blocks / Begin-End
+
+  #region Blocks / Begin-End / Dynamic
   dynamic-blocks:
-    name: "{{scope.META_BEGIN_END_BLOCK}} {{scope.DYNAMIC_BLOCK_META}}"
-    contentName: "{{scope.BLOCK_CONTENT}} {{scope.DYNAMIC_BLOCK_CONTENT}}"
+    name: "{{scope.DYNAMIC_BLOCK_META}}"
+    contentName: "{{scope.DYNAMIC_BLOCK_CONTENT}}"
     begin: "{{regex.dynamicBlockBeginRegex}}"
     end: "{{regex.dynamicBlockEndRegex}}"
     beginCaptures: { <<: *block-captures }
     endCaptures: { <<: *end-captures }
     patterns: *inline-markup-patterns
 
-  customized-blocks:
-    name: "{{scope.META_BEGIN_END_BLOCK}} {{scope.BLOCK_CUSTOMIZED_META}}"
-    contentName: "{{scope.BLOCK_CONTENT}} {{scope.BLOCK_CUSTOMIZED_CONTENT}}"
-    begin: "{{regex.customizedBlockBeginRegex}}"
-    end: "{{regex.customizedBlockEndRegex}}"
-    beginCaptures: { <<: *block-captures }
-    endCaptures: { <<: *end-captures }
-    patterns: *inline-markup-patterns
-
-  org-src-blocks: { patterns: [] } # Injected by build script
-
+  #region Blocks / Latex Environment
   latex-environment-block:
-    name: "{{scope.LATEX}}"
+    name: "{{scope.LATEX}} {{scope.META_BLOCK_LATEX}}"
     begin: "{{regex.latexEnvironmentBeginRegex}}"
     end: "{{regex.latexEnvironmentEndRegex}}"
     beginCaptures:
@@ -394,9 +396,9 @@ repository:
       "0": { name: "keyword.control.math.block.latex" }
   #endregion
 
-  #region Drawers
+  #region Blocks / Drawers
   drawer-blocks:
-    name: "{{scope.META_DRAWER}}"
+    # name: "{{META_DRAWER}}"
     patterns:
       - include: "#property-drawer"
       - include: "#drawers"
@@ -429,12 +431,37 @@ repository:
       "1": { name: "{{scope.DRAWER_NAME}}" }
     endCaptures:
       "0": { name: "{{scope.DRAWER_END_KEYWORD}}" }
-  #endregion
+  #endregion Blocks / Drawers
+
+  #region Blocks / Tables
+  tables:
+    name: "{{scope.META_TABLE}}"
+    contentName: "{{scope.TABLE_CONTENT}}"
+    begin: "(?={{regex.tableRegex}})"
+    end: "(?={{regex.emptyLine}}|{{regex.headlineDetectToCloseBlockRegex}})"
+    beginCaptures:
+      "0": { name: "{{scope.TABLE_META}}" }
+    patterns:
+      - include: "#line-comments"
+      - match: "{{regex.tableRowSeparatorLine}}"
+        name: "{{scope.TABLE_ROW_SEPARATOR}}"
+      - begin: "{{regex.tableRowBeginRegex}}"
+        name: "{{scope.TABLE_ROW}}"
+        contentName: "{{scope.TABLE_CONTENT}} {{scope.TABLE_ROW}}"
+        end: "{{regex.endOfLine}}"
+        patterns:
+          - begin: "{{regex.tableCellBeginRegex}}"
+            beginCaptures:
+              "0": { name: "{{scope.TABLE_CELL_PUNCTUATION}}" }
+            contentName: "{{scope.TABLE_CELL}}"
+            end: "{{regex.tableCellEndRegex}}"
+            patterns: *inline-markup-patterns
+  #endregion Blocks / Tables
   #endregion
 
   #region Keywords & Directives
   keyword-like-lines:
-    name: "{{scope.META_DIRECTIVE}}"
+    # name: "{{META_DIRECTIVE}}"
     patterns:
       - include: "#include-directive"
       - include: "#planning-lines"
@@ -452,13 +479,15 @@ repository:
     patterns:
       - include: "#block-parameter-pair"
 
-  keywords:
-    name: "{{scope.KEYWORD}}"
-    match: "{{regex.genericKeywordRegex}}"
+  planning-lines:
+    name: "{{scope.PLANNING_LINE_META}}"
+    match: "{{regex.planningLineRegex}}"
     captures:
-      "1": { name: "{{scope.KEYWORD_KEY}}" }
-      "2": { name: "{{scope.KEYWORD_NAME}}" }
-      "3": { name: "{{scope.KEYWORD_VALUE}}" }
+      "1": { name: "{{scope.PLANNING_KEYWORD}}" }
+      "2":
+        name: "{{scope.PLANNING_TIMESTAMP}}"
+        patterns:
+          - include: "#timestamps"
 
   link-abbreviations:
     match: "{{regex.linkAbbreviationRegex}}"
@@ -480,15 +509,13 @@ repository:
           - match: "{{regex.macroParameter}}"
             name: "{{scope.MACRO_PARAMETER}}"
 
-  planning-lines:
-    name: "{{scope.PLANNING_LINE_META}}"
-    match: "{{regex.planningLineRegex}}"
+  keywords:
+    name: "{{scope.KEYWORD}}"
+    match: "{{regex.genericKeywordRegex}}"
     captures:
-      "1": { name: "{{scope.PLANNING_KEYWORD}}" }
-      "2":
-        name: "{{scope.PLANNING_TIMESTAMP}}"
-        patterns:
-          - include: "#timestamps"
+      "1": { name: "{{scope.KEYWORD_KEY}}" }
+      "2": { name: "{{scope.KEYWORD_NAME}}" }
+      "3": { name: "{{scope.KEYWORD_VALUE}}" }
   #endregion
 
   #region Lists
@@ -528,63 +555,26 @@ repository:
       "1": { name: "{{scope.LIST_COUNTER_VALUE}}" }
   #endregion
 
-  #region Tables
-  tables:
-    name: "{{scope.META_TABLE}}"
-    contentName: "{{scope.TABLE_CONTENT}}"
-    begin: "(?={{regex.tableRegex}})"
-    end: "(?={{regex.emptyLine}}|{{regex.headlineDetectToCloseBlockRegex}})"
-    beginCaptures:
-      "0": { name: "{{scope.TABLE_META}}" }
-    patterns:
-      - include: "#line-comments"
-      - match: "{{regex.tableRowSeparatorLine}}"
-        name: "{{scope.TABLE_ROW_SEPARATOR}}"
-      - begin: "{{regex.tableRowBeginRegex}}"
-        name: "{{scope.TABLE_ROW}}"
-        contentName: "{{scope.TABLE_CONTENT}} {{scope.TABLE_ROW}}"
-        end: "{{regex.endOfLine}}"
-        patterns:
-          - begin: "{{regex.tableCellBeginRegex}}"
-            beginCaptures:
-              "0": { name: "{{scope.TABLE_CELL_PUNCTUATION}}" }
-            contentName: "{{scope.TABLE_CELL}}"
-            end: "{{regex.tableCellEndRegex}}"
-            patterns: *inline-markup-patterns
+  #region horizontal-rules
+  horizontal-rules:
+    name: "{{scope.HORIZONTAL_RULE}}"
+    match: "{{regex.horizontalRuleRegex}}"
   #endregion
 
-  #region Inline Markup
-  timestamps:
-    patterns:
-      - name: "{{scope.TIMESTAMP_ACTIVE_RANGE}}"
-        match: "{{regex.timestampActiveRangeRegex}}"
-      - name: "{{scope.TIMESTAMP_INACTIVE_RANGE}}"
-        match: "{{regex.timestampInactiveRangeRegex}}"
-      - name: "{{scope.TIMESTAMP_ACTIVE}}"
-        match: "{{regex.timestampActiveRegex}}"
-      - name: "{{scope.TIMESTAMP_INACTIVE}}"
-        match: "{{regex.timestampInactiveRegex}}"
+  #region Paragraphs
+  paragraph:
+    name: "{{scope.META_PARAGRAPH}} {{scope.MARKUP_PARAGRAPH}}"
+    begin: "{{regex.paragraphBeginRegex}}"
+    end: "{{regex.paragraphEndRegex}}"
+    patterns: *inline-markup-patterns
+  #endregion
 
-  entities:
-    name: "{{scope.ENTITY}}"
-    match: "{{regex.entitiesRegex}}"
-
-  sub-super-scripts:
-    name: "{{scope.SUB_SUPER_SCRIPT}}"
-    match: "{{regex.subSuperScriptRegex}}"
-
-  latex-inline:
-    name: "{{scope.LATEX}}"
-    match: "{{regex.latexInlineRegex}}"
-
-  #region Links
-  plain-link:
-    name: "{{scope.LINK_PLAIN}}"
-    match: "{{regex.plainLinkRegex}}"
-
+  #region Inline Markup/Links
   angle-bracket-link:
     name: "{{scope.LINK_ANGLE}}"
     match: "{{regex.angleBracketLinkRegex}}"
+    patterns:
+      - include: "#link-protocol"
 
   links:
     match: "{{regex.linkRegex}}"
@@ -599,11 +589,30 @@ repository:
       "4": { name: "{{scope.LINK_DESCRIPTION}}" }
       "5": { name: "{{scope.LINK_END_PUNCTUATION}}" }
 
+  plain-link:
+    name: "{{scope.LINK_PLAIN}}"
+    match: "{{regex.plainLinkRegex}}"
+    patterns:
+      - include: "#link-protocol"
+
   link-protocol:
     match: "{{regex.linkProtocolRegex}}"
     captures:
       "1": { name: "{{scope.LINK_PROTOCOL}}" }
-  #endregion
+  #endregion Links
+
+  #region Timestamps
+  timestamps:
+    patterns:
+      - name: "{{scope.TIMESTAMP_ACTIVE_RANGE}}"
+        match: "{{regex.timestampActiveRangeRegex}}"
+      - name: "{{scope.TIMESTAMP_INACTIVE_RANGE}}"
+        match: "{{regex.timestampInactiveRangeRegex}}"
+      - name: "{{scope.TIMESTAMP_ACTIVE}}"
+        match: "{{regex.timestampActiveRegex}}"
+      - name: "{{scope.TIMESTAMP_INACTIVE}}"
+        match: "{{regex.timestampInactiveRegex}}"
+  #endregion Timestamps
 
   #region Footnotes
   footnotes:
@@ -661,6 +670,12 @@ repository:
             name: "{{scope.MACRO_PARAMETER}}"
       "3":
         name: "{{scope.MACRO_PUNCTUATION}}"
+  #endregion
+
+  #region Latex Inline
+  latex-inline:
+    name: "{{scope.LATEX}}"
+    match: "{{regex.latexInlineRegex}}"
   #endregion
 
   #region Emphasis & Verbatim
@@ -728,14 +743,10 @@ repository:
     endCaptures:
       "1": { name: "{{scope.VERBATIM_PUNCTUATION}}" }
   #endregion
-  #endregion
 
-  #region Paragraphs
-  paragraph:
-    name: "{{scope.META_PARAGRAPH}} {{scope.MARKUP_PARAGRAPH}}"
-    begin: "{{regex.paragraphBeginRegex}}"
-    end: "{{regex.paragraphEndRegex}}"
-    patterns: *inline-markup-patterns
-  #endregion
+  #region Sub-super-scripts
 
+  sub-super-scripts:
+    name: "{{scope.SUB_SUPER_SCRIPT}}"
+    match: "{{regex.subSuperScriptRegex}}"
   #endregion

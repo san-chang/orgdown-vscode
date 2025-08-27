@@ -5685,7 +5685,7 @@
 	},
 	{
 		"c": "#+BEGIN_",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -5699,7 +5699,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -5713,7 +5713,7 @@
 	},
 	{
 		"c": "/",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org punctuation.definition.italic.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org punctuation.definition.italic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5727,7 +5727,7 @@
 	},
 	{
 		"c": "italic",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org markup.italic.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org markup.italic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5741,7 +5741,7 @@
 	},
 	{
 		"c": "/",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org punctuation.definition.italic.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org punctuation.definition.italic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5755,7 +5755,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5769,7 +5769,7 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.bold.org punctuation.definition.bold.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.bold.org punctuation.definition.bold.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5783,7 +5783,7 @@
 	},
 	{
 		"c": "bold",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.bold.org markup.bold.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.bold.org markup.bold.org",
 		"r": {
 			"dark_plus": "markup.bold: #569CD6",
 			"light_plus": "markup.bold: #000080",
@@ -5797,7 +5797,7 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.bold.org punctuation.definition.bold.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.bold.org punctuation.definition.bold.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5811,7 +5811,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5825,7 +5825,7 @@
 	},
 	{
 		"c": "_",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.underline.org punctuation.definition.underline.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.underline.org punctuation.definition.underline.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5839,7 +5839,7 @@
 	},
 	{
 		"c": "underline",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.underline.org markup.underline.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.underline.org markup.underline.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5853,7 +5853,7 @@
 	},
 	{
 		"c": "_",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.underline.org punctuation.definition.underline.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.underline.org punctuation.definition.underline.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5867,7 +5867,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5881,7 +5881,7 @@
 	},
 	{
 		"c": "+",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.strikethrough.org punctuation.definition.strikethrough.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.strikethrough.org punctuation.definition.strikethrough.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5895,7 +5895,7 @@
 	},
 	{
 		"c": "strike",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.strikethrough.org markup.strikethrough.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.strikethrough.org markup.strikethrough.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5909,7 +5909,7 @@
 	},
 	{
 		"c": "+",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.strikethrough.org punctuation.definition.strikethrough.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.strikethrough.org punctuation.definition.strikethrough.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5923,7 +5923,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5937,7 +5937,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5951,7 +5951,7 @@
 	},
 	{
 		"c": "code",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.verbatim.org markup.inline.raw.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.verbatim.org markup.inline.raw.org",
 		"r": {
 			"dark_plus": "markup.inline.raw: #CE9178",
 			"light_plus": "markup.inline.raw: #800000",
@@ -5965,7 +5965,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5979,7 +5979,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -5993,7 +5993,7 @@
 	},
 	{
 		"c": "~",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.code.org punctuation.definition.raw.code.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.code.org punctuation.definition.raw.code.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -6007,7 +6007,7 @@
 	},
 	{
 		"c": "verbatim",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.code.org markup.inline.raw.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.code.org markup.inline.raw.org",
 		"r": {
 			"dark_plus": "markup.inline.raw: #CE9178",
 			"light_plus": "markup.inline.raw: #800000",
@@ -6021,7 +6021,7 @@
 	},
 	{
 		"c": "~",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.code.org punctuation.definition.raw.code.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.code.org punctuation.definition.raw.code.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -6035,7 +6035,7 @@
 	},
 	{
 		"c": "#+END_",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -6049,7 +6049,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -10221,7 +10221,7 @@
 	},
 	{
 		"c": "#+BEGIN_",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -10235,7 +10235,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -10249,7 +10249,7 @@
 	},
 	{
 		"c": "/",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org punctuation.definition.italic.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org punctuation.definition.italic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10263,7 +10263,7 @@
 	},
 	{
 		"c": "italic ",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org markup.italic.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org markup.italic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10277,7 +10277,7 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org markup.italic.org meta.inline.bold.org punctuation.definition.bold.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org markup.italic.org meta.inline.bold.org punctuation.definition.bold.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10291,7 +10291,7 @@
 	},
 	{
 		"c": "bold",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org markup.italic.org meta.inline.bold.org markup.bold.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org markup.italic.org meta.inline.bold.org markup.bold.org",
 		"r": {
 			"dark_plus": "markup.bold: #569CD6",
 			"light_plus": "markup.bold: #000080",
@@ -10305,7 +10305,7 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org markup.italic.org meta.inline.bold.org punctuation.definition.bold.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org markup.italic.org meta.inline.bold.org punctuation.definition.bold.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10319,7 +10319,7 @@
 	},
 	{
 		"c": "/",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.italic.org punctuation.definition.italic.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.italic.org punctuation.definition.italic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10333,7 +10333,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10347,7 +10347,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10361,7 +10361,7 @@
 	},
 	{
 		"c": "code *bold",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.verbatim.org markup.inline.raw.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.verbatim.org markup.inline.raw.org",
 		"r": {
 			"dark_plus": "markup.inline.raw: #CE9178",
 			"light_plus": "markup.inline.raw: #800000",
@@ -10375,7 +10375,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10389,7 +10389,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10403,7 +10403,7 @@
 	},
 	{
 		"c": "~",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.code.org punctuation.definition.raw.code.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.code.org punctuation.definition.raw.code.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10417,7 +10417,7 @@
 	},
 	{
 		"c": "verbatim",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.code.org markup.inline.raw.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.code.org markup.inline.raw.org",
 		"r": {
 			"dark_plus": "markup.inline.raw: #CE9178",
 			"light_plus": "markup.inline.raw: #800000",
@@ -10431,7 +10431,7 @@
 	},
 	{
 		"c": "~",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org meta.inline.code.org punctuation.definition.raw.code.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org meta.inline.code.org punctuation.definition.raw.code.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10445,7 +10445,7 @@
 	},
 	{
 		"c": "/=",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org markup.block.org markup.block.standard.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -10459,7 +10459,7 @@
 	},
 	{
 		"c": "#+END_",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -10473,7 +10473,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.2.org meta.outline.3.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",

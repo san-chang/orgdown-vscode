@@ -407,7 +407,7 @@
 	},
 	{
 		"c": "#+BEGIN:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -421,7 +421,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -435,7 +435,7 @@
 	},
 	{
 		"c": "clocktable",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -449,7 +449,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -463,7 +463,7 @@
 	},
 	{
 		"c": ":maxlevel",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -477,7 +477,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -491,7 +491,7 @@
 	},
 	{
 		"c": "2",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -505,7 +505,7 @@
 	},
 	{
 		"c": "Some clocktable content here.",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org markup.block.org markup.block.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org markup.block.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -519,7 +519,7 @@
 	},
 	{
 		"c": "And another line.",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org markup.block.org markup.block.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org markup.block.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -533,7 +533,7 @@
 	},
 	{
 		"c": "#+END:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -589,7 +589,7 @@
 	},
 	{
 		"c": "#+BEGIN:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -603,7 +603,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -617,7 +617,7 @@
 	},
 	{
 		"c": "agenda",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -631,7 +631,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -645,7 +645,7 @@
 	},
 	{
 		"c": ":files",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -659,7 +659,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -673,7 +673,7 @@
 	},
 	{
 		"c": "\"agenda.org\"",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -687,7 +687,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -701,7 +701,7 @@
 	},
 	{
 		"c": ":span",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -715,7 +715,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -729,7 +729,7 @@
 	},
 	{
 		"c": "1w",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -743,7 +743,7 @@
 	},
 	{
 		"c": "- TODO Task 1",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org markup.block.org markup.block.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org markup.block.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -757,7 +757,7 @@
 	},
 	{
 		"c": "- DONE Task 2",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org markup.block.org markup.block.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org markup.block.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -771,7 +771,7 @@
 	},
 	{
 		"c": "#+END:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -827,7 +827,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -841,7 +841,7 @@
 	},
 	{
 		"c": "#+BEGIN:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -855,7 +855,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -869,7 +869,7 @@
 	},
 	{
 		"c": "columnview",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -883,7 +883,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -897,7 +897,7 @@
 	},
 	{
 		"c": ":maxlevel",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -911,7 +911,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -925,7 +925,7 @@
 	},
 	{
 		"c": "3",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -939,7 +939,7 @@
 	},
 	{
 		"c": "  * Task 1",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org markup.block.org markup.block.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org markup.block.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -953,7 +953,7 @@
 	},
 	{
 		"c": "  * Task 2",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org markup.block.org markup.block.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org markup.block.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -967,7 +967,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -981,7 +981,7 @@
 	},
 	{
 		"c": "#+END:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1037,7 +1037,7 @@
 	},
 	{
 		"c": "#+BEGIN:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1051,7 +1051,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1065,7 +1065,7 @@
 	},
 	{
 		"c": "custom",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -1079,7 +1079,7 @@
 	},
 	{
 		"c": "#+END:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1135,7 +1135,7 @@
 	},
 	{
 		"c": "#+bEgIn:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1149,7 +1149,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1163,7 +1163,7 @@
 	},
 	{
 		"c": "ClOcKtAbLe",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -1177,7 +1177,7 @@
 	},
 	{
 		"c": "#+eNd:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1289,7 +1289,7 @@
 	},
 	{
 		"c": "#+BEGIN:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1303,7 +1303,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1317,7 +1317,7 @@
 	},
 	{
 		"c": "agenda",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -1331,7 +1331,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1345,7 +1345,7 @@
 	},
 	{
 		"c": ":files",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -1359,7 +1359,7 @@
 	},
 	{
 		"c": "#+END:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1415,7 +1415,7 @@
 	},
 	{
 		"c": "#+BEGIN:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1429,7 +1429,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1443,7 +1443,7 @@
 	},
 	{
 		"c": "clocktable",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -1457,7 +1457,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1471,7 +1471,7 @@
 	},
 	{
 		"c": ":maxlevel",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org keyword.other.property.key.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -1485,7 +1485,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -1499,7 +1499,7 @@
 	},
 	{
 		"c": "2",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org variable.parameter.block.org string.unquoted.property.value.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -1513,7 +1513,7 @@
 	},
 	{
 		"c": "Some dynamic content",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org markup.block.org markup.block.dynamic.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org markup.block.dynamic.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1527,7 +1527,7 @@
 	},
 	{
 		"c": "#+END:",
-		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.org meta.block.begin-end.dynamic.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.dynamic.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",

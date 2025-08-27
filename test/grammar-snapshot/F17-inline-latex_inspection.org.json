@@ -1765,7 +1765,7 @@
 	},
 	{
 		"c": "\\begin{equation}",
-		"t": "text.org meta.outline.1.org meta.section.org markup.math.org keyword.control.math.block.latex",
+		"t": "text.org meta.outline.1.org meta.section.org markup.math.org meta.block.latex.org keyword.control.math.block.latex",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1779,7 +1779,7 @@
 	},
 	{
 		"c": "e^{i\\pi} + 1 = 0",
-		"t": "text.org meta.outline.1.org meta.section.org markup.math.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.math.org meta.block.latex.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1793,7 +1793,7 @@
 	},
 	{
 		"c": "\\end{equation}",
-		"t": "text.org meta.outline.1.org meta.section.org markup.math.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.math.org meta.block.latex.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1807,7 +1807,7 @@
 	},
 	{
 		"c": "* Test: Empty LaTeX fragments",
-		"t": "text.org meta.outline.1.org meta.section.org markup.math.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.math.org meta.block.latex.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1821,7 +1821,7 @@
 	},
 	{
 		"c": "Empty: $$ and \\(\\)",
-		"t": "text.org meta.outline.1.org meta.section.org markup.math.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.math.org meta.block.latex.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",

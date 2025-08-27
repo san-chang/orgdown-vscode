@@ -89,12 +89,7 @@ describe('Grammar Generation Tests', () => {
     // referenced directly from the template (they are composed into other
     // regexes). Keep this list small and review when refactoring regex.ts.
     const allowedUnusedRegexes = new Set<string>([
-      'lineCommentRegex',
-      'srcSwitchRegex',
-      'includeDirectiveInlineBeginRegex',
-      'macrosBeginPunctuationRegex',
-      'macrosEndPunctuationRegex',
-      'endOfLineOrEmptyNext'
+      'srcSwitchRegex'
     ]);
 
     const actuallyUnusedRegexes = unusedRegexes.filter(r => !allowedUnusedRegexes.has(r));
