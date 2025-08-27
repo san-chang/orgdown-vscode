@@ -12,7 +12,10 @@ async function buildInspections() {
   const fixtureFiles = await fs.readdir(fixturesDir);
 
   for (const fixtureFile of fixtureFiles) {
-    if (path.extname(fixtureFile) !== '.org') {
+    if (path.extname(fixtureFile) !== '.org' ||
+      fixtureFile.startsWith('0000-org-guide.org') ||
+      fixtureFile.startsWith('0001-org-manual.org')
+      ) {
       continue;
     }
 
