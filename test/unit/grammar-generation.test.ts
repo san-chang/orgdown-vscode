@@ -8,7 +8,7 @@ import generateGrammarFromTemplate from '@common/grammar/generator';
 const repoRoot = path.resolve(__dirname, '../..');
 const grammarTemplatePath = path.join(repoRoot, 'syntaxes', 'org.tmLanguage.template.yaml');
 
-describe('Grammar Integrity Tests', () => {
+describe('Grammar Generation Tests', () => {
   it('should have a one-to-one mapping between scopes in scoping.ts and the grammar template', async () => {
     const definedScopes = Object.keys(scopeModule);
 
