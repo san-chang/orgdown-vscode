@@ -134,7 +134,7 @@ repository:
       - include: "#outline-active-level-more-than-6"
 
   file-header:
-    name: "{{scope.META_HEADER}}"
+    name: "{{scope.META_FILE_HEADER}}"
     begin: "{{regex.fileHeaderBeginRegex}}" # Anchor to start only if not immediately a headline.
     end: "{{regex.headlineDetectToCloseBlockRegex}}" # End before the first headline.
     patterns: *common-section-patterns

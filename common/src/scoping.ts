@@ -38,7 +38,7 @@
 export const META_DOCUMENT = "text.org";
 
 /** The entire file header, from the beginning to the first heading. */
-export const META_HEADER = "meta.file.header.org";
+export const META_FILE_HEADER = "meta.file.header.org";
 
 /** Outline container meta scopes (per-level and inactive), include heading and its subtree */
 export const META_OUTLINE_1 = "meta.outline.1.org";

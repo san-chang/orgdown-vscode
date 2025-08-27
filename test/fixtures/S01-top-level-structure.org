@@ -11,6 +11,7 @@ This is the header.
 
 * LV1-A: Active Section
 Content of LV1-A.
+
 ** LV2-A: Active Child
 Content of LV2-A.
 * COMMENT LV1-B: Inactive Section via Keyword
@@ -28,9 +29,9 @@ Back to active state.
 #+END_FIXTURE
 
 #+EXPECTED: :type scope
-"#+TITLE: Header Title" => {{scopes.META_HEADER}}, {{scopes.KEYWORD}}
-"#+AUTHOR: Test Manager" => {{scopes.META_HEADER}}, {{scopes.KEYWORD}}
-"This is the header." => {{scopes.META_HEADER}}, {{scopes.MARKUP_PARAGRAPH}}
+"#+TITLE: Header Title" => {{scopes.META_FILE_HEADER}}
+"#+AUTHOR: Test Manager" => {{scopes.META_FILE_HEADER}}
+"This is the header." => {{scopes.META_FILE_HEADER}}
 "* LV1-A: Active Section" => {{scopes.META_OUTLINE_1}}, {{scopes.HEADING_BLOCK}}, {{scopes.HEADING_LEVEL_1}}
 "Content of LV1-A." => {{scopes.META_OUTLINE_1}}, {{scopes.META_SECTION}}, {{scopes.MARKUP_PARAGRAPH}}
 "** LV2-A: Active Child" => {{scopes.META_OUTLINE_1}}, {{scopes.META_OUTLINE_2}}, {{scopes.HEADING_BLOCK}}, {{scopes.HEADING_LEVEL_2}}
