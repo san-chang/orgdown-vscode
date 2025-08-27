@@ -17,11 +17,6 @@
 | 6       | [2/5]                                    |
 | 7       | :work:project:                           |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value                                          |
-|---------+---------------------------------------------------------|
-| 1       | * TODO [#A] Complete headline example *inline bold* [2/5] :work:project: |
-
 #+EXPECTED: :type scope
 "* TODO [#A] Complete headline example *inline bold* [2/5] :work:project:" => {{scopes.HEADING_BLOCK}}, {{scopes.HEADING_LEVEL_1}}
   - "*" => {{scopes.HEADING_PUNCTUATION}}
@@ -45,11 +40,6 @@
 | 1       | *               |
 | 5       | Simple headline |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value    |
-|---------+-------------------|
-| 1       | * Simple headline |
-
 #+NAME: Multi-level headline with TODO (Level 2)
 #+BEGIN_FIXTURE
 ,** DONE Multi-level task
@@ -61,11 +51,6 @@
 | 1       | **               |
 | 2       | DONE             |
 | 5       | Multi-level task |
-
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value          |
-|---------+-------------------------|
-| 1       | ** DONE Multi-level task |
 
 #+NAME: Priority without TODO (Level 3)
 #+BEGIN_FIXTURE
@@ -79,11 +64,6 @@
 | 3       | [#B]                           |
 | 4       | B                              |
 | 5       | Priority headline without todo |
-
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value                           |
-|---------+------------------------------------------|
-| 1       | *** [#B] Priority headline without todo |
 
 #+NAME: Complex headline with unicode and symbols (Level 4)
 #+BEGIN_FIXTURE
@@ -100,11 +80,6 @@
 | 5       | 复杂标题 with symbols !@#$% |
 | 7       | :chinese:symbols:           |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value                                                  |
-|---------+-----------------------------------------------------------------|
-| 1       | **** WAITING [#C] 复杂标题 with symbols !@#$% :chinese:symbols: |
-
 #+NAME: Level 5 headline
 #+BEGIN_FIXTURE
 ,***** A level 5 headline
@@ -115,11 +90,6 @@
 |---------+----------------------|
 | 1       | *****                |
 | 5       | A level 5 headline   |
-
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value           |
-|---------+--------------------------|
-| 1       | ***** A level 5 headline |
 
 #+NAME: Very deep level headline (Level 6)
 #+BEGIN_FIXTURE
@@ -136,11 +106,6 @@
 | 5       | Deep level headline   |
 | 7       | :deep:level:nested:   |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value                                          |
-|---------+---------------------------------------------------------|
-| 1       | ****** NEXT [#A] Deep level headline :deep:level:nested: |
-
 #+NAME: Headline with too many stars (7)
 #+BEGIN_FIXTURE
 ,******* Too many stars
@@ -152,11 +117,6 @@
 | 1       | *******          |
 | 5       | Too many stars   |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value         |
-|---------+------------------------|
-| 1       | ******* Too many stars |
-
 * Edge Cases
 
 #+NAME: No space after stars
@@ -165,9 +125,6 @@
 #+END_FIXTURE
 
 #+EXPECTED: :type regex :name headlineLevel1Regex
-no-match
-
-#+EXPECTED: :type regex :name headlineDetectRegex
 no-match
 
 #+NAME: Multiple spaces between elements
@@ -183,11 +140,6 @@ no-match
 | 5       | Headline       |
 | 7       | :tag:          |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value                  |
-|---------+---------------------------------|
-| 1       | *    TODO    Headline    :tag: |
-
 #+NAME: Multiple priorities
 #+BEGIN_FIXTURE
 ,* [#A][#B] Task
@@ -201,20 +153,12 @@ no-match
 | 4       | A              |
 | 5       | [#B] Task      |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value       |
-|---------+----------------------|
-| 1       | * [#A][#B] Task |
-
 #+NAME: Headline with only stars
 #+BEGIN_FIXTURE
 ,*
 #+END_FIXTURE
 
 #+EXPECTED: :type regex :name headlineLevel1Regex
-no-match
-
-#+EXPECTED: :type regex :name headlineDetectRegex
 no-match
 
 #+NAME: Headline with only tags
@@ -228,11 +172,6 @@ no-match
 | 1       | *              |
 | 7       | :tag1:         |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value |
-|---------+----------------|
-| 1       | * :tag1:       |
-
 #+NAME: Duplicate tags
 #+BEGIN_FIXTURE
 ,* Task :tag1:tag1:
@@ -244,11 +183,6 @@ no-match
 | 1       | *              |
 | 5       | Task           |
 | 7       | :tag1:tag1:    |
-
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value      |
-|---------+---------------------|
-| 1       | * Task :tag1:tag1: |
 
 #+NAME: Tag with special characters
 #+BEGIN_FIXTURE
@@ -262,11 +196,6 @@ no-match
 | 5       | Task           |
 | 7       | :tag$:@:tag!:  |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value        |
-|---------+-----------------------|
-| 1       | * Task :tag$:@:tag!: |
-
 #+NAME: Timestamp in headline text
 #+BEGIN_FIXTURE
 ,* Task <2025-08-01 Fri>
@@ -277,11 +206,6 @@ no-match
 |---------+-----------------------|
 | 1       | *                     |
 | 5       | Task <2025-08-01 Fri> |
-
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value              |
-|---------+-----------------------------|
-| 1       | * Task <2025-08-01 Fri> |
 
 #+NAME: Headline with inline markup
 #+BEGIN_FIXTURE
@@ -294,11 +218,6 @@ no-match
 | 1       | *                              |
 | 5       | Headline /italic/ *bold* =code= |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value                       |
-|---------+--------------------------------------|
-| 1       | * Headline /italic/ *bold* =code= |
-
 #+NAME: Malformed progress cookie
 #+BEGIN_FIXTURE
 ,* Project [abc%]
@@ -310,11 +229,6 @@ no-match
 | 1       | *              |
 | 5       | Project [abc%] |
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-| Group # | Expected Value       |
-|---------+----------------------|
-| 1       | * Project [abc%] |
-
 * Non-Matching Cases
 
 #+NAME: Not a headline - no leading star
@@ -325,18 +239,12 @@ no-match
 #+EXPECTED: :type regex :name headlineLevel1Regex
 no-match
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-no-match
-
 #+NAME: Not a headline - star not at beginning of line
 #+BEGIN_FIXTURE
 ,  * This is not a headline.
 #+END_FIXTURE
 
 #+EXPECTED: :type regex :name headlineLevel1Regex
-no-match
-
-#+EXPECTED: :type regex :name headlineDetectRegex
 no-match
 
 #+NAME: Not a headline - list item
@@ -347,9 +255,6 @@ no-match
 #+EXPECTED: :type regex :name headlineLevel1Regex
 no-match
 
-#+EXPECTED: :type regex :name headlineDetectRegex
-no-match
-
 #+NAME: Not a headline - escaped star
 #+BEGIN_FIXTURE
 ,\* This is not a headline
@@ -357,65 +262,6 @@ no-match
 
 #+EXPECTED: :type regex :name headlineLevel1Regex
 no-match
-
-#+EXPECTED: :type regex :name headlineDetectRegex
-no-match
-
-
-* Inactive Headlines
-
-#+NAME: Inactive headline with COMMENT keyword
-#+BEGIN_FIXTURE
-,* COMMENT Inactive headline
-#+END_FIXTURE
-
-#+EXPECTED: :type regex :name inactiveHeadlineDetectRegex
-| Group # | Expected Value              |
-|---------+-----------------------------|
-| 1       | * COMMENT Inactive headline |
-
-#+EXPECTED: :type regex :name activeHeadlineDetectRegex
-no-match
-
-#+NAME: Inactive headline with ARCHIVE tag
-#+BEGIN_FIXTURE
-,* Inactive headline with tag :ARCHIVE:
-#+END_FIXTURE
-
-#+EXPECTED: :type regex :name inactiveHeadlineDetectRegex
-| Group # | Expected Value                         |
-|---------+----------------------------------------|
-| 1       | * Inactive headline with tag :ARCHIVE: |
-
-#+EXPECTED: :type regex :name activeHeadlineDetectRegex
-no-match
-
-#+NAME: Inactive headline with TODO and ARCHIVE tag
-#+BEGIN_FIXTURE
-,* TODO Inactive with tag and todo :ARCHIVE:
-#+END_FIXTURE
-
-#+EXPECTED: :type regex :name inactiveHeadlineDetectRegex
-| Group # | Expected Value                             |
-|---------+--------------------------------------------|
-| 1       | * TODO Inactive with tag and todo :ARCHIVE: |
-
-#+EXPECTED: :type regex :name activeHeadlineDetectRegex
-no-match
-
-#+NAME: Active headline with "comment" in text
-#+BEGIN_FIXTURE
-,* This is a comment about something
-#+END_FIXTURE
-
-#+EXPECTED: :type regex :name inactiveHeadlineDetectRegex
-no-match
-
-#+EXPECTED: :type regex :name activeHeadlineDetectRegex
-| Group # | Expected Value                       |
-|---------+--------------------------------------|
-| 1       | * This is a comment about something |
-
 
 * Inactive Subtree
 

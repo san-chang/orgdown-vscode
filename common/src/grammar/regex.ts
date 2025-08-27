@@ -51,10 +51,6 @@ function createRegexPattern(regex: RegExp): RegexPattern {
  * 6. progress/cookie ([1/3], [50%], etc.)
  * 7. tags (:tag1:tag2:)
  */
-// Atomic regex fragments for Org headlines
-export const starsFragment = createRegexPattern(
-  /(\*+)\s+/
-); // 1. stars (any level)
 export const starsLevel1Fragment = createRegexPattern(
   /(\*)\s+/
 ); // 1. stars (level 1)
@@ -92,19 +88,6 @@ export const tagsFragment = createRegexPattern(
   /(?:\s*(:[^ \t:][^ \t]*:))?/
 ); // 7. tags (allowing special chars)
 
-// Compose full headline regex for each level
-export const headlineDetectRegex = createRegexPattern(
-  /^(\*+\s+.*)/
-);
-export const activeHeadlineDetectRegex = createRegexPattern(
-  /^(\*+\s+(?!COMMENT\b|.*\s:ARCHIVE:).*)/i
-);
-export const inactiveHeadlineDetectRegex = createRegexPattern(
-  /^(\*+\s+(?:COMMENT\b\s.*|.*:ARCHIVE:))/i
-);
-export const endOfSectionRegex = createRegexPattern(
-  /(?=^\*+\s)/i
-);
 export const headlineDetectToCloseBlockRegex = createRegexPattern(
   /(?=^\*+\s)/
 );
@@ -181,7 +164,6 @@ export const inactiveHeadlineLevelMoreThan6Regex = createRegexPattern(
     "i"
   )
 );
-
 // #endregion HEADLINES
 
 // #region LISTS

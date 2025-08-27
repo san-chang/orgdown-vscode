@@ -88,12 +88,7 @@ describe('Grammar Generation Tests', () => {
     // Allowlist for regexes that are helper fragments or intentionally not
     // referenced directly from the template (they are composed into other
     // regexes). Keep this list small and review when refactoring regex.ts.
-    const allowedUnusedRegexes = new Set([
-      'starsFragment',
-      'headlineDetectRegex',
-      'activeHeadlineDetectRegex',
-      'inactiveHeadlineDetectRegex',
-      'endOfSectionRegex',
+    const allowedUnusedRegexes = new Set<string>([
       'lineCommentRegex',
       'srcSwitchRegex',
       'includeDirectiveInlineBeginRegex',
