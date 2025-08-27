@@ -107,4 +107,14 @@ describe('Grammar Integrity Tests', () => {
     expect(undefinedRegexes, `Regexes used in grammar but not defined in regex.ts: ${undefinedRegexes.join(', ')}`).toEqual([]);
     expect(actuallyUnusedRegexes, `Unused regexes defined in regex.ts: ${actuallyUnusedRegexes.join(', ')}`).toEqual([]);
   });
+
+  it('generated grammar should contain no unreplaced placeholders', async () => {
+    const finalGrammar = await generateGrammarFromTemplate(grammarTemplatePath, {});
+
+    // Detect any remaining Mustache-like placeholders of the form {{...}}
+    const leftoverPlaceholder = /{{\s*[^}]+\s*}}/;
+    const match = leftoverPlaceholder.exec(finalGrammar);
+
+    expect(match, `Found unreplaced placeholder in generated grammar: ${match ? match[0] : '<none>'}`).toBeNull();
+  });
 });
