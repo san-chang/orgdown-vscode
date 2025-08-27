@@ -13,7 +13,7 @@ describe('Grammar Integrity Tests', () => {
 
     const templateContent = fs.readFileSync(grammarTemplatePath, 'utf8');
     const usedScopes = new Set<string>();
-    const regex = /{{\s*scopes\.(\w+)\s*}}/g;
+    const regex = /{{\s*scope\.(\w+)\s*}}/g;
     let match;
     while ((match = regex.exec(templateContent)) !== null) {
       usedScopes.add(match[1]);
@@ -33,7 +33,7 @@ describe('Grammar Integrity Tests', () => {
 
     const templateContent = fs.readFileSync(grammarTemplatePath, 'utf8');
     const usedRegexes = new Set<string>();
-    const regex = /{{\s*regexs\.(\w+)\s*}}/g;
+    const regex = /{{\s*regex\.(\w+)\s*}}/g;
     let match;
     while ((match = regex.exec(templateContent)) !== null) {
       usedRegexes.add(match[1]);

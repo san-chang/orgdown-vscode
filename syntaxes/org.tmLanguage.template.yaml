@@ -8,7 +8,7 @@
 # source of truth for this structure.
 #
 # document-root
-# ├── file-header
+# ├── file-header -> includes #common-section-patterns
 # │   ├── line-comments
 # │   ├── blocks
 # │   │   ├── begin-end-blocks
@@ -41,7 +41,7 @@
 #     │   │   ├── headline-block (in begin rule) -> includes #inline-markup
 #     │   │   └── section-content
 #     │   ├── headline-block (in begin rule) -> includes #inline-markup
-#     │   └── section-content
+#     │   └── section-content -> includes #common-section-patterns
 #     │       ├── line-comments (reused)
 #     │       ├── blocks (reused)
 #     │       ├── keyword-like-lines (reused)
@@ -282,66 +282,19 @@ repository:
         captures: { <<: *headline-captures }
   #endregion
 
-  #region Keywords & Directives
-  keyword-like-lines:
-    name: "{{scope.META_DIRECTIVE}}"
-    patterns:
-      - include: "#include-directive"
-      - include: "#planning-lines"
-      - include: "#link-abbreviations"
-      - include: "#macro-definition"
-      - include: "#keywords"
-
-  include-directive:
-    name: "{{scope.META_DIRECTIVE}}"
-    begin: "{{regex.includeDirectiveBeginRegex}}"
-    end: "{{regex.endOfLine}}" # End at the end of the line
+  #region Comments
+  # This rule handles line comments.
+  # For block comments (#+BEGIN_COMMENT), see #comment-block inside the 'Blocks > Begin/End Blocks' region.
+  line-comments:
+    begin: "{{regex.lineCommentBeginCaptureRegex}}"
+    end: "{{regex.endOfLine}}"
+    name: "{{scope.COMMENT_LINE}}"
     beginCaptures:
-      "1": { name: "{{scope.INCLUDE_KEYWORD}}" }
-      "2": { name: "{{scope.INCLUDE_PATH}}" }
-    patterns:
-      - include: "#block-parameter-pair"
-
-  keywords:
-    name: "{{scope.KEYWORD}}"
-    match: "{{regex.genericKeywordRegex}}"
-    captures:
-      "1": { name: "{{scope.KEYWORD_KEY}}" }
-      "2": { name: "{{scope.KEYWORD_NAME}}" }
-      "3": { name: "{{scope.KEYWORD_VALUE}}" }
-
-  link-abbreviations:
-    match: "{{regex.linkAbbreviationRegex}}"
-    name: "{{scope.LINK_ABBREVIATION_META}}"
-    captures:
-      "2": { name: "{{scope.LINK_ABBREVIATION_KEYWORD}}" }
-      "3": { name: "{{scope.LINK_ABBREVIATION_KEY}}" }
-      "4": { name: "{{scope.LINK_ABBREVIATION_URL}}" }
-
-  macro-definition:
-    match: "{{regex.macroDefinitionRegex}}"
-    name: "{{scope.KEYWORD}}"
-    captures:
-      "1": { name: "{{scope.KEYWORD_KEY}}" }
-      "2": { name: "{{scope.MACRO_NAME}}" }
-      "3":
-        name: "{{scope.KEYWORD_VALUE}}"
-        patterns:
-          - match: "{{regex.macroParameter}}"
-            name: "{{scope.MACRO_PARAMETER}}"
-
-  planning-lines:
-    name: "{{scope.PLANNING_LINE_META}}"
-    match: "{{regex.planningLineRegex}}"
-    captures:
-      "1": { name: "{{scope.PLANNING_KEYWORD}}" }
-      "2":
-        name: "{{scope.PLANNING_TIMESTAMP}}"
-        patterns:
-          - include: "#timestamps"
+      "1": { name: "{{scope.PUNCTUATION_WHITESPACE}}" }
+    patterns: *inline-markup-patterns
   #endregion
 
-  #region Blocks
+    #region Blocks
   blocks:
     name: "{{scope.META_BLOCK}}"
     patterns:
@@ -479,6 +432,65 @@ repository:
   #endregion
   #endregion
 
+  #region Keywords & Directives
+  keyword-like-lines:
+    name: "{{scope.META_DIRECTIVE}}"
+    patterns:
+      - include: "#include-directive"
+      - include: "#planning-lines"
+      - include: "#link-abbreviations"
+      - include: "#macro-definition"
+      - include: "#keywords"
+
+  include-directive:
+    name: "{{scope.META_DIRECTIVE}}"
+    begin: "{{regex.includeDirectiveBeginRegex}}"
+    end: "{{regex.endOfLine}}" # End at the end of the line
+    beginCaptures:
+      "1": { name: "{{scope.INCLUDE_KEYWORD}}" }
+      "2": { name: "{{scope.INCLUDE_PATH}}" }
+    patterns:
+      - include: "#block-parameter-pair"
+
+  keywords:
+    name: "{{scope.KEYWORD}}"
+    match: "{{regex.genericKeywordRegex}}"
+    captures:
+      "1": { name: "{{scope.KEYWORD_KEY}}" }
+      "2": { name: "{{scope.KEYWORD_NAME}}" }
+      "3": { name: "{{scope.KEYWORD_VALUE}}" }
+
+  link-abbreviations:
+    match: "{{regex.linkAbbreviationRegex}}"
+    name: "{{scope.LINK_ABBREVIATION_META}}"
+    captures:
+      "2": { name: "{{scope.LINK_ABBREVIATION_KEYWORD}}" }
+      "3": { name: "{{scope.LINK_ABBREVIATION_KEY}}" }
+      "4": { name: "{{scope.LINK_ABBREVIATION_URL}}" }
+
+  macro-definition:
+    match: "{{regex.macroDefinitionRegex}}"
+    name: "{{scope.KEYWORD}}"
+    captures:
+      "1": { name: "{{scope.KEYWORD_KEY}}" }
+      "2": { name: "{{scope.MACRO_NAME}}" }
+      "3":
+        name: "{{scope.KEYWORD_VALUE}}"
+        patterns:
+          - match: "{{regex.macroParameter}}"
+            name: "{{scope.MACRO_PARAMETER}}"
+
+  planning-lines:
+    name: "{{scope.PLANNING_LINE_META}}"
+    match: "{{regex.planningLineRegex}}"
+    captures:
+      "1": { name: "{{scope.PLANNING_KEYWORD}}" }
+      "2":
+        name: "{{scope.PLANNING_TIMESTAMP}}"
+        patterns:
+          - include: "#timestamps"
+  #endregion
+
   #region Lists
   lists:
     patterns:
@@ -539,19 +551,6 @@ repository:
             contentName: "{{scope.TABLE_CELL}}"
             end: "{{regex.tableCellEndRegex}}"
             patterns: *inline-markup-patterns
-  #endregion
-
-  #region Comments
-  # Handles line comments. For block comments (#+BEGIN_COMMENT),                                 │
-  # see #comment-block inside the 'Blocks > Begin/End Blocks' region.
-
-  line-comments:
-    begin: "{{regex.lineCommentBeginCaptureRegex}}"
-    end: "{{regex.endOfLine}}"
-    name: "{{scope.COMMENT_LINE}}"
-    beginCaptures:
-      "1": { name: "{{scope.PUNCTUATION_WHITESPACE}}" }
-    patterns: *inline-markup-patterns
   #endregion
 
   #region Inline Markup
@@ -733,7 +732,7 @@ repository:
 
   #region Paragraphs
   paragraph:
-    name: "{{scope.META_PARAGRAPH}} {{scope.PARAGRAPH}}"
+    name: "{{scope.META_PARAGRAPH}} {{scope.MARKUP_PARAGRAPH}}"
     begin: "{{regex.paragraphBeginRegex}}"
     end: "{{regex.paragraphEndRegex}}"
     patterns: *inline-markup-patterns

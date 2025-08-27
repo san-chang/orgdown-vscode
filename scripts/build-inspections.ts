@@ -158,7 +158,16 @@ function compileFixture(content: string, originalFilename: string): string {
     }
 
     if (isOrgBlock) {
-      srcContent.push(line);
+      // Strip a leading comma from any line inside the fixture, matching
+      // the behavior in `common/src/fixture-parser.ts`. This lets fixture
+      // content escape lines that would otherwise be interpreted as markers
+      // (for example, a line starting with "#+NAME:").
+      const match = line.match(/^(\s*),(.*)/);
+      if (match) {
+        srcContent.push(match[1] + match[2]);
+      } else {
+        srcContent.push(line);
+      }
     } else if (line.match(/^(\*+) /)) {
       const match = line.match(/^(\*+) /)!;
       currentHeadlineLevel = match[1].length;
