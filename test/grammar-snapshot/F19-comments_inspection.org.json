@@ -645,7 +645,7 @@
 	},
 	{
 		"c": "***",
-		"t": "text.org meta.outline.1.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -659,7 +659,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.1.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -673,7 +673,7 @@
 	},
 	{
 		"c": "COMMENT",
-		"t": "text.org meta.outline.1.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org keyword.other.todo.org",
+		"t": "text.org meta.outline.1.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org keyword.other.todo.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -687,7 +687,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.1.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -701,7 +701,7 @@
 	},
 	{
 		"c": "This subtree is commented",
-		"t": "text.org meta.outline.1.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -715,7 +715,7 @@
 	},
 	{
 		"c": "Some content in a commented subtree.",
-		"t": "text.org meta.outline.1.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.1.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",

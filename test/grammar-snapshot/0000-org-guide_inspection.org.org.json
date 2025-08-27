@@ -52249,7 +52249,7 @@
 	},
 	{
 		"c": "***",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -52263,7 +52263,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -52277,7 +52277,7 @@
 	},
 	{
 		"c": "Comment Lines",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -52291,7 +52291,7 @@
 	},
 	{
 		"c": ":PROPERTIES:",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org keyword.control.block.drawer.begin.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org keyword.control.block.drawer.begin.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -52305,7 +52305,7 @@
 	},
 	{
 		"c": ":",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52319,7 +52319,7 @@
 	},
 	{
 		"c": "DESCRIPTION",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52333,7 +52333,7 @@
 	},
 	{
 		"c": ": ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52347,7 +52347,7 @@
 	},
 	{
 		"c": "What will not be exported.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -52361,7 +52361,7 @@
 	},
 	{
 		"c": ":END:",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org keyword.control.block.drawer.end.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org keyword.control.block.drawer.end.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -52375,7 +52375,7 @@
 	},
 	{
 		"c": "Lines starting with zero or more whitespace characters followed by one",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52389,7 +52389,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52403,7 +52403,7 @@
 	},
 	{
 		"c": "#",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org markup.inline.raw.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org markup.inline.raw.org",
 		"r": {
 			"dark_plus": "markup.inline.raw: #CE9178",
 			"light_plus": "markup.inline.raw: #800000",
@@ -52417,7 +52417,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52431,7 +52431,7 @@
 	},
 	{
 		"c": " and a whitespace are treated as comments and, as such, are not",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52445,7 +52445,7 @@
 	},
 	{
 		"c": "exported.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52459,7 +52459,7 @@
 	},
 	{
 		"c": "Likewise, regions surrounded by ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52473,7 +52473,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52487,7 +52487,7 @@
 	},
 	{
 		"c": "#+BEGIN_COMMENT",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org markup.inline.raw.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org markup.inline.raw.org",
 		"r": {
 			"dark_plus": "markup.inline.raw: #CE9178",
 			"light_plus": "markup.inline.raw: #800000",
@@ -52501,7 +52501,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52515,7 +52515,7 @@
 	},
 	{
 		"c": " ... ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52529,7 +52529,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52543,7 +52543,7 @@
 	},
 	{
 		"c": "#+END_COMMENT",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org markup.inline.raw.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org markup.inline.raw.org",
 		"r": {
 			"dark_plus": "markup.inline.raw: #CE9178",
 			"light_plus": "markup.inline.raw: #800000",
@@ -52557,7 +52557,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52571,7 +52571,7 @@
 	},
 	{
 		"c": "are not exported.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52585,7 +52585,7 @@
 	},
 	{
 		"c": "Finally, a ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52599,7 +52599,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52613,7 +52613,7 @@
 	},
 	{
 		"c": "COMMENT",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org markup.inline.raw.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org markup.inline.raw.org",
 		"r": {
 			"dark_plus": "markup.inline.raw: #CE9178",
 			"light_plus": "markup.inline.raw: #800000",
@@ -52627,7 +52627,7 @@
 	},
 	{
 		"c": "=",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org meta.inline.verbatim.org punctuation.definition.raw.verbatim.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52641,7 +52641,7 @@
 	},
 	{
 		"c": " keyword at the beginning of an entry, but after",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52655,7 +52655,7 @@
 	},
 	{
 		"c": "any other keyword or priority cookie, comments out the entire subtree.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52669,7 +52669,7 @@
 	},
 	{
 		"c": "The command below helps changing the comment status of a headline.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52683,7 +52683,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52697,7 +52697,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52711,7 +52711,7 @@
 	},
 	{
 		"c": "{{{kbd(C-c ;)}}} (~org-toggle-comment~)",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org entity.name.tag.description.term.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org entity.name.tag.description.term.org",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
@@ -52725,7 +52725,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52739,7 +52739,7 @@
 	},
 	{
 		"c": "::",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org punctuation.separator.key-value.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org markup.list.unnumbered.org punctuation.separator.key-value.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -52753,7 +52753,7 @@
 	},
 	{
 		"c": "  Toggle the =COMMENT= keyword at the beginning of an entry.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",

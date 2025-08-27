@@ -449,7 +449,7 @@
 	},
 	{
 		"c": "***",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -463,7 +463,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -477,7 +477,7 @@
 	},
 	{
 		"c": "DONE",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org keyword.other.todo.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org keyword.other.todo.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -491,7 +491,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -505,7 +505,7 @@
 	},
 	{
 		"c": "A completed and archived task",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -519,7 +519,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -533,7 +533,7 @@
 	},
 	{
 		"c": ":work:project:ARCHIVE:",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.tag.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.tag.org",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
@@ -631,7 +631,7 @@
 	},
 	{
 		"c": "****",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -645,7 +645,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -659,7 +659,7 @@
 	},
 	{
 		"c": "COMMENT",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org keyword.other.todo.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org keyword.other.todo.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -673,7 +673,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -687,7 +687,7 @@
 	},
 	{
 		"c": "An archived comment",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -701,7 +701,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -715,7 +715,7 @@
 	},
 	{
 		"c": ":ARCHIVE:",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org entity.name.tag.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.4.org markup.heading.org markup.heading.4.org entity.name.tag.org",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
@@ -771,7 +771,7 @@
 	},
 	{
 		"c": "*****",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -785,7 +785,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -799,7 +799,7 @@
 	},
 	{
 		"c": "NEXT",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org keyword.other.todo.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org keyword.other.todo.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -813,7 +813,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -827,7 +827,7 @@
 	},
 	{
 		"c": "An archived task that is not last",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -841,7 +841,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -855,7 +855,7 @@
 	},
 	{
 		"c": ":ARCHIVE:work:",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org entity.name.tag.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.5.org markup.heading.org markup.heading.5.org entity.name.tag.org",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
@@ -911,7 +911,7 @@
 	},
 	{
 		"c": "***",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -925,7 +925,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -939,7 +939,7 @@
 	},
 	{
 		"c": "A task with lowercase archive tag",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -953,7 +953,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -967,7 +967,7 @@
 	},
 	{
 		"c": ":archive:",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.tag.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.tag.org",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
@@ -1023,7 +1023,7 @@
 	},
 	{
 		"c": "***",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1037,7 +1037,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1051,7 +1051,7 @@
 	},
 	{
 		"c": "DONE",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org keyword.other.todo.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org keyword.other.todo.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -1065,7 +1065,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1079,7 +1079,7 @@
 	},
 	{
 		"c": "[#",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org constant.other.priority.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org constant.other.priority.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1093,7 +1093,7 @@
 	},
 	{
 		"c": "C",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org constant.other.priority.org constant.other.priority.value.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org constant.other.priority.org constant.other.priority.value.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1107,7 +1107,7 @@
 	},
 	{
 		"c": "]",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org constant.other.priority.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org constant.other.priority.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1121,7 +1121,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1135,7 +1135,7 @@
 	},
 	{
 		"c": "An archived task with priority",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1149,7 +1149,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1163,7 +1163,7 @@
 	},
 	{
 		"c": ":ARCHIVE:",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.tag.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.tag.org",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",

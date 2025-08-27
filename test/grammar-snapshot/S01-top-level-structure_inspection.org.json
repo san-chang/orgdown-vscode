@@ -715,7 +715,7 @@
 	},
 	{
 		"c": "***",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -729,7 +729,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -743,7 +743,7 @@
 	},
 	{
 		"c": "COMMENT",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org keyword.other.todo.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org keyword.other.todo.org",
 		"r": {
 			"dark_plus": "keyword: #569CD6",
 			"light_plus": "keyword: #0000FF",
@@ -757,7 +757,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -771,7 +771,7 @@
 	},
 	{
 		"c": "LV1-B: Inactive Section via Keyword",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -785,7 +785,7 @@
 	},
 	{
 		"c": "Content of LV1-B. This should be inactive.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -799,7 +799,7 @@
 	},
 	{
 		"c": "****",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -813,7 +813,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -827,7 +827,7 @@
 	},
 	{
 		"c": "LV2-B: Child of Inactive",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -841,7 +841,7 @@
 	},
 	{
 		"c": "This headline and its content should inherit the inactive state.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -855,7 +855,7 @@
 	},
 	{
 		"c": "***",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -869,7 +869,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -883,7 +883,7 @@
 	},
 	{
 		"c": "LV1-C: Archived Section via Tag",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -897,7 +897,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -911,7 +911,7 @@
 	},
 	{
 		"c": ":ARCHIVE:",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.tag.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org markup.heading.org markup.heading.3.org entity.name.tag.org",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
@@ -925,7 +925,7 @@
 	},
 	{
 		"c": "Content of LV1-C. This should be inactive.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -939,7 +939,7 @@
 	},
 	{
 		"c": "****",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -953,7 +953,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -967,7 +967,7 @@
 	},
 	{
 		"c": "LV2-C: Child of Archived",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org markup.heading.org markup.heading.4.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -981,7 +981,7 @@
 	},
 	{
 		"c": "This should also be inactive.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
@@ -995,7 +995,7 @@
 	},
 	{
 		"c": "*********",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org meta.outline.more-than-6.org markup.heading.org markup.heading.more-than-6.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org meta.outline.more-than-6.org markup.heading.org markup.heading.more-than-6.org punctuation.definition.heading.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1009,7 +1009,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org meta.outline.more-than-6.org markup.heading.org markup.heading.more-than-6.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org meta.outline.more-than-6.org markup.heading.org markup.heading.more-than-6.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1023,7 +1023,7 @@
 	},
 	{
 		"c": "LV7-A: Deep child of Archived",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org meta.outline.more-than-6.org markup.heading.org markup.heading.more-than-6.org entity.name.section.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org meta.outline.more-than-6.org markup.heading.org markup.heading.more-than-6.org entity.name.section.org",
 		"r": {
 			"dark_plus": "markup.heading: #569CD6",
 			"light_plus": "markup.heading: #800000",
@@ -1037,7 +1037,7 @@
 	},
 	{
 		"c": "This should also be inactive.",
-		"t": "text.org meta.outline.2.org comment.outline.org meta.outline.3.org meta.outline.4.org meta.outline.more-than-6.org meta.section.org meta.paragraph.org markup.paragraph.org",
+		"t": "text.org meta.outline.2.org comment.block.outline.org meta.outline.3.org meta.outline.4.org meta.outline.more-than-6.org meta.section.org meta.paragraph.org markup.paragraph.org",
 		"r": {
 			"dark_plus": "comment: #6A9955",
 			"light_plus": "comment: #008000",
