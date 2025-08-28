@@ -21,5 +21,6 @@
         "out": true,
         "dist": true
     },
-    "typescript.tsc.autoDetect": "off"
+    "typescript.tsc.autoDetect": "off",
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true
 }

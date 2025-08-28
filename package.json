@@ -83,13 +83,6 @@
           "source.objc": "objective-c"
         }
       }
-    ],
-    "themes": [
-      {
-        "label": "Orgdown Debug Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/orgdown-debug-theme.json"
-      }
     ]
   },
   "scripts": {
