@@ -47,7 +47,7 @@ word*bold*word
 
 #+NAME: Bold: Invalid space after opening marker
 #+BEGIN_FIXTURE
-* bold*
+,* bold*
 #+END_FIXTURE
 #+EXPECTED: :type scope
 "* bold*" => !{{scopes.BOLD}}

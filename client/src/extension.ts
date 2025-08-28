@@ -15,7 +15,7 @@ let client: LanguageClient;
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
   const serverModule = context.asAbsolutePath(
-    path.join('server', 'out', 'server.js'),
+    path.join('server', 'dist', 'server.js'),
   );
   const serverOptions: ServerOptions = {
     run: { module: serverModule, transport: TransportKind.ipc },

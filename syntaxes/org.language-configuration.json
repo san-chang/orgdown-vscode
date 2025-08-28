@@ -7,6 +7,7 @@
     ["[", "]"],
     ["{", "}"]
   ],
+  "colorizedBracketPairs": [],
   "autoClosingPairs": [
     { "open": "[", "close": "]" },
     { "open": "{", "close": "}" },
@@ -22,5 +23,12 @@
     ["~", "~"],
     ["+", "+"],
     ["=", "="]
-  ]
+  ],
+  "folding": {
+    "offSide": true,
+    "markers": {
+      "start": "^\\s*#\\+(?i:begin_).*",
+      "end": "^\\s*#\\+(?i:end_)"
+    }
+  }
 }

@@ -43,7 +43,7 @@
           "light": "assets/orgdown-unicorn.svg",
           "dark": "assets/orgdown-unicorn.svg"
         },
-        "configuration": "./syntaxes/org.configuration.json"
+        "configuration": "./syntaxes/org.language-configuration.json"
       }
     ],
     "grammars": [
