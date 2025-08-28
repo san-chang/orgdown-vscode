@@ -2,8 +2,12 @@
   "name": "orgdown-vscode",
   "displayName": "OrgDown",
   "description": "OrgMode is the only reason I still keep Emacs on my device, that's why I created this extension.",
-  "version": "0.0.1",
-  "icon": "assets/orgdown.svg",
+  "version": "0.1.0",
+  "publisher": "idears-org",
+  "qna": false,
+  "icon": "assets/orgdown.png",
+  "repository": "https://github.com/idears-org/orgdown-vscode",
+  "license": "SEE LICENSE IN LICENSE",
   "engines": {
     "vscode": "^1.102.0"
   },

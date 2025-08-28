@@ -18,7 +18,7 @@ vitest.config.ts
 **/*.map
 .vscode-test/**
 out/**
-node_modules/**
+**/node_modules/**
 client/src/**
 server/src/**
 common/src/**
@@ -27,3 +27,6 @@ common/src/**
 esbuild.js
 **/tsconfig.json
 **/*.ts
+
+# AI Prompt
+GEMINI.md
