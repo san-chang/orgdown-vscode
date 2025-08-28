@@ -3,6 +3,7 @@
   "displayName": "OrgDown",
   "description": "OrgMode is the only reason I still keep Emacs on my device, that's why I created this extension.",
   "version": "0.0.1",
+  "icon": "assets/orgdown.svg",
   "engines": {
     "vscode": "^1.102.0"
   },
@@ -34,6 +35,10 @@
         "extensions": [
           ".org"
         ],
+        "icon": {
+          "light": "assets/orgdown-unicorn.svg",
+          "dark": "assets/orgdown-unicorn.svg"
+        },
         "configuration": "./syntaxes/org.configuration.json"
       }
     ],

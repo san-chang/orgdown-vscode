@@ -1,7 +1,7 @@
 * Orgdown for VS Code
 
 #+HTML: <p align="center">
-#+HTML:   <img src="https://raw.githubusercontent.com/idears-org/orgdown-vscode/master/assets/logo.png" alt="Orgdown Logo" width="150">
+#+HTML:   <img src="https://raw.githubusercontent.com/idears-org/orgdown-vscode/master/assets/orgdown.svg" alt="Orgdown Logo" width="150">
 #+HTML: </p>
 
 #+HTML: <p align="center">
