@@ -24,7 +24,7 @@ const esbuildProblemMatcherPlugin = {
 };
 
 async function main() {
-	const ctx = await esbuild.context({
+	const clientCtx = await esbuild.context({
 		entryPoints: [
 			'client/src/extension.ts'
 		],
@@ -42,11 +42,37 @@ async function main() {
 			esbuildProblemMatcherPlugin,
 		],
 	});
+
+	const serverCtx = await esbuild.context({
+		entryPoints: ['server/src/server.ts'],
+		bundle: true,
+		format: 'cjs',
+		minify: production,
+		sourcemap: !production,
+		sourcesContent: false,
+		platform: 'node',
+		outfile: 'server/dist/server.js',
+		external: ['vscode-languageserver', 'vscode-languageserver-textdocument'],
+		logLevel: 'silent',
+		plugins: [
+			esbuildProblemMatcherPlugin
+		],
+	});
+
 	if (watch) {
-		await ctx.watch();
+		await Promise.all([
+			clientCtx.watch(),
+			serverCtx.watch()
+		]);
 	} else {
-		await ctx.rebuild();
-		await ctx.dispose();
+		await Promise.all([
+			clientCtx.rebuild(),
+			serverCtx.rebuild()
+		]);
+		await Promise.all([
+			clientCtx.dispose(),
+			serverCtx.dispose()
+		]);
 	}
 }
 

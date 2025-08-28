@@ -3,11 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "Client part of the Orgdown VS Code extension",
-  "scripts": {
-    "vscode:prepublish": "pnpm run compile",
-    "compile": "tsc -b",
-    "watch": "tsc -b -w"
-  },
+  "scripts": {},
   "dependencies": {
     "vscode-languageclient": "^9.0.1"
   },

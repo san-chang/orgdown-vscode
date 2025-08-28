@@ -3,10 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "description": "Language server for the Orgdown VS Code extension",
-  "scripts": {
-    "compile": "tsc -b",
-    "watch": "tsc -b -w"
-  },
+  "scripts": {},
   "dependencies": {
     "vscode-languageserver": "^9.0.1",
     "vscode-languageserver-textdocument": "^1.0.11"

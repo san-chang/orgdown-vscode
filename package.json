@@ -12,7 +12,7 @@
     "vscode": "^1.102.0"
   },
   "categories": [
-    "Other"
+    "Other", "Notebooks", "Programming Languages", "Snippets"
   ],
   "activationEvents": [
     "onLanguage:org"
@@ -100,15 +100,13 @@
     "build:grammar": "tsx scripts/build-grammar.ts",
     "build:inspections": "tsx scripts/build-inspections.ts",
     "build:theme": "tsx scripts/build-theme.ts",
-    "build:server": "pnpm -C server run compile",
-    "build:client": "node esbuild.js",
-    "build": "pnpm run clean && pnpm run build:grammar && pnpm run build:server && pnpm run build:client",
-    "watch:client": "node esbuild.js --watch",
-    "watch:server": "tsc --noEmit --watch --project tsconfig.json",
+    "build:source": "node esbuild.js --production",
+    "build": "pnpm run clean && pnpm run build:grammar && pnpm run build:source",
+    "watch:source": "node esbuild.js --watch",
     "watch:grammar": "pnpm exec tsx scripts/watch-grammar.ts",
     "watch:inspections": "pnpm exec tsx scripts/watch-inspections.ts",
     "watch:test:unit": "vitest watch",
-    "watch": "pnpm run watch:client & pnpm run watch:server & pnpm run watch:grammar & pnpm run watch:inspections & pnpm run watch:test:unit",
+    "watch": "pnpm run watch:source & pnpm run watch:grammar & pnpm run watch:inspections & pnpm run watch:test:unit",
     "check-types": "tsc --noEmit",
     "lint": "eslint client/src server/src common/src scripts test/unit test/integration --ext .ts,.js,.mjs",
     "pretest": "pnpm run build:grammar && pnpm run build:inspections",

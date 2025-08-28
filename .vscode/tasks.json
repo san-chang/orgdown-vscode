@@ -2,20 +2,10 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "watch:server",
+      "label": "watch:source",
       "type": "shell",
       "command": "pnpm",
-      "args": ["run", "watch:server"],
-      "isBackground": true,
-      "group": "build",
-      "problemMatcher": "$tsc-watch",
-      "presentation": { "group": "watch", "reveal": "never" }
-    },
-    {
-      "label": "watch:client",
-      "type": "shell",
-      "command": "pnpm",
-      "args": ["run", "watch:client"],
+      "args": ["run", "watch:source"],
       "isBackground": true,
       "group": "build",
       "problemMatcher": "$esbuild-watch",
@@ -61,7 +51,7 @@
     },
     {
       "label": "watch:all",
-      "dependsOn": ["watch:server", "watch:client", "watch:grammar", "watch:inspections", "watch:test:unit"],
+      "dependsOn": ["watch:source", "watch:grammar", "watch:inspections", "watch:test:unit"],
       "dependsOrder": "parallel",
       "problemMatcher": [],
       "presentation": { "reveal": "always" },

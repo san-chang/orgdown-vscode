@@ -11,7 +11,6 @@ This is the header.
 
 * LV1-A: Active Section
 Content of LV1-A.
-
 ** LV2-A: Active Child
 Content of LV2-A.
 * COMMENT LV1-B: Inactive Section via Keyword
