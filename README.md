@@ -3,16 +3,16 @@
 <p align="center">
 	<img src="https://raw.githubusercontent.com/idears-org/orgdown-vscode/master/assets/orgdown.png" alt="Orgdown Logo" width="150" />
 </p>
+
 <p align="center">
-	**"OrgMode is the only reason I still keep Emacs on my device, that's why I created this extension."**
+	<strong>OrgMode is the only reason I still keep Emacs on my device; that's why this extension was created.</strong>
 </p>
-<p align="center">
-	[![CI Status](https://github.com/idears-org/orgdown-vscode/workflows/CI/badge.png)](https://github.com/idears-org/orgdown-vscode/actions)
-	[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/orgdown.orgdown-vscode.png)](https://marketplace.visualstudio.com/items?itemName=orgdown.orgdown-vscode)
-</p>
+
+
 <p align="center">
 	<img src="https://raw.githubusercontent.com/idears-org/orgdown-vscode/master/docs/user_guide/screen-shot.png" alt="Orgdown Screen Shot" />
 </p>
+
 ## About The Project
 
 Welcome to Orgdown! This is a Visual Studio Code extension dedicated to bringing the legendary organizational power of [Emacs' Org Mode](https://orgmode.org/) to the modern, accessible environment of VS Code. Our mission is to faithfully implement 80% or more of the core Org Mode feature set, focusing on robust syntax highlighting, code block execution, and task management.

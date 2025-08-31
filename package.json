@@ -1,23 +1,38 @@
 {
   "name": "orgdown-vscode",
-  "displayName": "OrgDown",
-  "description": "OrgMode is the only reason I still keep Emacs on my device, that's why I created this extension.",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "homepage": "https://vscode.orgdown.org",
   "publisher": "idears-org",
-  "qna": false,
-  "icon": "assets/orgdown.png",
-  "repository": "https://github.com/idears-org/orgdown-vscode",
-  "license": "SEE LICENSE IN LICENSE",
   "engines": {
     "vscode": "^1.102.0"
   },
+  "license": "SEE LICENSE IN LICENSE",
+  "displayName": "OrgDown",
+  "description": "OrgMode is the only reason I still keep Emacs on my device; that's why this extension was created.",
   "categories": [
     "Other", "Notebooks", "Programming Languages", "Snippets"
   ],
+  "keywords": [
+    "Org",
+    "org",
+    "Org Down",
+    "org down",
+    "OrgDown",
+    "orgdown",
+    "Org Mode",
+    "org mode",
+    "OrgMode",
+    "orgmode",
+    "Org Mode (Emacs)",
+    "org mode (Emacs)"
+  ],
+  "main": "./client/dist/extension.js",
+  "qna": false,
+  "icon": "assets/orgdown.png",
+  "repository": "https://github.com/idears-org/orgdown-vscode",
   "activationEvents": [
     "onLanguage:org"
   ],
-  "main": "./client/dist/extension.js",
   "contributes": {
     "languages": [
       {
