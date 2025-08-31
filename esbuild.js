@@ -52,7 +52,10 @@ async function main() {
 		sourcesContent: false,
 		platform: 'node',
 		outfile: 'server/dist/server.js',
-		external: ['vscode-languageserver', 'vscode-languageserver-textdocument'],
+		// Do not externalize vscode-languageserver packages; bundle them so the
+		// packaged extension doesn't rely on separate node_modules being present
+		// inside the VSIX. Keep externals minimal.
+		external: [],
 		logLevel: 'silent',
 		plugins: [
 			esbuildProblemMatcherPlugin
