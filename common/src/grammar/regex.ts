@@ -569,18 +569,7 @@ export const customizedBlockBeginRegex = createRegexPattern(
  */
 export const customizedBlockEndRegex = createRegexPattern(
   new RegExp(
-    `^(\\s*)(#\\+END_)\\3*$|${
-      (headlineDetectToCloseBlockRegex as any).regex.source
-    }`,
-    "i"
-  )
-);
-/**
- * While-inside matcher for customized blocks; similar behavior to the end marker alternation.
- */
-export const customizedBlockWhileRegex = createRegexPattern(
-  new RegExp(
-    `^(\\s*)(#\\+END_)\\3*$|${
+    `^(\\s*)(#\\+END_)(\\3)\\s*$|${
       (headlineDetectToCloseBlockRegex as any).regex.source
     }`,
     "i"

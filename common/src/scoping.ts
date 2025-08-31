@@ -140,7 +140,7 @@ export const COMMENT_LINE = "comment.line.number-sign.org";
 export const BLOCK_KEYWORD = "keyword.control.block.org";
 
 /** The name of a block, e.g., `QUOTE`, `SRC`. */
-export const BLOCK_NAME = "entity.name.function.block.org";
+export const BLOCK_NAME = "keyword.control.block.org";
 
 /** The parameters of a block. */
 export const BLOCK_PARAMETERS = "variable.parameter.block.org";
