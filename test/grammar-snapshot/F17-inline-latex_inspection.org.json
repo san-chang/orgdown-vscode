@@ -365,44 +365,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Simple inline math",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -435,44 +435,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Inline parentheses math",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -505,44 +505,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Display math",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -575,142 +575,142 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Headline with inline LaTeX",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "**",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Headline with inline LaTeX ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "$E=mc^2$",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org markup.math.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org markup.math.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: List item with LaTeX",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -785,44 +785,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Table cell with LaTeX",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -1121,44 +1121,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Comment with LaTeX",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -1205,44 +1205,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Inline mixed with markup",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -1387,44 +1387,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Multiple inline maths on one line",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -1513,44 +1513,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Nested subscripts and superscripts",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -1583,44 +1583,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Multilingual with LaTeX",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -1667,44 +1667,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Display math with double dollar signs",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -1723,44 +1723,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: LaTeX environment (equation)",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{

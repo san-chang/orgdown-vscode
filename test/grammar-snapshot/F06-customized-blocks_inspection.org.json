@@ -365,44 +365,44 @@
 	},
 	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "1. Integration Test Cases",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -435,48 +435,48 @@
 	},
 	{
 		"c": "**",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "1.1. Standard Customized Blocks",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
-		"c": "#+BEGIN_",
+		"c": "#+BEGIN_MY-CUSTOM-BLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -487,20 +487,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "MY-CUSTOM-BLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
 		}
 	},
 	{
@@ -532,7 +518,7 @@
 		}
 	},
 	{
-		"c": "#+END_",
+		"c": "#+END_MY-CUSTOM-BLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -546,21 +532,7 @@
 		}
 	},
 	{
-		"c": "MY-CUSTOM-BLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
-		}
-	},
-	{
-		"c": "#+BEGIN_",
+		"c": "#+BEGIN_ANOTHER-BLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -571,20 +543,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "ANOTHER-BLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
 		}
 	},
 	{
@@ -602,7 +560,7 @@
 		}
 	},
 	{
-		"c": "#+END_",
+		"c": "#+END_ANOTHER-BLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -616,21 +574,7 @@
 		}
 	},
 	{
-		"c": "ANOTHER-BLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
-		}
-	},
-	{
-		"c": "#+BEGIN_",
+		"c": "#+BEGIN_MY-BLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -641,20 +585,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "MY-BLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
 		}
 	},
 	{
@@ -728,7 +658,7 @@
 		}
 	},
 	{
-		"c": "#+END_",
+		"c": "#+END_MY-BLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -739,66 +669,52 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "MY-BLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
 		}
 	},
 	{
 		"c": "**",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "1.2. Edge Cases",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
-		"c": "#+BEGIN_",
+		"c": "#+BEGIN_EMPTY",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -812,21 +728,7 @@
 		}
 	},
 	{
-		"c": "EMPTY",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
-		}
-	},
-	{
-		"c": "#+END_",
+		"c": "#+END_EMPTY",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -840,21 +742,7 @@
 		}
 	},
 	{
-		"c": "EMPTY",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
-		}
-	},
-	{
-		"c": "#+BEGIN_",
+		"c": "#+BEGIN_WITH-SPACES",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -865,20 +753,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "WITH-SPACES",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
 		}
 	},
 	{
@@ -896,7 +770,7 @@
 		}
 	},
 	{
-		"c": "#+END_",
+		"c": "#+END_WITH-SPACES",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -910,59 +784,45 @@
 		}
 	},
 	{
-		"c": "WITH-SPACES",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
-		}
-	},
-	{
 		"c": "*",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "2. Unit Test Cases",
-		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.bold.heading.1.fallback.org markup.heading.1.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.tag: #569CD6",
-			"light_plus": "entity.name.tag: #800000",
-			"dark_vs": "entity.name.tag: #569CD6",
-			"light_vs": "entity.name.tag: #800000",
-			"hc_black": "entity.name.tag: #569CD6",
-			"dark_modern": "entity.name.tag: #569CD6",
-			"hc_light": "entity.name.tag: #0F4A85",
-			"light_modern": "entity.name.tag: #800000"
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
+			"dark_vs": "markup.heading: #569CD6",
+			"light_vs": "markup.heading: #800000",
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -981,48 +841,48 @@
 	},
 	{
 		"c": "**",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Unit Test: Basic customized block (no args)",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
-		"c": "#+BEGIN_",
+		"c": "#+BEGIN_MYBLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -1033,20 +893,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "MYBLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
 		}
 	},
 	{
@@ -1064,7 +910,7 @@
 		}
 	},
 	{
-		"c": "#+END_",
+		"c": "#+END_MYBLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -1078,63 +924,49 @@
 		}
 	},
 	{
-		"c": "MYBLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
-		}
-	},
-	{
 		"c": "**",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Unit Test: Case-insensitivity (no args)",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
-		"c": "#+bEgIn_",
+		"c": "#+bEgIn_YoUrBlOcK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -1145,20 +977,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "YoUrBlOcK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
 		}
 	},
 	{
@@ -1176,7 +994,7 @@
 		}
 	},
 	{
-		"c": "#+eNd_",
+		"c": "#+eNd_YoUrBlOcK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -1187,66 +1005,52 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "YoUrBlOcK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
 		}
 	},
 	{
 		"c": "**",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Unit Test: Customized block with arguments",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
-		"c": "#+BEGIN_",
+		"c": "#+BEGIN_MYBLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -1257,20 +1061,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "MYBLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
 		}
 	},
 	{
@@ -1400,7 +1190,7 @@
 		}
 	},
 	{
-		"c": "#+END_",
+		"c": "#+END_MYBLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -1414,59 +1204,45 @@
 		}
 	},
 	{
-		"c": "MYBLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
-		}
-	},
-	{
 		"c": "**",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Unit Test: Customized block parameter with quoted value",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
@@ -1485,48 +1261,48 @@
 	},
 	{
 		"c": "**",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org punctuation.definition.heading.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
 		"c": "Test: Show Case - scope assertions for customized blocks",
-		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.function.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org meta.outline.2.org markup.heading.org markup.bold.heading.2.fallback.org markup.heading.2.org entity.name.section.org",
 		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
+			"dark_plus": "markup.heading: #569CD6",
+			"light_plus": "markup.heading: #800000",
 			"dark_vs": "markup.heading: #569CD6",
 			"light_vs": "markup.heading: #800000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
+			"hc_black": "markup.heading: #6796E6",
+			"dark_modern": "markup.heading: #569CD6",
+			"hc_light": "markup.heading: #0F4A85",
+			"light_modern": "markup.heading: #800000"
 		}
 	},
 	{
-		"c": "#+BEGIN_",
+		"c": "#+BEGIN_MYBLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -1537,20 +1313,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "MYBLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org entity.name.function.block.org",
-		"r": {
-			"dark_plus": "entity.name.function: #DCDCAA",
-			"light_plus": "entity.name.function: #795E26",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "entity.name.function: #DCDCAA",
-			"dark_modern": "entity.name.function: #DCDCAA",
-			"hc_light": "entity.name.function: #5E2CBC",
-			"light_modern": "entity.name.function: #795E26"
 		}
 	},
 	{
@@ -1680,7 +1442,7 @@
 		}
 	},
 	{
-		"c": "#+END_",
+		"c": "#+END_MYBLOCK",
 		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
@@ -1691,20 +1453,6 @@
 			"dark_modern": "keyword.control: #C586C0",
 			"hc_light": "keyword.control: #B5200D",
 			"light_modern": "keyword.control: #AF00DB"
-		}
-	},
-	{
-		"c": "MYBLOCK",
-		"t": "text.org meta.outline.1.org meta.outline.2.org meta.section.org meta.block.begin-end.customized.org",
-		"r": {
-			"dark_plus": "default: #D4D4D4",
-			"light_plus": "default: #000000",
-			"dark_vs": "default: #D4D4D4",
-			"light_vs": "default: #000000",
-			"hc_black": "default: #FFFFFF",
-			"dark_modern": "default: #CCCCCC",
-			"hc_light": "default: #292929",
-			"light_modern": "default: #3B3B3B"
 		}
 	}
 ]
