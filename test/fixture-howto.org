@@ -139,7 +139,7 @@ To make fixtures a complete reference for theme developers, scope expectations a
 
 #+NAME: Complete headline with all elements
 #+BEGIN_FIXTURE
-* TODO [#A] Complete headline example [2/5] :work:project:
+,* TODO [#A] Complete headline example [2/5] :work:project:
 #+END_FIXTURE
 #+EXPECTED: :type regex :name headlineLevel1Regex
 | Group # | Expected Value            |
@@ -182,6 +182,7 @@ This is *bold* text.
 - Backward compatibility: Without indentation, assertions are independent; indentation only narrows candidate search.
 
 Example (table cell with nested inline markup):
+
 #+BEGIN_SRC org
 #+NAME: Table - inline markup edgecases
 #+BEGIN_FIXTURE
@@ -211,7 +212,8 @@ To handle whitespace and other special characters cleanly in the results table, 
 - `<tab>`: Represents a literal tab character (`\t`).
 - `<pipe>`: Represents a literal vertical bar (`|`).
 
-**Example**:
+*Example*:
+
 #+BEGIN_SRC org
 #+NAME: Space-indented list with checkbox
 #+BEGIN_FIXTURE
@@ -231,7 +233,7 @@ The test runner supports testing a single input against multiple regular express
 #+BEGIN_SRC org
 #+NAME: Testing one input against two regexes
 #+BEGIN_FIXTURE
-* A headline
+,* A headline
 #+END_FIXTURE
 
 #+EXPECTED: :type regex :name headlineLevel1Regex
