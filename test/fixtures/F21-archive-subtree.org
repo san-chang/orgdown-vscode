@@ -4,7 +4,7 @@
 
 #+NAME: Headline with ARCHIVE tag
 #+BEGIN_FIXTURE
-* DONE A completed and archived task :work:project:ARCHIVE:
+,* DONE A completed and archived task :work:project:ARCHIVE:
 #+END_FIXTURE
 #+EXPECTED: :type scope
 # The entire line should be an inactive node.
@@ -19,7 +19,7 @@
 
 #+NAME: COMMENT headline with ARCHIVE tag
 #+BEGIN_FIXTURE
-** COMMENT An archived comment :ARCHIVE:
+,** COMMENT An archived comment :ARCHIVE:
 #+END_FIXTURE
 #+EXPECTED: :type scope
 "** COMMENT An archived comment :ARCHIVE:" => {{scopes.META_OUTLINE_INACTIVE}}, {{scopes.HEADING_BLOCK}}
@@ -30,7 +30,7 @@
 
 #+NAME: ARCHIVE tag is not the last tag
 #+BEGIN_FIXTURE
-*** NEXT An archived task that is not last :ARCHIVE:work:
+,*** NEXT An archived task that is not last :ARCHIVE:work:
 #+END_FIXTURE
 #+EXPECTED: :type scope
 "*** NEXT An archived task that is not last :ARCHIVE:work:" => {{scopes.META_OUTLINE_INACTIVE}}, {{scopes.HEADING_BLOCK}}
@@ -42,7 +42,7 @@
 
 #+NAME: Case-insensitivity of ARCHIVE tag
 #+BEGIN_FIXTURE
-* A task with lowercase archive tag :archive:
+,* A task with lowercase archive tag :archive:
 #+END_FIXTURE
 #+EXPECTED: :type scope
 "* A task with lowercase archive tag :archive:" => {{scopes.META_OUTLINE_INACTIVE}}
@@ -50,7 +50,7 @@
 
 #+NAME: Archived headline with priority
 #+BEGIN_FIXTURE
-* DONE [#C] An archived task with priority :ARCHIVE:
+,* DONE [#C] An archived task with priority :ARCHIVE:
 #+END_FIXTURE
 #+EXPECTED: :type scope
 "* DONE [#C] An archived task with priority :ARCHIVE:" => {{scopes.META_OUTLINE_INACTIVE}}
@@ -59,7 +59,7 @@
 
 #+NAME: Non-archived headline with "archive" in title
 #+BEGIN_FIXTURE
-* TODO An item to archive
+,* TODO An item to archive
 #+END_FIXTURE
 #+EXPECTED: :type scope
 "* TODO An item to archive" => {{scopes.META_OUTLINE_1}}

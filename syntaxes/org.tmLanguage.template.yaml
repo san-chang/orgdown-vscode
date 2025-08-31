@@ -259,25 +259,25 @@ repository:
   headline-block:
     name: "{{scope.HEADING_BLOCK}}"
     patterns:
-      - name: "{{scope.HEADING_LEVEL_1}}"
+      - name: "{{scope.HEADING_LEVEL_1_COMPATIBLE}} {{scope.HEADING_LEVEL_1}}"
         match: "{{regex.headlineLevel1Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scope.HEADING_LEVEL_2}}"
+      - name: "{{scope.HEADING_LEVEL_2_COMPATIBLE}} {{scope.HEADING_LEVEL_2}}"
         match: "{{regex.headlineLevel2Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scope.HEADING_LEVEL_3}}"
+      - name: "{{scope.HEADING_LEVEL_3_COMPATIBLE}} {{scope.HEADING_LEVEL_3}}"
         match: "{{regex.headlineLevel3Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scope.HEADING_LEVEL_4}}"
+      - name: "{{scope.HEADING_LEVEL_4_COMPATIBLE}} {{scope.HEADING_LEVEL_4}}"
         match: "{{regex.headlineLevel4Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scope.HEADING_LEVEL_5}}"
+      - name: "{{scope.HEADING_LEVEL_5_COMPATIBLE}} {{scope.HEADING_LEVEL_5}}"
         match: "{{regex.headlineLevel5Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scope.HEADING_LEVEL_6}}"
+      - name: "{{scope.HEADING_LEVEL_6_COMPATIBLE}} {{scope.HEADING_LEVEL_6}}"
         match: "{{regex.headlineLevel6Regex}}"
         captures: { <<: *headline-captures }
-      - name: "{{scope.HEADING_LEVEL_MORE_THAN_6}}"
+      - name: "{{scope.HEADING_LEVEL_MORE_THAN_6_COMPATIBLE}} {{scope.HEADING_LEVEL_MORE_THAN_6}}"
         match: "{{regex.headlineLevelMoreThan6Regex}}"
         captures: { <<: *headline-captures }
   #endregion

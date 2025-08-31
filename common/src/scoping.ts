@@ -81,12 +81,19 @@ export const HEADING_BLOCK = "markup.heading.org";
 
 /** The headline level, e.g., heading.1.org */
 export const HEADING_LEVEL_1 = "markup.heading.1.org";
+export const HEADING_LEVEL_1_COMPATIBLE = "markup.bold.heading.fallback.org";
 export const HEADING_LEVEL_2 = "markup.heading.2.org";
+export const HEADING_LEVEL_2_COMPATIBLE = "markup.bold.heading.fallback.org";
 export const HEADING_LEVEL_3 = "markup.heading.3.org";
+export const HEADING_LEVEL_3_COMPATIBLE = "markup.bold.heading.fallback.org";
 export const HEADING_LEVEL_4 = "markup.heading.4.org";
+export const HEADING_LEVEL_4_COMPATIBLE = "markup.bold.heading.fallback.org";
 export const HEADING_LEVEL_5 = "markup.heading.5.org";
+export const HEADING_LEVEL_5_COMPATIBLE = "markup.bold.heading.fallback.org";
 export const HEADING_LEVEL_6 = "markup.heading.6.org";
+export const HEADING_LEVEL_6_COMPATIBLE = "markup.bold.heading.fallback.org";
 export const HEADING_LEVEL_MORE_THAN_6 = "markup.heading.more-than-6.org";
+export const HEADING_LEVEL_MORE_THAN_6_COMPATIBLE = "keyword.heading.fallback.org";
 
 /** The leading stars, e.g., `*` or `**`. */
 export const HEADING_PUNCTUATION = "punctuation.definition.heading.org";
