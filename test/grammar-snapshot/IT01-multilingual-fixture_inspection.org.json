@@ -294,50 +294,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "English headline",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  This is a paragraph in English.",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -350,50 +350,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Français: titre en français",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  Ceci est un paragraphe en français.",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -406,92 +406,92 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Deutsch: Überschrift",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "English headline",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  This is a paragraph in English.",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -504,50 +504,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Français: titre en français",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  Ceci est un paragraphe en français.",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -560,50 +560,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Deutsch: Überschrift",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  Dies ist ein Absatz auf Deutsch.",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -616,50 +616,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Español: título en español",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  Este es un párrafo en español.",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -672,50 +672,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "日本語の見出し",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  これは日本語の段落です。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -728,50 +728,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "한국어 제목",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  이것은 한국어 문단입니다。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -784,50 +784,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Русский заголовок",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  Это абзац на русском языке。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -840,50 +840,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "العربية: عنوان",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  هذا فقرة باللغة العربية。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -896,50 +896,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "עברית: כותרת",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  זהו פסקה בעברית。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -952,50 +952,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "中文标题",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  这是一段中文内容。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1008,50 +1008,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Headline with emoji 😀🔥🌍",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  This line contains emoji characters。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1064,64 +1064,64 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Headline with tags",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": ":fr:de:es:jp:kr:ru:ar:he:zh:",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.tag.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.tag.org",
 		"r": {
 			"dark_plus": "entity.name.tag: #569CD6",
 			"light_plus": "entity.name.tag: #800000",
@@ -1135,7 +1135,7 @@
 	},
 	{
 		"c": "  Multilingual tags example。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1148,50 +1148,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Property drawer multilingual",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  :PROPERTIES:",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org keyword.control.block.drawer.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org keyword.control.block.drawer.begin.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1205,7 +1205,7 @@
 	},
 	{
 		"c": "  :",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1219,7 +1219,7 @@
 	},
 	{
 		"c": "Lang",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1233,7 +1233,7 @@
 	},
 	{
 		"c": ": ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1247,7 +1247,7 @@
 	},
 	{
 		"c": "日本語",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -1261,7 +1261,7 @@
 	},
 	{
 		"c": "  :",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1275,7 +1275,7 @@
 	},
 	{
 		"c": "Lang2",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1289,7 +1289,7 @@
 	},
 	{
 		"c": ": ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1303,7 +1303,7 @@
 	},
 	{
 		"c": "Español",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -1317,7 +1317,7 @@
 	},
 	{
 		"c": "  :",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1331,7 +1331,7 @@
 	},
 	{
 		"c": "Lang3",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1345,7 +1345,7 @@
 	},
 	{
 		"c": ": ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1359,7 +1359,7 @@
 	},
 	{
 		"c": "Русский",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -1373,7 +1373,7 @@
 	},
 	{
 		"c": "  :",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1387,7 +1387,7 @@
 	},
 	{
 		"c": "Lang4",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org entity.name.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1401,7 +1401,7 @@
 	},
 	{
 		"c": ": ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1415,7 +1415,7 @@
 	},
 	{
 		"c": "中文",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org meta.property.org variable.other.property.value.org",
 		"r": {
 			"dark_plus": "variable: #9CDCFE",
 			"light_plus": "variable: #001080",
@@ -1429,7 +1429,7 @@
 	},
 	{
 		"c": "  :END:",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org keyword.control.block.drawer.end.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org meta.block.drawer.property.org keyword.control.block.drawer.end.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1442,50 +1442,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "LOGBOOK drawer",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  :",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org keyword.control.block.drawer.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org keyword.control.block.drawer.begin.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1499,7 +1499,7 @@
 	},
 	{
 		"c": "LOGBOOK",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org keyword.control.block.drawer.begin.org entity.name.function.drawer.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org keyword.control.block.drawer.begin.org entity.name.function.drawer.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -1513,7 +1513,7 @@
 	},
 	{
 		"c": ":",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org keyword.control.block.drawer.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org keyword.control.block.drawer.begin.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1527,7 +1527,7 @@
 	},
 	{
 		"c": "  Started: <2025-08-01 Fri>",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org markup.block.drawer.content.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org markup.block.drawer.content.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1541,7 +1541,7 @@
 	},
 	{
 		"c": "  Finished: <2025-08-02 Sat>",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org markup.block.drawer.content.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org markup.block.drawer.content.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1555,7 +1555,7 @@
 	},
 	{
 		"c": "  :END:",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.drawer.org keyword.control.block.drawer.end.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.drawer.org keyword.control.block.drawer.end.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -1568,50 +1568,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Table with multilingual content",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1625,7 +1625,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1639,7 +1639,7 @@
 	},
 	{
 		"c": "Language",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1653,7 +1653,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1667,7 +1667,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1681,7 +1681,7 @@
 	},
 	{
 		"c": "Example",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1695,7 +1695,7 @@
 	},
 	{
 		"c": "           ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1709,7 +1709,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1723,7 +1723,7 @@
 	},
 	{
 		"c": "  |----------+------------------|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org punctuation.definition.table.row-separator.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org punctuation.definition.table.row-separator.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1737,7 +1737,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1751,7 +1751,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1765,7 +1765,7 @@
 	},
 	{
 		"c": "English",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1779,7 +1779,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1793,7 +1793,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1807,7 +1807,7 @@
 	},
 	{
 		"c": "Hello",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1821,7 +1821,7 @@
 	},
 	{
 		"c": "            ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1835,7 +1835,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1849,7 +1849,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1863,7 +1863,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1877,7 +1877,7 @@
 	},
 	{
 		"c": "Français",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1891,7 +1891,7 @@
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1905,7 +1905,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1919,7 +1919,7 @@
 	},
 	{
 		"c": "Bonjour",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1933,7 +1933,7 @@
 	},
 	{
 		"c": "          ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1947,7 +1947,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1961,7 +1961,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1975,7 +1975,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -1989,7 +1989,7 @@
 	},
 	{
 		"c": "Deutsch",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2003,7 +2003,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2017,7 +2017,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2031,7 +2031,7 @@
 	},
 	{
 		"c": "Hallo",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2045,7 +2045,7 @@
 	},
 	{
 		"c": "            ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2059,7 +2059,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2073,7 +2073,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2087,7 +2087,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2101,7 +2101,7 @@
 	},
 	{
 		"c": "Español",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2115,7 +2115,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2129,7 +2129,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2143,7 +2143,7 @@
 	},
 	{
 		"c": "Hola",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2157,7 +2157,7 @@
 	},
 	{
 		"c": "             ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2171,7 +2171,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2185,7 +2185,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2199,7 +2199,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2213,7 +2213,7 @@
 	},
 	{
 		"c": "日本語",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2227,7 +2227,7 @@
 	},
 	{
 		"c": "   ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2241,7 +2241,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2255,7 +2255,7 @@
 	},
 	{
 		"c": "こんにちは",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2269,7 +2269,7 @@
 	},
 	{
 		"c": "         ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2283,7 +2283,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2297,7 +2297,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2311,7 +2311,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2325,7 +2325,7 @@
 	},
 	{
 		"c": "한국어",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2339,7 +2339,7 @@
 	},
 	{
 		"c": "   ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2353,7 +2353,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2367,7 +2367,7 @@
 	},
 	{
 		"c": "안녕하세요",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2381,7 +2381,7 @@
 	},
 	{
 		"c": "         ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2395,7 +2395,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2409,7 +2409,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2423,7 +2423,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2437,7 +2437,7 @@
 	},
 	{
 		"c": "Русский",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2451,7 +2451,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2465,7 +2465,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2479,7 +2479,7 @@
 	},
 	{
 		"c": "Привет",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2493,7 +2493,7 @@
 	},
 	{
 		"c": "           ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2507,7 +2507,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2521,7 +2521,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2535,7 +2535,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2549,7 +2549,7 @@
 	},
 	{
 		"c": "العربية",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2563,7 +2563,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2577,7 +2577,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2591,7 +2591,7 @@
 	},
 	{
 		"c": "مرحبا",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2605,7 +2605,7 @@
 	},
 	{
 		"c": "            ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2619,7 +2619,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2633,7 +2633,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2647,7 +2647,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2661,7 +2661,7 @@
 	},
 	{
 		"c": "עברית",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2675,7 +2675,7 @@
 	},
 	{
 		"c": "    ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2689,7 +2689,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2703,7 +2703,7 @@
 	},
 	{
 		"c": "שלום",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2717,7 +2717,7 @@
 	},
 	{
 		"c": "             ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2731,7 +2731,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2745,7 +2745,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2759,7 +2759,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2773,7 +2773,7 @@
 	},
 	{
 		"c": "中文",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2787,7 +2787,7 @@
 	},
 	{
 		"c": "     ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2801,7 +2801,7 @@
 	},
 	{
 		"c": "| ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2815,7 +2815,7 @@
 	},
 	{
 		"c": "你好",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org markup.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2829,7 +2829,7 @@
 	},
 	{
 		"c": "             ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2843,7 +2843,7 @@
 	},
 	{
 		"c": "|",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.table.org markup.block.table.org markup.block.table.row.org markup.block.table.org markup.block.table.row.org punctuation.separator.table.cell.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2856,50 +2856,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "List with multilingual items",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -2913,7 +2913,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2927,7 +2927,7 @@
 	},
 	{
 		"c": " Hello (English)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2941,7 +2941,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -2955,7 +2955,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2969,7 +2969,7 @@
 	},
 	{
 		"c": " Bonjour (Français)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -2983,7 +2983,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -2997,7 +2997,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3011,7 +3011,7 @@
 	},
 	{
 		"c": " Hallo (Deutsch)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3025,7 +3025,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3039,7 +3039,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3053,7 +3053,7 @@
 	},
 	{
 		"c": " Hola (Español)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3067,7 +3067,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3081,7 +3081,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3095,7 +3095,7 @@
 	},
 	{
 		"c": " こんにちは (日本語)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3109,7 +3109,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3123,7 +3123,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3137,7 +3137,7 @@
 	},
 	{
 		"c": " 안녕하세요 (한국어)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3151,7 +3151,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3165,7 +3165,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3179,7 +3179,7 @@
 	},
 	{
 		"c": " Привет (Русский)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3193,7 +3193,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3207,7 +3207,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3221,7 +3221,7 @@
 	},
 	{
 		"c": " مرحبا (العربية)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3235,7 +3235,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3249,7 +3249,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3263,7 +3263,7 @@
 	},
 	{
 		"c": " שלום (עברית)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3277,7 +3277,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3291,7 +3291,7 @@
 	},
 	{
 		"c": "-",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org punctuation.definition.list.begin.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3305,7 +3305,7 @@
 	},
 	{
 		"c": " 你好 (中文)",
-		"t": "text.org meta.outline.2.org meta.section.org markup.list.unnumbered.org",
+		"t": "text.org meta.outline.1.org meta.section.org markup.list.unnumbered.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3318,50 +3318,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Block with multilingual text",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3375,7 +3375,7 @@
 	},
 	{
 		"c": "#+BEGIN_",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -3389,7 +3389,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -3403,7 +3403,7 @@
 	},
 	{
 		"c": "  Hello, Bonjour, Hallo, Hola, こんにちは, 안녕하세요, Привет, مرحبا, שלום, 你好",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org markup.block.standard.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",
@@ -3417,7 +3417,7 @@
 	},
 	{
 		"c": "  ",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org string.other.whitespace.leading.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org string.other.whitespace.leading.org",
 		"r": {
 			"dark_plus": "string: #CE9178",
 			"light_plus": "string: #A31515",
@@ -3431,7 +3431,7 @@
 	},
 	{
 		"c": "#+END_",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org keyword.control.block.org",
 		"r": {
 			"dark_plus": "keyword.control: #C586C0",
 			"light_plus": "keyword.control: #AF00DB",
@@ -3445,7 +3445,7 @@
 	},
 	{
 		"c": "QUOTE",
-		"t": "text.org meta.outline.2.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
+		"t": "text.org meta.outline.1.org meta.section.org meta.block.begin-end.standard.org entity.name.function.block.org",
 		"r": {
 			"dark_plus": "entity.name.function: #DCDCAA",
 			"light_plus": "entity.name.function: #795E26",
@@ -3458,50 +3458,50 @@
 		}
 	},
 	{
-		"c": "**",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org punctuation.definition.heading.org",
+		"c": "*",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org punctuation.definition.heading.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": " ",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "Plain text multilingual",
-		"t": "text.org meta.outline.2.org markup.heading.org markup.heading.2.org entity.name.section.org",
+		"t": "text.org meta.outline.1.org markup.heading.org markup.heading.1.org entity.name.tag.org entity.name.section.org",
 		"r": {
-			"dark_plus": "markup.heading: #569CD6",
-			"light_plus": "markup.heading: #800000",
-			"dark_vs": "markup.heading: #569CD6",
-			"light_vs": "markup.heading: #800000",
-			"hc_black": "markup.heading: #6796E6",
-			"dark_modern": "markup.heading: #569CD6",
-			"hc_light": "markup.heading: #0F4A85",
-			"light_modern": "markup.heading: #800000"
+			"dark_plus": "entity.name.tag: #569CD6",
+			"light_plus": "entity.name.tag: #800000",
+			"dark_vs": "entity.name.tag: #569CD6",
+			"light_vs": "entity.name.tag: #800000",
+			"hc_black": "entity.name.tag: #569CD6",
+			"dark_modern": "entity.name.tag: #569CD6",
+			"hc_light": "entity.name.tag: #0F4A85",
+			"light_modern": "entity.name.tag: #800000"
 		}
 	},
 	{
 		"c": "  This line mixes: Hello, Bonjour, Hallo, Hola, こんにちは, 안녕하세요, Привет, مرحبا, שלום, 你好。",
-		"t": "text.org meta.outline.2.org meta.section.org",
+		"t": "text.org meta.outline.1.org meta.section.org",
 		"r": {
 			"dark_plus": "default: #D4D4D4",
 			"light_plus": "default: #000000",

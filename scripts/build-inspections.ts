@@ -174,7 +174,7 @@ function compileFixture(content: string, originalFilename: string): string {
     } else if (line.match(/^(\*+) /)) {
       const match = line.match(/^(\*+) /)!;
       currentHeadlineLevel = match[1].length;
-      compiledLines.push(`${'*'.repeat(currentHeadlineLevel + 1)}${line.substring(currentHeadlineLevel)}`);
+      compiledLines.push(`${'*'.repeat(currentHeadlineLevel)}${line.substring(currentHeadlineLevel)}`);
     } else if (!lower.startsWith('#+expected') &&
                !line.startsWith('|') &&
                !lower.startsWith('#+property') &&
