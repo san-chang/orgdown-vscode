@@ -1,6 +1,6 @@
 {
   "name": "orgdown-vscode",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://vscode.orgdown.org",
   "publisher": "idears-org",
   "engines": {
@@ -10,7 +10,10 @@
   "displayName": "OrgDown",
   "description": "OrgMode is the only reason I still keep Emacs on my device; that's why this extension was created.",
   "categories": [
-    "Other", "Notebooks", "Programming Languages", "Snippets"
+    "Other",
+    "Notebooks",
+    "Programming Languages",
+    "Snippets"
   ],
   "keywords": [
     "Org",
