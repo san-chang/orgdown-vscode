@@ -1,28 +1,6 @@
-// Place your settings in this file to overwrite default and user settings.
 {
-  "files.eol": "\n",
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "dist": true,
-    "out": true,
-    "**/*.tsbuildinfo": true
-  },
-  "search.exclude": {
-    "out": true,
-    "dist": true
-  },
-  "typescript.tsc.autoDetect": "off",
-  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  // Language-scoped example.
+  // Copy the relevant section into your user or workspace settings.json.
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
