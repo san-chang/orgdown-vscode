@@ -1,0 +1,3 @@
+[submodule "vendor/tree-sitter-org"]
+	path = vendor/tree-sitter-org
+	url = https://github.com/nvim-orgmode/tree-sitter-org
