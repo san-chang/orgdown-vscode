@@ -11,9 +11,31 @@ Our development process is built on two foundational principles:
 - **Test-Driven Development (TDD)**: We write tests first. This ensures every feature is verifiable and prevents regressions.
 - **Single Source of Truth (SSoT)**: Each piece of logic or data is defined in exactly one place. For details on our syntax development workflow, see [[./syntaxes.org][Syntax Development Guide]].
 
-For a deep dive into the architectural decisions, please see [[../architecture_decisions/005-unified-grammar-and-test-workflow.org][ADR-005]].
+For a deep dive into the architectural decisions, please see:
+- [[../architecture_decisions/005-unified-grammar-and-test-workflow.org][ADR-005: Multi-Layered Testing Architecture]]
+- [[../architecture_decisions/008-tree-sitter-integration.org][ADR-008: Tree-sitter Integration]]
 
-* 2. Quick Start: Fixing a Highlighting Bug
+* 2. Getting Started
+
+** 2.1. Initial Setup
+
+After cloning the repository, you need to initialize the tree-sitter submodule and build the WASM parser:
+
+#+BEGIN_SRC shell
+# Initialize and fetch the tree-sitter-org submodule
+git submodule update --init --recursive
+
+# Install dependencies
+pnpm install
+
+# Build the WASM parser
+pnpm run build:wasm
+
+# Build everything else
+pnpm run build
+#+END_SRC
+
+** 2.2. Quick Start: Fixing a Highlighting Bug
 
 This is the most common contribution. Here’s your fast track:
 
@@ -29,10 +51,52 @@ This is the most common contribution. Here’s your fast track:
 
 Note: For scope assertion semantics (union vs. intersection and region selection), see [[../../test/fixture-howto.org][Fixture How-To Guide]], Section 5.
 
-* 3. Useful Commands
+** 2.3. Quick Start: Adding a Structural Feature
 
-- `pnpm dev`: Watches source files and rebuilds them automatically.
+Structural features (folding, outline, navigation) are powered by tree-sitter. Here's the workflow:
+
+1.  **Understand the Structure**: Read the tree-sitter-org grammar at `vendor/tree-sitter-org/grammar.js` to understand the relevant node types.
+2.  **Write the Logic**: Add your logic to the appropriate file:
+    - For folding: `common/src/folding.ts`
+    - For outline/symbols: `server/src/features/symbols.ts`
+    - For new features: create a new file in `server/src/features/`
+3.  **Write Tests**: Add unit tests using the fixture format:
+    - For folding: `test/unit/folding-fixture.test.ts`
+    - For symbols: `test/unit/symbols-fixture.test.ts`
+4.  **Run Tests**: Execute `pnpm test:unit` to verify your changes.
+5.  **Integration**: If you added a new LSP feature, register it in `server/src/server.ts`.
+
+For details on how tree-sitter integration works, see [[../architecture_decisions/008-tree-sitter-integration.org][ADR-008]] and the feature specifications in `docs/reference/feature_specs/`.
+
+* 3. Architecture Overview
+
+Orgdown follows a three-layer architecture (see [[../architecture_decisions/002-three-layer-architecture.org][ADR-002]]):
+
+1. **Layer 1: TextMate Grammar** - Fast, static syntax highlighting via `org.tmLanguage.template.yaml`, `common/src/grammar/regex.ts`, and `common/src/scoping.ts`.
+2. **Layer 2: Decoration API** - Dynamic visual enhancements (currently minimal, reserved for future rich styling).
+3. **Layer 3: Language Server** - Intelligent document analysis using tree-sitter for structural features (folding, outline, validation, etc.).
+
+Within Layer 3, we use tree-sitter for parsing (see [[../architecture_decisions/008-tree-sitter-integration.org][ADR-008]]). TextMate (Layer 1) and tree-sitter (Layer 3) serve different purposes and don't overlap. Most contributions will touch either Layer 1 (highlighting) or Layer 3 (structural features).
+
+* 4. Useful Commands
+
+** Build Commands
+- `pnpm build`: Runs all build scripts (grammar, WASM, source code).
+- `pnpm build:grammar`: Compiles the TextMate grammar from YAML to JSON.
+- `pnpm build:wasm`: Compiles the tree-sitter parser to WebAssembly. Required after cloning or updating the `vendor/tree-sitter-org/` submodule.
+- `pnpm build:inspections`: Generates inspection files for manual verification.
+- `pnpm build:source`: Compiles TypeScript source code.
+
+** Watch Commands (Live Development)
+- `pnpm watch:source`: Watches TypeScript source files and rebuilds automatically.
+- `pnpm watch:grammar`: Watches the grammar YAML and regenerates JSON on changes.
+- `pnpm watch:inspections`: Watches fixtures and regenerates inspection files.
+- `pnpm watch:test:unit`: Runs unit tests in watch mode.
+- `pnpm watch` or run the `watch:all` task: Runs all watch tasks in parallel for full live development.
+
+** Testing & Quality Commands
+- `pnpm test`: Runs the full test suite (unit and integration).
+- `pnpm test:unit`: Runs unit tests only (fast feedback loop).
+- `pnpm test:integration`: Runs integration tests (snapshot-based).
 - `pnpm lint`: Checks for code style issues.
 - `pnpm check-types`: Checks for TypeScript type errors.
-- `pnpm test`: Runs the full test suite (unit and integration).
-- `pnpm build`: Runs all build scripts.

@@ -22,7 +22,7 @@ If you prefer the fancy coloring from the screenshots but don't want to switch y
 
 Welcome to Orgdown! This is a Visual Studio Code extension dedicated to bringing the legendary organizational power of [Emacs' Org Mode](https://orgmode.org/) to the modern, accessible environment of VS Code. Our mission is to faithfully implement 80% or more of the core Org Mode feature set, such as robust syntax highlighting, code block execution, task management and so on.
 
-This project is built with a professional-grade, test-driven architecture to ensure stability and maintainability.
+This project is built with a professional-grade, test-driven architecture following VS Code's three-layer model: **TextMate grammar** for fast syntax highlighting, **Decoration API** for rich visual enhancements, and a **Language Server** using **Tree-sitter** for structural features like code folding, document outline, and future semantic capabilities.
 
 Learn more at our project websites:
 
@@ -35,6 +35,7 @@ We are systematically implementing the full Org Mode feature set. The implementa
 - 🔵 Phase 1 — Readability (In progress)
   - Goal: make Org files comfortable and natural to read in VS Code for users who do not use Emacs.
   - Focus: robust syntax highlighting, reliable outline folding and navigation, and real-time preview of common constructs. Provide theme-friendly token colors and sensible defaults so shared Org files are readable without additional Emacs configuration.
+  - Status: ✅ TextMate grammar with comprehensive test coverage | ✅ Code folding (headlines, blocks, drawers) | ✅ Document outline/symbol navigation
 
 - Phase 2 — Writing & Export
   - Goal: improve the authoring and publishing experience for people writing with Org Mode in VS Code.

@@ -2,9 +2,16 @@
 
 * 1. Introduction
 
-This directory contains the test fixtures for Orgdown's grammar unit tests. These files serve as the **Single Source of Truth (SSoT)** for defining the expected behavior of our regular expressions and scoping.
+This directory contains the test fixtures for Orgdown's tests. These files serve as the **Single Source of Truth (SSoT)** for defining the expected behavior of our:
+- Regular expressions (TextMate grammar)
+- Scope mappings (TextMate grammar)
+- Structural features (tree-sitter)
 
-The test runners in `test/unit/grammar-regex.test.ts` and `test/unit/grammar-scoping.test.ts` automatically discover and execute these `.org` files.
+The test runners automatically discover and execute these `.org` files:
+- `test/unit/grammar-regex.test.ts` - Regex tests
+- `test/unit/grammar-scoping.test.ts` - Scope tests
+- `test/unit/folding-fixture.test.ts` - Folding range tests
+- `test/unit/symbols-fixture.test.ts` - Document symbol tests
 
 * 2. Fixture Structure
 
@@ -247,3 +254,160 @@ The test runner supports testing a single input against multiple regular express
 |---------+----------------|
 | 1       | * A headline   |
 #+END_SRC
+
+* 8. Structural Testing (Tree-sitter)
+
+In addition to TextMate grammar tests (regex and scope), we also test structural features powered by tree-sitter, such as code folding and document symbols.
+
+** 8.1. Testing Philosophy
+
+Structural tests verify that the tree-sitter parser correctly identifies document structure and that our feature logic correctly extracts information from the AST.
+
+- *Separation of Concerns*: Structural tests are independent of TextMate grammar tests. They test different layers of the architecture (see [[../docs/architecture_decisions/008-tree-sitter-integration.org][ADR-008]]).
+- *SSoT Principle*: Fixtures remain the single source of truth. Structural tests parse the same `.org` files as grammar tests.
+- *Test Location*: Structural tests are in `test/unit/folding-fixture.test.ts` and `test/unit/symbols-fixture.test.ts`.
+
+** 8.2. Folding Range Tests
+
+Folding tests verify that foldable regions (headlines, blocks, drawers) are correctly identified.
+
+*** Test Format
+
+Folding tests use `#+EXPECTED: :type folding` followed by a list of fold ranges in `[startLine-endLine]` format:
+
+#+BEGIN_SRC org
+#+NAME: Headline folding
+#+BEGIN_FIXTURE
+,* Level 1
+Content here.
+,** Level 2
+More content.
+#+END_FIXTURE
+#+EXPECTED: :type folding
+[0-3]
+#+END_SRC
+
+- Each range is written as `[startLine-endLine]` (0-based line numbers, end-inclusive).
+- In the example above, we expect one fold from line 0 to line 3 (the entire "Level 1" section).
+
+*** Multiple Fold Regions
+
+For documents with multiple foldable regions, list all ranges separated by commas:
+
+#+BEGIN_SRC org
+#+NAME: Multiple blocks
+#+BEGIN_FIXTURE
+,#+BEGIN_SRC python
+print("hello")
+,#+END_SRC
+
+,#+BEGIN_EXAMPLE
+Example text
+,#+END_EXAMPLE
+#+END_FIXTURE
+#+EXPECTED: :type folding
+[0-2], [4-6]
+#+END_SRC
+
+*** Nested Folds
+
+Tree-sitter naturally handles nested structures. Both the parent and child folds should be listed:
+
+#+BEGIN_SRC org
+#+NAME: Nested structure
+#+BEGIN_FIXTURE
+,* Headline
+,#+BEGIN_SRC python
+code
+,#+END_SRC
+#+END_FIXTURE
+#+EXPECTED: :type folding
+[0-3], [1-3]
+#+END_SRC
+
+Here, line 0-3 is the headline section, and line 1-3 is the source block.
+
+** 8.3. Document Symbol Tests
+
+Symbol tests verify that the document outline (headline hierarchy) is correctly extracted.
+
+*** Test Format
+
+Symbol tests use `#+EXPECTED: :type symbols` followed by an indented tree structure showing symbol names and ranges:
+
+#+BEGIN_SRC org
+#+NAME: Simple outline
+#+BEGIN_FIXTURE
+,* Project Alpha
+Content.
+,** Task 1
+Task content.
+#+END_FIXTURE
+#+EXPECTED: :type symbols
+- Project Alpha (0:0-3:0)
+  - Task 1 (2:0-3:0)
+#+END_SRC
+
+- Each line has the format: `- Name (startLine:startChar-endLine:endChar)`
+- Indentation (2 spaces per level) indicates the hierarchy
+- Line and character positions are 0-based
+- In the example above:
+  - "Project Alpha" starts at line 0, character 0 and ends at line 3, character 0
+  - "Task 1" is a child of "Project Alpha", at line 2
+
+*** Flat Structure
+
+For documents with no nesting:
+
+#+BEGIN_SRC org
+#+NAME: Flat outline
+#+BEGIN_FIXTURE
+,* Task 1
+,* Task 2
+,* Task 3
+#+END_FIXTURE
+#+EXPECTED: :type symbols
+- Task 1 (0:0-1:0)
+- Task 2 (1:0-2:0)
+- Task 3 (2:0-3:0)
+#+END_SRC
+
+*** Deep Nesting
+
+For deeply nested hierarchies, use consistent indentation to show the tree:
+
+#+BEGIN_SRC org
+#+NAME: Deep nesting
+#+BEGIN_FIXTURE
+,* L1
+,** L2
+,*** L3
+#+END_FIXTURE
+#+EXPECTED: :type symbols
+- L1 (0:0-2:8)
+  - L2 (1:0-2:8)
+    - L3 (2:0-2:8)
+#+END_SRC
+
+** 8.4. Implementation Notes
+
+- Structural tests use `#+EXPECTED: :type folding` or `#+EXPECTED: :type symbols` blocks (similar to regex and scope tests).
+- The test harness uses `common/src/fixture-parser.ts` to parse fixtures and `common/src/folding.ts` or `server/src/features/symbols.ts` for the actual logic.
+- If a test case lacks a folding or symbols expectation, it is skipped by the respective test runner.
+
+** 8.5. Best Practices
+
+- *Keep It Simple*: Start with simple cases (single headline, single block) before testing complex nesting.
+- *Explicit Expectations*: Always specify expected folds/symbols explicitly, even if empty (`[]`).
+- *Reuse Fixtures*: You can add structural expectations to existing fixtures used for grammar tests. Just add the properties to the test case.
+- *Document Edge Cases*: Use descriptive test names (e.g., "Empty headline with no content", "Malformed block missing END").
+
+* 9. Summary
+
+This fixture format provides a unified, self-documenting way to test all aspects of Orgdown:
+- **Regex tests** verify that our patterns capture the correct data.
+- **Scope tests** verify that tokens receive the correct TextMate scopes for theming.
+- **Folding tests** verify that foldable regions are correctly identified.
+- **Symbol tests** verify that the document outline is correctly extracted.
+
+All tests share the same source files, ensuring consistency and reducing maintenance burden. For more details on the testing architecture, see [[../docs/architecture_decisions/005-unified-grammar-and-test-workflow.org][ADR-005]] and [[../docs/architecture_decisions/008-tree-sitter-integration.org][ADR-008]].

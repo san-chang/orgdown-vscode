@@ -1,0 +1,146 @@
+#+TITLE: [ADR-008] - Tree-sitter Integration for Structural Features
+
+* Status
+  :PROPERTIES:
+  :Status: Accepted
+  :END:
+
+* Date
+  2025-11-23
+
+* Deciders
+  - san
+  - GitHub Copilot
+
+* Context
+** Problem Statement
+   While TextMate grammars excel at token-level syntax highlighting, they are fundamentally limited when it comes to understanding document structure. Several critical VS Code features require accurate structural information:
+
+   - *Code Folding*: Determining fold regions for headlines, blocks, drawers, and property drawers requires understanding hierarchical relationships and block boundaries.
+   - *Document Outline/Symbols*: Providing a navigable outline view requires parsing the headline hierarchy and extracting section titles.
+   - *Future Features*: Semantic features like "goto definition" for links, property validation, table navigation, and refactoring operations all require a true understanding of document structure.
+
+   Our existing regex-based approach in TextMate grammar cannot reliably handle these structural requirements, especially for nested constructs and edge cases.
+
+** Driving Forces
+   - *Accuracy*: We need precise, error-tolerant parsing of Org Mode's hierarchical structure.
+   - *Performance*: Structural analysis must be fast enough for real-time editor features.
+   - *Maintainability*: A formal grammar is easier to maintain and extend than ad-hoc regex patterns for structure.
+   - *Future-Proofing*: Many planned features (semantic analysis, refactoring, navigation) require a proper Abstract Syntax Tree (AST).
+   - *Proven Technology*: Tree-sitter is the industry standard for incremental parsing in modern editors, with excellent VS Code integration.
+
+* Decision
+  We have decided to integrate Tree-sitter as the parsing engine within Layer 3 (Language Server) of our three-layer architecture, while maintaining TextMate grammar for Layer 1 (syntax highlighting).
+
+  This enhances our existing three-layer architecture (see [[file:002-three-layer-architecture.org][ADR-002]]):
+  1. *Layer 1: TextMate Grammar* (Existing): Continues to provide fast, token-level syntax highlighting via `org.tmLanguage.template.yaml`, `regex.ts`, and `scoping.ts`.
+  2. *Layer 2: Decoration API* (Reserved): Available for dynamic visual enhancements beyond what TextMate can provide.
+  3. *Layer 3: Language Server with Tree-sitter* (Enhanced): Now uses the `tree-sitter-org` parser to provide accurate structural analysis for LSP features (folding, outline, validation, navigation, etc.).
+
+** Implementation Details
+   - *Parser Source*: Use the existing `tree-sitter-org` parser (added as a Git submodule at `vendor/tree-sitter-org/`).
+   - *WASM Compilation*: Compile the parser to WebAssembly (`server/assets/tree-sitter-org.wasm`) for use in the VS Code extension server.
+   - *Build Script*: Add `scripts/build-wasm.ts` to automate WASM compilation.
+   - *Common Logic*: Place shared structural analysis logic in `common/src/folding.ts` for reuse across test and server contexts.
+   - *LSP Integration*: Implement structural features in `server/src/features/` (e.g., `folding.ts`, `symbols.ts`).
+   - *Testing Strategy*: Add unit tests (`test/unit/folding-fixture.test.ts`, `test/unit/symbols-fixture.test.ts`) using the existing fixture infrastructure.
+
+* Considered Options
+** Option 1: Tree-sitter Integration (Recommended)
+   - *Description*: Add Tree-sitter as a parallel parsing layer for structural features, keeping TextMate for highlighting.
+   - *Pros*:
+     - Accurate, incremental parsing with error recovery.
+     - Industry-standard solution with active maintenance.
+     - Enables complex future features (semantic analysis, refactoring).
+     - Clear separation of concerns: TextMate for appearance, Tree-sitter for structure.
+     - Excellent performance characteristics for real-time editing.
+   - *Cons*:
+     - Adds build complexity (WASM compilation, Git submodule).
+     - Requires maintaining two representations (TextMate + Tree-sitter).
+     - Introduces a new dependency (tree-sitter-cli, web-tree-sitter).
+     - Team must learn Tree-sitter grammar syntax for structural changes.
+
+** Option 2: Extend Regex-Based Approach
+   - *Description*: Continue using regex patterns in the extension code to detect structure.
+   - *Pros*:
+     - No new dependencies or build steps.
+     - Familiar technology for the existing team.
+   - *Cons*:
+     - Regex cannot reliably handle nested structures or context-dependent syntax.
+     - High brittleness and maintenance burden for complex features.
+     - Poor error recovery (a single malformed line can break entire analysis).
+     - Duplicates logic across TextMate grammar and extension code.
+     - Performance issues for large documents (non-incremental).
+
+** Option 3: Build a Custom Parser
+   - *Description*: Write a custom recursive-descent or PEG parser for Org Mode.
+   - *Pros*:
+     - Complete control over parsing behavior.
+     - No external dependencies for the grammar itself.
+   - *Cons*:
+     - Massive engineering effort (months of work).
+     - High risk of bugs and edge cases.
+     - Difficult to maintain and extend.
+     - Reinventing a solved problem (Tree-sitter already exists).
+     - No incremental parsing out of the box.
+
+* Rationale
+  Tree-sitter (Option 1) is the clear winner for several reasons:
+
+  - *Industry Adoption*: Tree-sitter is used by GitHub, Neovim, Atom, and many other editors. It's a proven solution with active community support.
+  - *Separation of Concerns*: By keeping TextMate for highlighting and Tree-sitter for structure, we maintain the Single Source of Truth principle. Each system does what it's best at.
+  - *Incremental Parsing*: Tree-sitter's incremental parsing is critical for performance in large Org Mode documents. It only re-parses changed regions.
+  - *Error Tolerance*: Tree-sitter gracefully handles malformed syntax, which is essential for real-time editing.
+  - *Future-Proofing*: Many of our planned features (see Feature Coverage roadmap) require a true AST. Investing in Tree-sitter now unlocks these capabilities.
+
+  The maintenance cost of having both TextMate and tree-sitter is acceptable because:
+  1. They serve different layers of the architecture with non-overlapping responsibilities (Layer 1 vs Layer 3).
+  2. The TextMate grammar (via ADR-005's workflow) is already well-structured and testable.
+  3. Tree-sitter's grammar is maintained upstream; we consume it as a submodule.
+  4. This aligns with the standard VS Code three-layer pattern established in ADR-002.
+
+* Consequences
+** Positive
+   - *Accurate Folding & Outline*: Users immediately benefit from reliable code folding and document outline navigation.
+   - *Foundation for Advanced Features*: Unlocks semantic analysis, validation, refactoring, and navigation features.
+   - *Performance*: Incremental parsing ensures features remain fast even in large documents.
+   - *Reduced Complexity in TextMate*: We no longer need to hack structural information into the highlighting grammar.
+   - *Error Recovery*: Features degrade gracefully when syntax is malformed, instead of breaking entirely.
+
+** Negative
+   - *Build Complexity*: Developers must run `pnpm run build:wasm` after cloning or updating the submodule.
+   - *Dual Maintenance*: Changes to Org Mode support may require updates in both TextMate grammar and Tree-sitter grammar (though in practice, their scopes rarely overlap).
+   - *Binary Artifact*: The WASM file (`tree-sitter-org.wasm`) must be committed to the repository, increasing repo size.
+   - *Learning Curve*: Contributors working on structural features need to understand Tree-sitter concepts (nodes, queries, traversal).
+
+** Impact
+   - *On Codebase*:
+     - New directory: `vendor/tree-sitter-org/` (Git submodule).
+     - New build script: `scripts/build-wasm.ts`.
+     - New WASM asset: `server/assets/tree-sitter-org.wasm`.
+     - New common logic: `common/src/folding.ts`.
+     - New LSP features: `server/src/features/folding.ts`, `server/src/features/symbols.ts`.
+     - New unit tests: `test/unit/folding-fixture.test.ts`, `test/unit/symbols-fixture.test.ts`.
+     - Updated `package.json`: new dependencies (`web-tree-sitter`, `tree-sitter-cli`), new script (`build:wasm`).
+     - Updated `tsconfig.json`: new `common/` package configuration.
+   - *On Teams*:
+     - Development workflow update: Clone requires `git submodule update --init --recursive`.
+     - Build workflow update: `pnpm run build:wasm` must run before `pnpm run build` (handled in `pretest`).
+     - Documentation updates: ADR, Contributing Guide, Feature Specs, and Fixture How-To must all be updated to reflect the new architecture.
+   - *On Users*:
+     - Immediate benefit: Working code folding for headlines, blocks, drawers.
+     - Immediate benefit: Document outline/symbol navigation in the Outline view and breadcrumbs.
+     - No breaking changes: Syntax highlighting behavior remains unchanged.
+     - Future benefit: Foundation for more advanced Org Mode features.
+
+* References
+  - [[https://tree-sitter.github.io/tree-sitter/][Tree-sitter Official Documentation]]
+  - [[https://github.com/milisims/tree-sitter-org][tree-sitter-org Parser Repository]]
+  - [[file:005-unified-grammar-and-test-workflow.org][ADR-005: Multi-Layered Testing Architecture]] (Context for our existing TextMate workflow)
+  - [[file:007-hierarchical-grammar-structure.org][ADR-007: Hierarchical Grammar Structure]] (Context for TextMate grammar architecture)
+  - `scripts/build-wasm.ts` (WASM build implementation)
+  - `common/src/folding.ts` (Shared folding logic)
+  - `server/src/features/folding.ts` (LSP folding provider)
+  - `server/src/features/symbols.ts` (LSP document symbols provider)
+  - `test/unit/folding-fixture.test.ts` (Unit tests for folding)
+  - `test/unit/symbols-fixture.test.ts` (Unit tests for symbols)
