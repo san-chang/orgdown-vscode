@@ -1,3 +1,7 @@
 packages:
-  - 'client'
-  - 'server'
+  - client
+  - server
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - tree-sitter-cli

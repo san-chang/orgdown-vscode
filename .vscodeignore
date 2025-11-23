@@ -10,6 +10,7 @@
 .husky/**
 test/**
 scripts/**
+vendor/**
 docs/**
 **/*.tsbuildinfo
 tsconfig.tsbuildinfo
