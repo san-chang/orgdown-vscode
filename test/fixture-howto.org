@@ -263,7 +263,7 @@ In addition to TextMate grammar tests (regex and scope), we also test structural
 
 Structural tests verify that the tree-sitter parser correctly identifies document structure and that our feature logic correctly extracts information from the AST.
 
-- *Separation of Concerns*: Structural tests are independent of TextMate grammar tests. They test different layers of the architecture (see [[../docs/architecture_decisions/008-tree-sitter-integration.org][ADR-008]]).
+- *Separation of Concerns*: Structural tests are independent of TextMate grammar tests. They test different layers of the architecture (see [[file:../docs/architecture_decisions/008-tree-sitter-integration.org][ADR-008]]).
 - *SSoT Principle*: Fixtures remain the single source of truth. Structural tests parse the same `.org` files as grammar tests.
 - *Test Location*: Structural tests are in `test/unit/folding-fixture.test.ts` and `test/unit/symbols-fixture.test.ts`.
 

@@ -41,6 +41,10 @@ No single testing method can provide both speed and high-fidelity validation. Th
 
 Crucially, we decided that **scope testing belongs at L3, not L1**. Forcing L1 unit tests to parse the YAML grammar file would violate the SSoT principle, slow down the fast loop, and make test failures ambiguous. L3 snapshot testing is the correct and most precise tool for validating the final, integrated scope mappings.
 
+#+BEGIN_QUOTE
+*Note*: This diagram shows the TextMate Grammar (Layer 1) testing workflow. For the tree-sitter (Layer 3) workflow, see [[file:008-tree-sitter-integration.org][ADR-008: Tree-sitter Integration]].
+#+END_QUOTE
+
 #+begin_src mermaid
 
 flowchart TD

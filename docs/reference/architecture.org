@@ -1,6 +1,18 @@
-* Architecture
+#+TITLE: Architecture (Early Design Draft - Deprecated)
 
-This document outlines the high-level architecture of the Orgdown VS Code extension.
+#+BEGIN_QUOTE
+*⚠️ DEPRECATION NOTICE*
+
+This document contains early design ideas that are NO LONGER ACCURATE. The actual implemented architecture is documented in:
+- [[file:../architecture_decisions/002-three-layer-architecture.org][ADR-002: Three-Layer Architecture]]
+- [[file:../architecture_decisions/008-tree-sitter-integration.org][ADR-008: Tree-sitter Integration]]
+
+Please refer to those ADRs and the [[file:../contributing/readme.org][Contributing Guide]] for the current architecture.
+#+END_QUOTE
+
+* Architecture (Historical - Not Current Implementation)
+
+This document outlines early design concepts for the Orgdown VS Code extension. *This is preserved for historical reference only.*
 
 ** Core Components
 

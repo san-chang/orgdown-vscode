@@ -66,5 +66,5 @@ A `<type>` corresponds to a specific testing capability of our framework.
 - *Principles*: Must correspond to a user-facing feature and have a unique, machine-parsable result structure.
 - *Registry*: (This list will expand)
   - `regex`: Tests regex capture groups.
-  - `folding`: (Future) Tests code folding ranges.
-  - `symbols`: (Future) Tests the document symbol tree.
+  - `folding`: Tests code folding ranges.
+  - `symbols`: Tests the document symbol tree.

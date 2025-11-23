@@ -57,9 +57,9 @@ To get started, please read our comprehensive _[Contribution Guide](./docs/contr
 
 For those interested in the engineering principles behind the project, we follow a strict, documentation-driven design process:
 
-- _The "Why":_ Our overall system design is detailed in our _[Architecture Document](./docs/reference/architecture.org)_.
+- _The "Why":_ Our system architecture is documented in our _[Architecture Decision Records (ADRs)](./docs/architecture_decisions/readme.org)_, particularly [ADR-002: Three-Layer Architecture](./docs/architecture_decisions/002-three-layer-architecture.org) and [ADR-008: Tree-sitter Integration](./docs/architecture_decisions/008-tree-sitter-integration.org).
 - _The "How":_ Our development process is detailed in the _[Contribution Guide](./docs/contributing/readme.org)_.
-- _Specific Decisions_: Significant, specific design decisions are documented in our Architecture Decision Records (ADRs), located in `docs/architecture_decisions/`.
+- _Specific Decisions_: All significant design decisions are documented as ADRs in `docs/architecture_decisions/`.
 
 ## License
 
