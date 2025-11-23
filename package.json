@@ -32,7 +32,7 @@
   "main": "./client/dist/extension.js",
   "qna": false,
   "icon": "assets/orgdown.png",
-  "repository": "https://github.com/idears-org/orgdown-vscode",
+  "repository": "https://github.com/san-chang/orgdown-vscode",
   "activationEvents": [
     "onLanguage:org"
   ],

@@ -1,7 +1,7 @@
 # Orgdown for VS Code
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/idears-org/orgdown-vscode/master/assets/orgdown.png" alt="Orgdown Logo" width="150" />
+<img src="https://raw.githubusercontent.com/san-chang/orgdown-vscode/master/assets/orgdown.png" alt="Orgdown Logo" width="150" />
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/idears-org/orgdown-vscode/master/docs/user_guide/screen-shot.png" alt="Orgdown Screen Shot" />
+<img src="https://raw.githubusercontent.com/san-chang/orgdown-vscode/master/docs/user_guide/screen-shot.png" alt="Orgdown Screen Shot" />
 </p>
 
 ## Getting Started
