@@ -14,14 +14,14 @@ export function getTreeSitterFolds(tree: Tree): SimpleFoldingRange[] {
       const headlineNode = node.childForFieldName('headline');
       if (headlineNode) {
         const startLine = headlineNode.startPosition.row;
-        const endLine = node.endPosition.row - 1;
+        const endLine = node.endPosition.row;
         if (endLine > startLine) {
           folds.push({ startLine, endLine });
         }
       }
     } else if (node.type === 'block' || node.type === 'drawer' || node.type === 'property_drawer') {
       if (node.endPosition.row > node.startPosition.row) {
-        folds.push({ startLine: node.startPosition.row, endLine: node.endPosition.row - 1 });
+        folds.push({ startLine: node.startPosition.row, endLine: node.endPosition.row });
       }
     }
 

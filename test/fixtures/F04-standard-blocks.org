@@ -140,7 +140,7 @@ cannot be unit-tested here due to their use of backreferences.
 | 4       | with params    |
 
 #+EXPECTED: :type folding
-[0-0]
+[0-1]
 
 #+NAME: Unit Test: Verbatim Begin (EXAMPLE)
 #+BEGIN_FIXTURE
@@ -157,7 +157,7 @@ cannot be unit-tested here due to their use of backreferences.
 | 4       |                |
 
 #+EXPECTED: :type folding
-[0-0]
+[0-1]
 
 #+NAME: Unit Test: Non-match (SRC should not match standard block regex)
 #+BEGIN_FIXTURE
@@ -203,7 +203,7 @@ This is a simple quote block with *markup*.
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-2], [4-5]
+[0-3], [4-6]
 
 #+EXPECTED: :type scope
 '#+BEGIN_QUOTE :author "John Doe"' => {{scopes.BLOCK_STANDARD_META}}

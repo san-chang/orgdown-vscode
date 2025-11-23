@@ -5,7 +5,7 @@ import { getTreeSitterFolds as getCommonFolds } from '../../../common/src/foldin
 export function provideFoldingRanges(tree: Tree): FoldingRange[] {
   return getCommonFolds(tree).map(fr => ({
     startLine: fr.startLine,
-    endLine: fr.endLine,
+    endLine: fr.endLine - 1,
     kind: FoldingRangeKind.Region,
   }));
 }

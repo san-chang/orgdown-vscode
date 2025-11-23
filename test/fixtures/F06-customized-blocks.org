@@ -41,7 +41,7 @@ Content
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-1]
+[0-2]
 
 #+EXPECTED: :type regex :name customizedBlockBeginRegex
 | Group # | Expected Value |
@@ -59,7 +59,7 @@ Content
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-1]
+[0-2]
 
 #+EXPECTED: :type regex :name customizedBlockBeginRegex
 | Group # | Expected Value |
@@ -77,7 +77,7 @@ Content
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-1]
+[0-2]
 
 #+EXPECTED: :type regex :name customizedBlockBeginRegex
 | Group # | Expected Value |
@@ -106,7 +106,7 @@ Custom content line
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-1]
+[0-2]
 
 #+EXPECTED: :type scope
 '#+BEGIN_MYBLOCK :arg1 value1 :arg2 "quoted value"' => {{scopes.BLOCK_CUSTOMIZED_META}}

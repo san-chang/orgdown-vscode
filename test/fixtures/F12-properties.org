@@ -12,7 +12,7 @@
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-4]
+[0-5]
 
 #+EXPECTED: :type regex :name propertyDrawerBeginRegex
 | Group # | Expected Value |
@@ -126,7 +126,7 @@ no-match
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-1]
+[0-2]
 
 #+EXPECTED: :type regex :name propertyDrawerBeginRegex
 | Group # | Expected Value |

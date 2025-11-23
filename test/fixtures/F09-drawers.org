@@ -21,7 +21,7 @@ no-match
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-2]
+[0-3]
 
 #+EXPECTED: :type regex :name genericDrawerBeginRegex
 | Group # | Expected Value |
@@ -41,7 +41,7 @@ This is a custom drawer.
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-1]
+[0-2]
 
 #+EXPECTED: :type regex :name genericDrawerBeginRegex
 | Group # | Expected Value |
@@ -97,7 +97,7 @@ Line 3
 #+END_FIXTURE
 
 #+EXPECTED: :type folding
-[0-3]
+[0-4]
 
 #+EXPECTED: :type regex :name genericDrawerBeginRegex
 | Group # | Expected Value |
