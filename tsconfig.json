@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "Node16",
-    "lib": ["ES2022", "DOM"],
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
     "strict": true,
     "sourceMap": true,
     "esModuleInterop": true,
@@ -11,10 +14,16 @@
     "moduleResolution": "Node16",
     "baseUrl": ".",
     "paths": {
-      "@common/*": ["common/src/*"]
+      "@common/*": [
+        "common/src/*"
+      ]
     },
     "composite": true,
-    "types": ["node", "vitest/globals", "mocha"]
+    "types": [
+      "node",
+      "vitest/globals",
+      "mocha"
+    ]
   },
   "include": [
     "client/src",
@@ -25,5 +34,21 @@
     "test/integrations",
     "vitest.config.mts"
   ],
-  "exclude": ["node_modules", ".vscode-test", "out", "dist"]
+  "exclude": [
+    "node_modules",
+    ".vscode-test",
+    "out",
+    "dist"
+  ],
+  "references": [
+    {
+      "path": "./client"
+    },
+    {
+      "path": "./server"
+    },
+    {
+      "path": "./common"
+    }
+  ]
 }

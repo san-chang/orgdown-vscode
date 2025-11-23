@@ -118,6 +118,7 @@
     "build:grammar": "tsx scripts/build-grammar.ts",
     "build:inspections": "tsx scripts/build-inspections.ts",
     "build:theme": "tsx scripts/build-theme.ts",
+    "build:wasm": "tsx scripts/build-wasm.ts",
     "build:source": "node esbuild.js --production",
     "build": "pnpm run clean && pnpm run build:grammar && pnpm run build:source",
     "watch:source": "node esbuild.js --watch",
@@ -149,11 +150,13 @@
     "fs-extra": "^11.3.0",
     "glob": "^11.1.0",
     "js-yaml": "^4.1.1",
+    "tree-sitter-cli": "^0.25.10",
     "ts-node": "^10.9.2",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
     "vitest": "^3.2.4",
     "vscode-oniguruma": "^2.0.1",
-    "vscode-textmate": "^9.2.0"
+    "vscode-textmate": "^9.2.0",
+    "web-tree-sitter": "^0.25.10"
   }
 }

@@ -40,6 +40,9 @@ Content
 #+END_MYBLOCK
 #+END_FIXTURE
 
+#+EXPECTED: :type folding
+[0-1]
+
 #+EXPECTED: :type regex :name customizedBlockBeginRegex
 | Group # | Expected Value |
 |---------+----------------|
@@ -55,6 +58,9 @@ Content
 #+eNd_YoUrBlOcK
 #+END_FIXTURE
 
+#+EXPECTED: :type folding
+[0-1]
+
 #+EXPECTED: :type regex :name customizedBlockBeginRegex
 | Group # | Expected Value |
 |---------+----------------|
@@ -69,6 +75,9 @@ Content
 Content
 #+END_MYBLOCK
 #+END_FIXTURE
+
+#+EXPECTED: :type folding
+[0-1]
 
 #+EXPECTED: :type regex :name customizedBlockBeginRegex
 | Group # | Expected Value |
@@ -95,6 +104,10 @@ Content
 Custom content line
 #+END_MYBLOCK
 #+END_FIXTURE
+
+#+EXPECTED: :type folding
+[0-1]
+
 #+EXPECTED: :type scope
 '#+BEGIN_MYBLOCK :arg1 value1 :arg2 "quoted value"' => {{scopes.BLOCK_CUSTOMIZED_META}}
   - "#+BEGIN_" => {{scopes.BLOCK_KEYWORD}}

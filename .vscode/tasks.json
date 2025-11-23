@@ -5,57 +5,93 @@
       "label": "watch:source",
       "type": "shell",
       "command": "pnpm",
-      "args": ["run", "watch:source"],
+      "args": [
+        "run",
+        "watch:source"
+      ],
       "isBackground": true,
       "group": "build",
       "problemMatcher": "$esbuild-watch",
-      "presentation": { "group": "watch", "reveal": "never" }
+      "presentation": {
+        "group": "watch",
+        "reveal": "never"
+      }
     },
     {
       "label": "watch:grammar",
       "type": "shell",
       "command": "pnpm",
-      "args": ["run", "watch:grammar"],
+      "args": [
+        "run",
+        "watch:grammar"
+      ],
       "isBackground": true,
       "group": "build",
       "problemMatcher": "$esbuild-watch",
-      "presentation": { "group": "watch", "reveal": "never" }
+      "presentation": {
+        "group": "watch",
+        "reveal": "never"
+      }
     },
     {
       "label": "watch:inspections",
       "type": "shell",
       "command": "pnpm",
-      "args": ["run", "watch:inspections"],
+      "args": [
+        "run",
+        "watch:inspections"
+      ],
       "isBackground": true,
       "group": "build",
       "problemMatcher": "$esbuild-watch",
-      "presentation": { "group": "watch", "reveal": "never" }
+      "presentation": {
+        "group": "watch",
+        "reveal": "never"
+      }
     },
     {
       "label": "watch:test:unit",
       "type": "shell",
       "command": "pnpm",
-      "args": ["run", "watch:test:unit"],
+      "args": [
+        "run",
+        "watch:test:unit"
+      ],
       "isBackground": true,
       "group": "build",
       "problemMatcher": {
         "owner": "vitest",
-        "pattern": { "regexp": "." },
+        "pattern": {
+          "regexp": "."
+        },
         "background": {
           "activeOnStart": true,
           "beginsPattern": "^ RERUN",
           "endsPattern": "PASS  Waiting for file changes\\.\\.\\."
         }
       },
-      "presentation": { "group": "watch", "reveal": "always" }
+      "presentation": {
+        "group": "watch",
+        "reveal": "always"
+      }
     },
     {
       "label": "watch:all",
-      "dependsOn": ["watch:source", "watch:grammar", "watch:inspections", "watch:test:unit"],
+      "dependsOn": [
+        "watch:source",
+        "watch:grammar",
+        "watch:inspections",
+        "watch:test:unit"
+      ],
       "dependsOrder": "parallel",
       "problemMatcher": [],
-      "presentation": { "reveal": "always" },
-      "group": { "kind": "build", "isDefault": true },
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
       "detail": "Run all watch tasks in parallel for live development."
     }
   ]

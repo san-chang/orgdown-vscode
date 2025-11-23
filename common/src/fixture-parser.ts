@@ -1,5 +1,5 @@
 import * as scopeModule from "./scoping";
-export type TestType = "regex" | "scope";
+export type TestType = "regex" | "scope" | "folding" | "symbols";
 
 export interface RegexExpectation {
   type: "regex";
@@ -26,7 +26,26 @@ export interface ScopeNode {
   children: ScopeNode[];
 }
 
-export type Expectation = RegexExpectation | ScopeExpectation;
+export interface FoldingExpectation {
+  type: "folding";
+  ranges: { startLine: number; endLine: number }[];
+}
+
+export interface SymbolNode {
+  name: string;
+  startLine: number;
+  startChar: number;
+  endLine: number;
+  endChar: number;
+  children: SymbolNode[];
+}
+
+export interface SymbolsExpectation {
+  type: "symbols";
+  symbols: SymbolNode[];
+}
+
+export type Expectation = RegexExpectation | ScopeExpectation | FoldingExpectation | SymbolsExpectation;
 
 export interface FixtureTestCase {
   name: string;
@@ -238,6 +257,66 @@ function parseExpectedBlock(
       }
 
       allExpectations.push({ type: "scope", assertions, tree: roots });
+    } else if (testType === "folding") {
+      // Parse folding ranges: [0-3], [1-2]
+      const ranges: { startLine: number; endLine: number }[] = [];
+      const content = blockContentLines.join(" ").trim();
+      const rangeRegex = /\[(\d+)-(\d+)\]/g;
+      let match;
+      while ((match = rangeRegex.exec(content)) !== null) {
+        ranges.push({
+          startLine: parseInt(match[1], 10),
+          endLine: parseInt(match[2], 10),
+        });
+      }
+      allExpectations.push({ type: "folding", ranges });
+    } else if (testType === "symbols") {
+      // Parse symbol tree with indentation:
+      // - Level 1 (0:0-3:0)
+      //   - Level 2 (1:0-2:0)
+      const roots: SymbolNode[] = [];
+      const nodeStack: Array<{ depth: number; node: SymbolNode }> = [];
+
+      for (const raw of blockContentLines) {
+        const normalized = raw.replace(/\t/g, "    ");
+        const line = normalized;
+        if (line.trim() === "" || line.trim().startsWith("#")) {
+          continue;
+        }
+
+        // Determine indentation depth
+        const leadingSpacesMatch = line.match(/^(\s*)/);
+        const leadingSpaces = leadingSpacesMatch ? leadingSpacesMatch[1] : "";
+        const depth = leadingSpaces.length;
+
+        // Parse: - Name (startLine:startChar-endLine:endChar)
+        const match = line.match(/^\s*-\s*(.+?)\s+\((\d+):(\d+)-(\d+):(\d+)\)/);
+        if (!match) {
+          continue;
+        }
+
+        const node: SymbolNode = {
+          name: match[1].trim(),
+          startLine: parseInt(match[2], 10),
+          startChar: parseInt(match[3], 10),
+          endLine: parseInt(match[4], 10),
+          endChar: parseInt(match[5], 10),
+          children: [],
+        };
+
+        // Build tree using depth-based stack
+        while (nodeStack.length > 0 && nodeStack[nodeStack.length - 1].depth >= depth) {
+          nodeStack.pop();
+        }
+        if (nodeStack.length === 0) {
+          roots.push(node);
+        } else {
+          nodeStack[nodeStack.length - 1].node.children.push(node);
+        }
+        nodeStack.push({ depth, node });
+      }
+
+      allExpectations.push({ type: "symbols", symbols: roots });
     }
 
     currentIndex = blockEndIndex + 1;

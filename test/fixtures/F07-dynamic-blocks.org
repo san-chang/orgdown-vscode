@@ -8,6 +8,7 @@ And another line.
 #+END:
 #+END_FIXTURE
 
+
 #+EXPECTED: :type regex :name dynamicBlockBeginRegex
 | Group # | Expected Value |
 |---------+----------------|
@@ -30,6 +31,7 @@ And another line.
 #+END:
 #+END_FIXTURE
 
+
 #+EXPECTED: :type regex :name dynamicBlockBeginRegex
 | Group # | Expected Value |
 |---------+----------------|
@@ -51,6 +53,7 @@ And another line.
   * Task 2
   #+END:
 #+END_FIXTURE
+
 
 #+EXPECTED: :type regex :name dynamicBlockBeginRegex
 | Group # | Expected Value |

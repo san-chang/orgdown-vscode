@@ -14,6 +14,19 @@
 ,********* level 8
 #+end_fixture
 
+#+EXPECTED: :type folding
+[0-6], [1-6], [2-6], [3-6], [4-6], [5-6]
+
+#+EXPECTED: :type symbols
+- level 1 (0:0-7:17)
+  - level 2 (1:0-7:17)
+    - level 3 (2:0-7:17)
+      - level 4 (3:0-7:17)
+        - level 5 (4:0-7:17)
+          - level 6 (5:0-7:17)
+            - level 7 (6:0-7:17)
+              - level 8 (7:0-7:17)
+
 #+NAME: Complete headline with all elements
 #+BEGIN_FIXTURE
 ,* TODO [#A] Complete headline example *inline bold* [2/5] :work:project:
@@ -52,6 +65,9 @@
 | 1       | *               |
 | 5       | Simple headline |
 
+#+EXPECTED: :type symbols
+- Simple headline (0:0-0:17)
+
 #+NAME: Multi-level headline with TODO (Level 2)
 #+BEGIN_FIXTURE
 ,** DONE Multi-level task
@@ -63,6 +79,9 @@
 | 1       | **               |
 | 2       | DONE             |
 | 5       | Multi-level task |
+
+#+EXPECTED: :type symbols
+- DONE Multi-level task (0:0-0:24)
 
 #+NAME: Priority without TODO (Level 3)
 #+BEGIN_FIXTURE

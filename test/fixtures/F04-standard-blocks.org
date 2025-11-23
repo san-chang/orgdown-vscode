@@ -139,6 +139,9 @@ cannot be unit-tested here due to their use of backreferences.
 | 3       | VeRsE          |
 | 4       | with params    |
 
+#+EXPECTED: :type folding
+[0-0]
+
 #+NAME: Unit Test: Verbatim Begin (EXAMPLE)
 #+BEGIN_FIXTURE
 #+BEGIN_EXAMPLE
@@ -152,6 +155,9 @@ cannot be unit-tested here due to their use of backreferences.
 | 2       | #+BEGIN_       |
 | 3       | EXAMPLE        |
 | 4       |                |
+
+#+EXPECTED: :type folding
+[0-0]
 
 #+NAME: Unit Test: Non-match (SRC should not match standard block regex)
 #+BEGIN_FIXTURE
@@ -195,6 +201,10 @@ This is a simple quote block with *markup*.
 *This is literal text*, not markup.
 #+END_EXAMPLE
 #+END_FIXTURE
+
+#+EXPECTED: :type folding
+[0-2], [4-5]
+
 #+EXPECTED: :type scope
 '#+BEGIN_QUOTE :author "John Doe"' => {{scopes.BLOCK_STANDARD_META}}
   - "#+BEGIN_" => {{scopes.BLOCK_KEYWORD}}

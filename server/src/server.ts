@@ -5,19 +5,44 @@ import {
   InitializeParams,
   TextDocumentSyncKind,
   InitializeResult,
-  DocumentSymbol,
-  SymbolKind,
-  FoldingRange,
-  FoldingRangeKind,
   DocumentSymbolParams,
   FoldingRangeParams,
 } from 'vscode-languageserver/node';
 import { TextDocument } from 'vscode-languageserver-textdocument';
+import { Parser, Language } from 'web-tree-sitter';
+import * as path from 'path';
+import { provideFoldingRanges } from './features/folding';
+import { provideDocumentSymbols } from './features/symbols';
 
 const connection = createConnection(ProposedFeatures.all);
 const documents: TextDocuments<TextDocument> = new TextDocuments(TextDocument);
 
-connection.onInitialize((_params: InitializeParams) => {
+let parser: Parser | undefined;
+
+connection.onInitialize(async (_params: InitializeParams) => {
+  // Initialize Tree-sitter
+  try {
+    connection.console.log('Initializing Tree-sitter...');
+
+    // Simple Node.js approach as per web-tree-sitter documentation
+    await Parser.init();
+    connection.console.log('Parser.init() completed');
+
+    parser = new Parser();
+    connection.console.log('Parser instance created');
+
+    const orgWasmPath = path.join(__dirname, 'tree-sitter-org.wasm');
+    connection.console.log(`Loading Org language from: ${orgWasmPath}`);
+
+    const lang = await Language.load(orgWasmPath);
+    connection.console.log('Language loaded');
+
+    parser.setLanguage(lang as any);
+    connection.console.log('Tree-sitter initialized successfully.');
+  } catch (e) {
+    connection.console.error(`Failed to initialize Tree-sitter: ${e}`);
+  }
+
   // Capture workspace folders if provided
   const result: InitializeResult = {
     capabilities: {
@@ -32,85 +57,28 @@ connection.onInitialize((_params: InitializeParams) => {
 documents.listen(connection);
 connection.listen();
 
-// Simple Org headline regex for server-side features (kept lenient)
-const headlineRe = /^(\*+)\s+(.+?)\s*(?::[\w@:]+:)?\s*$/;
-
-function parseHeadlines(text: string) {
-  type Node = { level: number; title: string; start: number; end: number; children: Node[] };
-  const lines = text.split(/\r?\n/);
-  const roots: Node[] = [];
-  const stack: Node[] = [];
-  for (let i = 0; i < lines.length; i++) {
-    const m = lines[i].match(headlineRe);
-    if (!m) {
-      continue;
-    }
-    const level = m[1].length;
-    const title = m[2];
-    const node: Node = { level, title, start: i, end: i, children: [] };
-    // place into hierarchy
-    while (stack.length && stack[stack.length - 1].level >= level) {
-      const popped = stack.pop()!;
-      // close section end at previous line if possible
-      popped.end = Math.max(popped.end, i - 1);
-    }
-    if (stack.length) {
-      stack[stack.length - 1].children.push(node);
-    } else {
-      roots.push(node);
-    }
-    stack.push(node);
-  }
-  // close remaining nodes till EOF
-  if (lines.length > 0) {
-    while (stack.length) {
-      const n = stack.pop()!;
-      n.end = Math.max(n.end, lines.length - 1);
-    }
-  }
-  return roots;
-}
-
-connection.onDocumentSymbol((params: DocumentSymbolParams): DocumentSymbol[] => {
+connection.onDocumentSymbol((params: DocumentSymbolParams) => {
   const doc = documents.get(params.textDocument.uri);
-  if (!doc) {
+  if (!doc || !parser) {
     return [];
   }
-  const roots = parseHeadlines(doc.getText());
 
-  const toSymbols = (nodes: any[]): DocumentSymbol[] => nodes.map(n => ({
-    name: n.title,
-    kind: SymbolKind.String,
-    range: {
-      start: { line: n.start, character: 0 },
-      end: { line: n.end, character: 0 },
-    },
-    selectionRange: {
-      start: { line: n.start, character: 0 },
-      end: { line: n.start, character: 0 },
-    },
-    children: toSymbols(n.children),
-  }));
-  return toSymbols(roots);
+  const tree = parser.parse(doc.getText());
+  if (!tree) {
+    return [];
+  }
+  return provideDocumentSymbols(tree);
 });
 
-connection.onFoldingRanges((params: FoldingRangeParams): FoldingRange[] => {
+connection.onFoldingRanges((params: FoldingRangeParams) => {
   const doc = documents.get(params.textDocument.uri);
-  if (!doc) {
+  if (!doc || !parser) {
     return [];
   }
-  const roots = parseHeadlines(doc.getText());
-  const folds: FoldingRange[] = [];
-  const walk = (nodes: any[]) => {
-    for (const n of nodes) {
-      if (n.end > n.start) {
-        folds.push({ startLine: n.start, endLine: n.end, kind: FoldingRangeKind.Region });
-      }
-      if (n.children?.length) {
-        walk(n.children);
-      }
-    }
-  };
-  walk(roots);
-  return folds;
+
+  const tree = parser.parse(doc.getText());
+  if (!tree) {
+    return [];
+  }
+  return provideFoldingRanges(tree);
 });

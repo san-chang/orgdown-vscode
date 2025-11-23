@@ -274,6 +274,9 @@ print("Hello, World!")
 #+END_SRC
 #+END_FIXTURE
 
+#+EXPECTED: :type folding
+[0-1]
+
 #+EXPECTED: :type regex :name srcBlockBeginRegex
 | Group # | Expected Value |
 |---------+----------------|
@@ -294,6 +297,9 @@ ls -l
 #+END_SRC
 #+END_FIXTURE
 
+#+EXPECTED: :type folding
+[0-1]
+
 #+EXPECTED: :type regex :name srcBlockBeginRegex
 | Group # | Expected Value |
 |---------+----------------|
@@ -307,6 +313,9 @@ ls -l
 This is a block with no language.
 #+END_SRC
 #+END_FIXTURE
+
+#+EXPECTED: :type folding
+[0-1]
 
 #+EXPECTED: :type regex :name srcBlockBeginRegex
 | Group # | Expected Value |
