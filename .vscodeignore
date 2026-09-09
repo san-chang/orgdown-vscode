@@ -1,9 +1,9 @@
-# Include built artifacts explicitly
+# Built artifacts that must ship
 !client/dist/**
 !client/preview/**
-!server/out/**
+!server/dist/**
 !syntaxes/org.tmLanguage.json
-!syntaxes/org.configuration.json
+!syntaxes/org.language-configuration.json
 
 # Exclude dev and source files
 .vscode/**
@@ -13,18 +13,32 @@ test/**
 scripts/**
 vendor/**
 docs/**
+examples/**
 **/*.tsbuildinfo
 tsconfig.tsbuildinfo
 eslint.config.mjs
-vitest.config.ts
+vitest.config.*
 **/*.map
-.vscode-test/**
+.vscode-test*
 out/**
 **/node_modules/**
 client/src/**
 server/src/**
 common/src/**
+client/out/**
+server/out/**
+common/out/**
+client/package.json
+client/pnpm-lock.yaml
+server/package.json
+server/pnpm-lock.yaml
+server/assets/**
+pnpm-lock.yaml
+pnpm-workspace.yaml
+syntaxes/org.tmLanguage.template.yaml
 .gitignore
+.gitmodules
+.npmrc
 .yarnrc
 esbuild.js
 **/tsconfig.json

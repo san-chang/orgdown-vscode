@@ -28,8 +28,13 @@ connection.onInitialize(async (_params: InitializeParams) => {
   try {
     connection.console.log('Initializing Tree-sitter...');
 
-    // Simple Node.js approach as per web-tree-sitter documentation
-    await Parser.init();
+    // Point web-tree-sitter at the wasm file that sits next to this bundle
+    // (server/dist/tree-sitter.wasm, copied by esbuild). Without an explicit
+    // locateFile, the bundled Emscripten glue cannot infer its script directory
+    // and Parser.init() fails once the extension is packaged.
+    await Parser.init({
+      locateFile: (file: string) => path.join(__dirname, file),
+    });
     connection.console.log('Parser.init() completed');
 
     parser = new Parser();
@@ -44,7 +49,7 @@ connection.onInitialize(async (_params: InitializeParams) => {
     parser.setLanguage(lang as any);
     connection.console.log('Tree-sitter initialized successfully.');
   } catch (e) {
-    connection.console.error(`Failed to initialize Tree-sitter: ${e}`);
+    connection.console.error(`Failed to initialize Tree-sitter: ${e instanceof Error ? (e.stack ?? e.message) : String(e)}`);
   }
 
   // Capture workspace folders if provided

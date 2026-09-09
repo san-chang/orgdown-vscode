@@ -151,7 +151,7 @@
   },
   "scripts": {
     "clean": "rm -rf out dist client/dist server/dist tsconfig.tsbuildinfo",
-    "vscode:prepublish": "pnpm run build",
+    "vscode:prepublish": "pnpm run build && pnpm run test:package",
     "build:grammar": "tsx scripts/build-grammar.ts",
     "build:inspections": "tsx scripts/build-inspections.ts",
     "build:theme": "tsx scripts/build-theme.ts",
@@ -168,7 +168,8 @@
     "pretest": "pnpm run build:grammar && pnpm run build:inspections",
     "test:unit": "vitest run",
     "test:integration": "vscode-test",
-    "test": "pnpm run test:unit && pnpm run test:integration"
+    "test": "pnpm run test:unit && pnpm run test:integration",
+    "test:package": "node scripts/verify-package.js"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
