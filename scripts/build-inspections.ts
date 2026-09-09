@@ -11,6 +11,13 @@ async function buildInspections() {
 
   const fixtureFiles = await fs.readdir(fixturesDir);
 
+  // copy assets/ to inspections/
+  const assetsSrc = path.join(fixturesDir, 'assets');
+  const assetsDest = path.join(inspectionsDir, 'assets');
+  if (await fs.pathExists(assetsSrc)) {
+    await fs.copy(assetsSrc, assetsDest);
+  }
+
   for (const fixtureFile of fixtureFiles) {
     if (path.extname(fixtureFile) !== '.org' ||
       fixtureFile.startsWith('0000-org-guide.org') ||

@@ -108,6 +108,34 @@ Rationale: Regex assertions give tight control over capture groups and are fast 
 
 You may combine both styles in a single fixture when useful (see Section 7 "One-to-Many Testing"). Prefer the style that makes the test easiest to understand and least brittle.
 
+*** 4.4. Asserting Org -> Markdown Conversion
+
+To assert the output of the Org preview converter (the pure
+`convertOrgToMarkdown` function in `common/src/preview/org-to-markdown.ts`),
+use `:type markdown`.
+
+- The block following `#+EXPECTED: :type markdown` MUST contain the expected
+  Markdown output, verbatim (with placeholder expansion, see below).
+- Trailing blank lines at the end of the block are treated as fixture-file
+  formatting and are NOT part of the expected content; blank lines inside the
+  block are significant.
+- The comparison is exact (`markdown.trimEnd()` vs the expected text), so the
+  expected output must match the converter byte-for-byte.
+- The same readability placeholders as scope assertions are supported:
+  `<sp:N>`, `<tab>`, `<pipe>`.
+
+#+BEGIN_SRC org
+#+NAME: Example of a markdown conversion test
+#+BEGIN_FIXTURE
+* TODO [#A] A task :work:
+#+END_FIXTURE
+#+EXPECTED: :type markdown
+# <span class="org-todo">TODO</span> <span class="org-priority">[#A]</span> A task <span class="org-tags">:work:</span>
+#+END_SRC
+
+Refer to `test/fixtures/F22-preview.org` (common constructs) and
+`test/fixtures/F23-preview-edge-cases.org` (edge cases) for the full set of
+supported constructs.
 
 * 5. Scope Assertions for Theming & Scoping
 

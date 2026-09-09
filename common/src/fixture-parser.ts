@@ -1,5 +1,5 @@
 import * as scopeModule from "./scoping";
-export type TestType = "regex" | "scope" | "folding" | "symbols";
+export type TestType = "regex" | "scope" | "folding" | "symbols" | "markdown";
 
 export interface RegexExpectation {
   type: "regex";
@@ -45,7 +45,17 @@ export interface SymbolsExpectation {
   symbols: SymbolNode[];
 }
 
-export type Expectation = RegexExpectation | ScopeExpectation | FoldingExpectation | SymbolsExpectation;
+export interface MarkdownExpectation {
+  type: "markdown";
+  expected: string;
+}
+
+export type Expectation =
+  | RegexExpectation
+  | ScopeExpectation
+  | FoldingExpectation
+  | SymbolsExpectation
+  | MarkdownExpectation;
 
 export interface FixtureTestCase {
   name: string;
@@ -317,6 +327,22 @@ function parseExpectedBlock(
       }
 
       allExpectations.push({ type: "symbols", symbols: roots });
+    } else if (testType === "markdown") {
+      // The entire block (minus the leading "#+EXPECTED:" marker) is the
+      // expected markdown output, verbatim (with placeholder expansion).
+      // Trailing blank lines are formatting artifacts of the fixture file
+      // itself and are not part of the expected content.
+      const contentLines = blockContentLines.slice();
+      while (
+        contentLines.length > 0 &&
+        contentLines[contentLines.length - 1].trim() === ""
+      ) {
+        contentLines.pop();
+      }
+      allExpectations.push({
+        type: "markdown",
+        expected: contentLines.map((line) => processExpectedValue(line)).join("\n"),
+      });
     }
 
     currentIndex = blockEndIndex + 1;

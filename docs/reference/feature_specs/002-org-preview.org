@@ -1,0 +1,96 @@
+#+TITLE: [Feature-002] - Org Preview
+
+|                |                                                          |
+|----------------+----------------------------------------------------------|
+| *ID*           | ~002~                                                    |
+| *Status*       | Implemented                                              |
+| *Owner*        | san                                                      |
+| *Related ADRs* | [[../../architecture_decisions/009-org-preview-architecture.org][ADR-009: Org Preview Architecture]] |
+
+* 1. Summary
+  Provide a live, side-by-side preview for Org documents by converting them
+  to Markdown (in the language server) and rendering the result through VS
+  Code's built-in Markdown preview.
+
+* 2. Background and Motivation
+  Org Mode documents are hard to "read at a glance" in raw text: TODO
+  workflows, priorities, timestamps, tables and source blocks carry meaning
+  that benefits from rendering. VS Code already ships a high-quality Markdown
+  preview, and our roadmap (Phase 2 - Writing & Export) requires live export
+  previews. Converting Org -> Markdown with a shared, tested converter both
+  delivers the preview today and lays the foundation for export features.
+
+* 3. User Stories
+  - *As a* user, *I want to* open a rendered preview of an Org file next to
+    the editor, *so that I can* read the document the way it will be
+    published.
+  - *As a* user, *I want to* see TODO keywords, priorities, timestamps, tags
+    and planning lines visually distinguished in the preview, *so that I can*
+    grasp task state at a glance.
+  - *As a* user, *I want to* keep editing while the preview is open, *so that
+    the* preview updates as I type.
+
+* 4. Functional Requirements
+  - The extension MUST provide commands ~Orgdown: Open Preview~ and
+    ~Orgdown: Open Preview to the Side~ for ~.org~ files.
+  - The preview MUST render: headlines (with level), TODO/priority/cookie
+    elements, tags, paragraphs, emphasis, links, timestamps, footnotes,
+    tables, lists (incl. checkboxes and nesting), source/quote/example/
+    center/verse blocks, dynamic blocks and horizontal rules.
+  - The preview MUST hide Org comments and drawers (matching Emacs export
+    behavior).
+  - The preview MUST update automatically (debounced) while the Org document
+    is edited.
+  - Relative links and images MUST resolve against the Org file's directory.
+  - The preview MUST NOT alter the appearance of ordinary Markdown previews.
+
+* 5. Non-Functional Requirements
+  - *Performance*: conversion runs off the UI thread in the language server;
+    changes are debounced (~300ms) before re-conversion.
+  - *Testability*: the converter is a pure function tested via the fixture
+    format (`:type markdown`); end-to-end behavior is covered by an
+    integration test.
+  - *Maintainability*: inline markup reuses `common/src/grammar/regex.ts`
+    (SSoT); structure reuses the tree-sitter AST; no second parser.
+
+* 6. Proposed Technical Implementation
+  - *Affected Modules/Files*:
+    - ~common/src/preview/org-to-markdown.ts~, ~inline.ts~, ~emitter.ts~,
+      ~protocol.ts~: pure conversion + shared protocol.
+    - ~server/src/features/preview.ts~ + ~server/src/server.ts~: custom LSP
+      request ~orgdown/preview~.
+    - ~client/src/preview/content-provider.ts~ +
+      ~client/src/preview/preview-controller.ts~: virtual document, in-memory
+      file system, commands, debounced refresh.
+    - ~client/preview/orgdown-preview.css~ / ~.js~: scoped preview styling.
+    - ~package.json~: commands, menus, ~markdown.previewStyles~,
+      ~markdown.previewScripts~.
+  - *New Components*:
+    - ~OrgdownPreviewContentProvider~ (TextDocumentContentProvider).
+    - ~OrgdownPreviewFileSystemProvider~ (read-only in-memory FS for the
+      ~orgdown-preview:~ scheme).
+    - ~convertOrgToMarkdown(tree, options)~ returning ~{ markdown, lineMap }~.
+
+* 7. Acceptance Criteria
+  - [x] *Given* a ~.org~ file is active, *when* the user runs "Orgdown: Open
+    Preview to the Side", *then* a Markdown preview tab opens rendering the
+    converted document.
+  - [x] *Given* a headline with TODO/priority/tags, *when* previewed, *then*
+    these elements are rendered as styled spans.
+  - [x] *Given* a source block with a language, *when* previewed, *then* it is
+    rendered as a fenced code block with that language.
+  - [x] *Given* the user edits the Org file, *when* the preview is open, *then*
+    the preview content refreshes without manual action.
+  - [x] *Given* a regular Markdown preview, *when* Orgdown is installed, *then*
+    its appearance is unchanged.
+
+* 8. Out of Scope
+  - Editor<->preview scroll sync (deferred; the line map produced by the
+    converter is the foundation).
+  - Rendering of ~#+INCLUDE~ expansion and Org export options.
+  - Babel code block execution and agenda features (later roadmap phases).
+  - Custom webview preview with locking/export UI (ADR-009 evolution path).
+
+* 9. Open Questions
+  - Should the preview offer a "copy as Markdown" command once export lands?
+  - Should ~#+OPTIONS~ control which metadata is rendered?

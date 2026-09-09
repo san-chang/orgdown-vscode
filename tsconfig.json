@@ -12,10 +12,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "Node16",
-    "baseUrl": ".",
     "paths": {
       "@common/*": [
-        "common/src/*"
+        "./common/src/*"
       ]
     },
     "composite": true,

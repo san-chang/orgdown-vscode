@@ -110,6 +110,43 @@
           "source.objc": "objective-c"
         }
       }
+    ],
+    "commands": [
+      {
+        "command": "orgdown.showPreview",
+        "title": "Show Preview",
+        "category": "Orgdown",
+        "icon": "$(preview)"
+      },
+      {
+        "command": "orgdown.showPreviewToSide",
+        "title": "Open Preview to the Side",
+        "category": "Orgdown",
+        "icon": "$(open-preview)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "orgdown.showPreviewToSide",
+          "when": "editorLangId == org",
+          "alt": "orgdown.showPreview",
+          "group": "navigation@1"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "orgdown.showPreview",
+          "when": "resourceLangId == org",
+          "group": "navigation"
+        }
+      ]
+    },
+    "markdown.previewStyles": [
+      "./client/preview/orgdown-preview.css"
+    ],
+    "markdown.previewScripts": [
+      "./client/preview/orgdown-preview.js"
     ]
   },
   "scripts": {

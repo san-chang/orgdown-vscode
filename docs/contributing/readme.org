@@ -68,6 +68,26 @@ Structural features (folding, outline, navigation) are powered by tree-sitter. H
 
 For details on how tree-sitter integration works, see [[../architecture_decisions/008-tree-sitter-integration.org][ADR-008]] and the feature specifications in `docs/reference/feature_specs/`.
 
+** 2.4. Quick Start: Preview Development
+
+The preview feature (see [[../architecture_decisions/009-org-preview-architecture.org][ADR-009]] and [[../reference/feature_specs/002-org-preview.org][Feature-002]]) converts Org to Markdown in the language server and renders it through VS Code's built-in Markdown preview. It has three independently testable layers:
+
+1. **The converter** (`common/src/preview/org-to-markdown.ts`) is a pure
+   function. Changes are driven by `:type markdown` fixture cases in
+   `test/fixtures/F22-preview.org` and `F23-preview-edge-cases.org`, executed
+   by `test/unit/markdown-fixture.test.ts` (fast loop: `pnpm test:unit`).
+2. **The server request** (`server/src/features/preview.ts`) parses the open
+   document and calls the converter; no special tests beyond type checking and
+   the unit suite.
+3. **The client wiring** (`client/src/preview/content-provider.ts`,
+   `client/src/preview/preview-controller.ts`) is covered end-to-end by
+   `test/integration/preview.test.ts` (`pnpm test:integration`), which opens
+   an Org file, runs the preview command and asserts that a built-in Markdown
+   preview tab appears with the converted virtual document.
+
+When changing the converter, always start from a fixture: write the expected
+Markdown output first, watch the test fail, then implement.
+
 * 3. Architecture Overview
 
 Orgdown follows a three-layer architecture (see [[../architecture_decisions/002-three-layer-architecture.org][ADR-002]]):

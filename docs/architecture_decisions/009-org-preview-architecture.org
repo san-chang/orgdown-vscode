@@ -1,0 +1,153 @@
+#+TITLE: [ADR-009] - Org Preview Architecture
+
+* Status
+  :PROPERTIES:
+  :Status: Accepted
+  :END:
+
+* Date
+  2026-08-19
+
+* Deciders
+  - san
+  - Codex
+
+* Context
+
+** Problem Statement
+  Orgdown users need a live, side-by-side preview of Org documents, similar to
+  the built-in Markdown preview. The project roadmap (Phase 2 - Writing &
+  Export) calls for "live export previews", and the decision on how to build
+  them has far-reaching consequences:
+
+  - Building a full custom preview (own webview, own renderer) is expensive.
+  - VS Code already ships a polished, battle-tested Markdown preview with
+    scroll sync, security handling, math rendering and export support.
+  - Org Mode syntax is not Markdown, so a conversion layer is required either
+    way (either Org -> Markdown, or Org -> HTML inside a custom webview).
+
+** Driving Forces
+  - *Reuse over rebuild*: reuse VS Code's built-in Markdown preview where
+    possible instead of reimplementing an entire preview webview.
+  - *Single Source of Truth*: the conversion logic must live in one place and
+    be testable with the existing fixture-driven test infrastructure.
+  - *Layer discipline*: parsing/analysis belongs in the language server
+    (Layer 3, ADR-002/008); the client only wires UI.
+  - *Future-proofing*: the same Org -> Markdown converter is reusable for
+    Phase 2 export features (HTML/Markdown/PDF).
+
+* Decision
+
+  *We adopt a conversion-first preview architecture:*
+
+  1. A pure Org -> Markdown converter lives in `common/src/preview/` and is
+     driven by the tree-sitter AST for structure plus the canonical regexes in
+     `common/src/grammar/regex.ts` for inline markup. It produces a Markdown
+     string and a best-effort Org-line -> Markdown-line map (future scroll
+     sync).
+  2. The language server exposes a custom LSP request `orgdown/preview` that
+     converts an open Org document on demand (the server already owns the
+     parser and the document store).
+  3. The extension client registers a virtual document (`orgdown-preview:`
+     scheme) backed by a `TextDocumentContentProvider` and a read-only
+     in-memory `FileSystemProvider`. The built-in Markdown preview is opened
+     for that virtual document via `markdown.showPreview` /
+     `markdown.showPreviewToSide`.
+  4. Org-specific visual semantics (TODO keywords, priorities, timestamps,
+     tags, planning lines) are emitted as scoped HTML spans, and the preview
+     is styled through `markdown.previewStyles` + `markdown.previewScripts`
+     that activate only for Orgdown previews (body-class marker).
+
+** Implementation Details
+
+  - *Converter*: `common/src/preview/org-to-markdown.ts` +
+    `inline.ts` + `emitter.ts`. Structure nodes covered: document/section/
+    headline, paragraph, list (incl. checkboxes and nesting), table, src/
+    quote/example/center/verse/customized blocks, dynamic blocks, drawers
+    (hidden, matching Emacs export), planning lines, footnotes, comments and
+    directives (`#+TITLE` only).
+  - *Protocol*: `common/src/preview/protocol.ts` defines the custom request
+    name and payload types shared by client and server.
+  - *Server*: `server/src/features/preview.ts` + one handler registration in
+    `server/src/server.ts`.
+  - *Client*: `client/src/preview/content-provider.ts` (virtual document +
+    file system provider) and `client/src/preview/preview-controller.ts`
+    (commands `orgdown.showPreview` / `orgdown.showPreviewToSide` and a
+    debounced re-conversion listener).
+  - *Styling*: `client/preview/orgdown-preview.css` /
+    `orgdown-preview.js` contributed via `markdown.previewStyles` /
+    `markdown.previewScripts`, scoped to `body.orgdown-preview`.
+  - *Tests*: new fixture type `:type markdown` (see `test/fixture-howto.org`),
+    fixtures `test/fixtures/F22-preview.org` and
+    `F23-preview-edge-cases.org`, unit tests
+    `test/unit/markdown-fixture.test.ts` and
+    `test/unit/org-to-markdown.test.ts`, and an end-to-end integration test
+    `test/integration/preview.test.ts`.
+
+* Considered Options
+
+** Option 1: Reuse the built-in Markdown preview via a virtual document
+  (Chosen)
+  - *Description*: Convert Org -> Markdown in the language server and expose
+    it through a virtual `orgdown-preview:` document; open the built-in
+    Markdown preview for it.
+  - *Pros*:
+    - Zero rendering code: inherits the built-in preview's rendering,
+      security, math and styling pipeline.
+    - The converter is pure, shared and fixture-tested; it is directly
+      reusable for export (Phase 2).
+    - Small client surface: content provider + file system provider +
+      commands.
+  - *Cons*:
+    - Editor<->preview scroll sync of the built-in preview does not map to
+      the Org document (the previewed document is virtual). Acceptable for
+      MVP; a future custom webview (Option 2) can add exact sync using the
+      line map.
+    - Requires a read-only in-memory FileSystemProvider for the scheme,
+      because the built-in preview resolves the previewed resource through
+      the file system service.
+    - Global `markdown.previewStyles`/`previewScripts` contributions require
+      explicit scoping to Orgdown previews.
+
+** Option 2: Custom webview preview
+  - *Description*: Implement a dedicated preview webview (like VOrg / Org
+    Viewer) that renders the converted content itself.
+  - *Pros*: Full control over rendering, scroll sync, locking, org-native
+    widgets and export.
+  - *Cons*: Large implementation surface (webview lifecycle, messaging,
+    security, styling, sync); duplicates functionality the built-in preview
+    already provides.
+  - *Conclusion*: Deferred. The converter and line map built here are the
+    foundation for this option if it is ever needed.
+
+** Option 3: Teach the built-in Markdown preview Org syntax via
+  `markdown.markdownItPlugins`
+  - *Description*: Contribute a markdown-it plugin so the built-in preview
+    parses Org constructs directly, without conversion.
+  - *Pros*: No conversion layer.
+  - *Cons*: Plugins apply to *every* Markdown preview and receive no document
+    context, so Org syntax would pollute ordinary Markdown files; no access
+    to the source document for links/metadata. Rejected.
+
+* Consequences
+
+** Positive
+  - Live preview is delivered with minimal new code and maximum reuse.
+  - The converter is a shared, testable asset that unblocks Phase 2 export.
+  - Structure (AST) and inline (regex SSoT) responsibilities match the
+    project's existing architecture, and `:type markdown` fixtures extend the
+    established testing workflow.
+
+** Negative
+  - No editor<->preview scroll sync in the MVP (the built-in preview's sync
+    targets the virtual Markdown document, not the Org file).
+  - Relative links are absolutized at conversion time; in-preview navigation
+    to Org anchors/files is limited.
+  - The virtual document's filename suffix (`<file>.org.md`) is visible in
+    the preview tab title.
+
+* References
+  - [[file:002-three-layer-architecture.org][ADR-002: Three-Layer Architecture]]
+  - [[file:008-tree-sitter-integration.org][ADR-008: Tree-sitter Integration]]
+  - [[file:005-unified-grammar-and-test-workflow.org][ADR-005: Multi-Layered Testing Architecture]]
+  - [[file:../reference/feature_specs/002-org-preview.org][Feature-002: Org Preview]]

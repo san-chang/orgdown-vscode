@@ -1,4 +1,4 @@
-import type { Tree, SyntaxNode } from 'web-tree-sitter';
+import type { Tree, Node as SyntaxNode } from 'web-tree-sitter';
 
 export interface SimpleFoldingRange {
   startLine: number;

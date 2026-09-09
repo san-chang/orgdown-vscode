@@ -72,7 +72,7 @@ suite('colorization', () => {
 
     // For each fixture file, run a snapshot-based colorization test
     if (fs.existsSync(extensionColorizeFixturePath)) {
-        let fixturesFiles = fs.readdirSync(extensionColorizeFixturePath);
+        let fixturesFiles = fs.readdirSync(extensionColorizeFixturePath).filter(f => f.endsWith('.org'));
         console.log('Found fixture files:', fixturesFiles);
         fixturesFiles.forEach(fixturesFile => {
             test(fixturesFile, function (done) {

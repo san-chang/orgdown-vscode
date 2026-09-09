@@ -8,11 +8,17 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
     "composite": true,
     "rootDir": "src",
     "outDir": "out",
     "strict": true,
-    "moduleResolution": "node",
+    "paths": {
+      "@common/*": [
+        "./src/*"
+      ]
+    },
     "types": [
       "node"
     ]

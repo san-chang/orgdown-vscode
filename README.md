@@ -35,7 +35,7 @@ We are systematically implementing the full Org Mode feature set. The implementa
 - 🔵 Phase 1 — Readability (In progress)
   - Goal: make Org files comfortable and natural to read in VS Code for users who do not use Emacs.
   - Focus: robust syntax highlighting, reliable outline folding and navigation, and real-time preview of common constructs. Provide theme-friendly token colors and sensible defaults so shared Org files are readable without additional Emacs configuration.
-  - Status: ✅ TextMate grammar with comprehensive test coverage | ✅ Code folding (headlines, blocks, drawers) | ✅ Document outline/symbol navigation
+  - Status: ✅ TextMate grammar with comprehensive test coverage | ✅ Code folding (headlines, blocks, drawers) | ✅ Document outline/symbol navigation, ✅ Live preview (Org → Markdown → built-in Markdown preview)
 
 - Phase 2 — Writing & Export
   - Goal: improve the authoring and publishing experience for people writing with Org Mode in VS Code.

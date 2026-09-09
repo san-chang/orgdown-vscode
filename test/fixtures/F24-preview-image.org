@@ -1,0 +1,11 @@
+#+TITLE: Orgdown Image Preview Fixture
+
+* 1. Embedded Image
+
+An Org file can embed an image with an inline image link:
+
+[[./assets/orgdown.png][OrgDown logo]]
+
+This fixture is a plain Org document (not a test-suite fixture) used by the
+integration test to verify that image links survive the Org -> Markdown
+conversion as Markdown image syntax pointing at a loadable file URI.

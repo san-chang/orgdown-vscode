@@ -15,7 +15,7 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": ".",
+    "skipLibCheck": true,
     "paths": {
       "@common/*": [
         "../common/src/*"

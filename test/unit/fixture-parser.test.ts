@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { parseFixtureFile, RegexExpectation, ScopeExpectation } from '@common/fixture-parser';
+import { parseFixtureFile, RegexExpectation, ScopeExpectation, MarkdownExpectation } from '@common/fixture-parser';
 
 describe('Fixture Parser Unit Tests', () => {
   it('should parse a simple regex test case', () => {
@@ -142,6 +142,42 @@ no-match
   expect(scopeExpect.type).toBe('scope');
   expect(scopeExpect.assertions[0].mustContain).toEqual(['punctuation.definition.heading.org']);
   expect(scopeExpect.assertions[0].mustNotContain).toEqual([]);
+  });
+
+  it('should parse a markdown expectation verbatim', () => {
+    const content = `
+#+NAME: Markdown expectation test
+#+BEGIN_FIXTURE
+* A headline
+#+END_FIXTURE
+#+EXPECTED: :type markdown
+# A headline
+
+Some paragraph.
+    `;
+    const testCases = parseFixtureFile(content);
+    expect(testCases).toHaveLength(1);
+    const testCase = testCases[0];
+    expect(testCase.expectations).toHaveLength(1);
+
+    const expectation = testCase.expectations[0] as MarkdownExpectation;
+    expect(expectation.type).toBe('markdown');
+    expect(expectation.expected).toBe('# A headline\n\nSome paragraph.');
+  });
+
+  it('should apply placeholder expansion inside markdown expectations', () => {
+    const content = `
+#+NAME: Placeholder expansion
+#+BEGIN_FIXTURE
+input
+#+END_FIXTURE
+#+EXPECTED: :type markdown
+<pipe> a <pipe> b <pipe>
+<sp:2>x<tab>y
+    `;
+    const testCases = parseFixtureFile(content);
+    const expectation = testCases[0].expectations[0] as MarkdownExpectation;
+    expect(expectation.expected).toBe('| a | b |\n  x\ty');
   });
 
   it('should correctly parse content that looks like a delimiter', () => {

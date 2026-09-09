@@ -1,0 +1,49 @@
+/* Orgdown preview styles.
+ *
+ * These rules are contributed to every built-in Markdown preview, but the
+ * `body.orgdown-preview` selector (added by orgdown-preview.js only when the
+ * hidden marker element is present) scopes them to Orgdown previews.
+ */
+body.orgdown-preview .org-todo {
+  font-weight: 600;
+  color: #d19a66;
+}
+
+body.orgdown-preview .org-priority {
+  font-weight: 600;
+  color: #e06c75;
+}
+
+body.orgdown-preview .org-progress {
+  color: #98c379;
+}
+
+body.orgdown-preview .org-tags {
+  color: #61afef;
+}
+
+body.orgdown-preview .org-timestamp {
+  color: #56b6c2;
+}
+
+body.orgdown-preview .org-timestamp-inactive {
+  opacity: 0.7;
+}
+
+body.orgdown-preview .org-planning {
+  font-size: 0.9em;
+  color: var(--vscode-descriptionForeground, #888);
+}
+
+body.orgdown-preview .org-plan-keyword {
+  font-weight: 600;
+}
+
+body.orgdown-preview .org-center {
+  text-align: center;
+}
+
+body.orgdown-preview .org-verse {
+  white-space: pre;
+  font-family: var(--vscode-editor-font-family, inherit);
+}

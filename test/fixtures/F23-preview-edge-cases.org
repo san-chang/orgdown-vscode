@@ -1,0 +1,93 @@
+#+TITLE: Edge Cases for Org to Markdown Preview Conversion
+
+* 1. Edge Cases
+
+#+NAME: Full emphasis set and sub-superscripts
+#+BEGIN_FIXTURE
+*bold*, /italic/, _underline_, +strike+, ~code~, =verbatim=, H_2O and x^{2}.
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+<strong>bold</strong>, <em>italic</em>, <u>underline</u>, <s>strike</s>, <code>code</code>, <code class="org-verbatim">verbatim</code>, H<sub>2</sub>O and x<sup>2</sup>.
+
+#+NAME: Inactive timestamps ranges escapes and macros
+#+BEGIN_FIXTURE
+Inactive [2024-02-02] and range <2024-01-01>--<2024-01-07>, escaped \*star\*, macro {{{hello(world)}}}.
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+Inactive <span class="org-timestamp org-timestamp-inactive">[2024-02-02]</span> and range <span class="org-timestamp"><2024-01-01>--<2024-01-07></span>, escaped \*star\*, macro {{{hello(world)}}}.
+
+#+NAME: Deep headline levels are clamped to six
+#+BEGIN_FIXTURE
+,******* Deep headline
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+###### Deep headline
+
+#+NAME: Customized block keeps content
+#+BEGIN_FIXTURE
+#+BEGIN_MYBLOCK
+raw content
+#+END_MYBLOCK
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+```myblock
+raw content
+```
+
+#+NAME: Center block
+#+BEGIN_FIXTURE
+#+BEGIN_CENTER
+Centered text
+#+END_CENTER
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+<div class="org-center">
+Centered text
+</div>
+
+#+NAME: Verse block preserves line breaks
+#+BEGIN_FIXTURE
+#+BEGIN_VERSE
+line one
+line two
+#+END_VERSE
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+<pre class="org-verse">
+line one
+line two
+</pre>
+
+#+NAME: Ordered list and description item
+#+BEGIN_FIXTURE
+1. first item
+2. term :: description here
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+1. first item
+1. **term**: description here
+
+#+NAME: Multi-line paragraph wraps softly
+#+BEGIN_FIXTURE
+This is line one.
+This is line two.
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+This is line one.
+This is line two.
+
+#+NAME: Angle links pass through
+#+BEGIN_FIXTURE
+See <https://example.org/x> for details.
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+See <https://example.org/x> for details.

@@ -1,0 +1,138 @@
+#+TITLE: Test Suite for Org to Markdown Preview Conversion
+
+* 1. Common Constructs
+
+#+NAME: Headline with all elements
+#+BEGIN_FIXTURE
+,* TODO [#A] Complete headline *inline bold* [2/5] :work:project:
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+# <span class="org-todo">TODO</span> <span class="org-priority">[#A]</span> Complete headline <strong>inline bold</strong> <span class="org-progress">[2/5]</span> <span class="org-tags">:work:project:</span>
+
+#+NAME: Paragraph with links timestamps and math
+#+BEGIN_FIXTURE
+Text with [[https://example.com][link]] and <2024-01-01 Mon> plus $x^2$ and *bold*.
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+Text with [link](https://example.com) and <span class="org-timestamp"><2024-01-01 Mon></span> plus $x^2$ and <strong>bold</strong>.
+
+#+NAME: Image links render with Markdown image syntax
+#+BEGIN_FIXTURE
+See [[./assets/orgdown.png][OrgDown logo]] and [[https://example.com/logo.svg][web logo]].
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+See ![OrgDown logo](./assets/orgdown.png) and ![web logo](https://example.com/logo.svg).
+
+#+NAME: Source block with language
+#+BEGIN_FIXTURE
+#+BEGIN_SRC python
+print("hello")
+#+END_SRC
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+```python
+print("hello")
+```
+
+#+NAME: Quote block with comment and drawer
+#+BEGIN_FIXTURE
+#+BEGIN_QUOTE
+Quote text
+#+END_QUOTE
+:LOGBOOK:
+skip me
+:END:
+# comment line
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+> Quote text
+
+#+NAME: Table conversion
+#+BEGIN_FIXTURE
+| a | b |
+|----+----|
+| 1 | 2 |
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+| a | b |
+|---|---|
+| 1 | 2 |
+
+#+NAME: List with checkbox and nested items
+#+BEGIN_FIXTURE
+- item one
+- [X] item two
+  - nested a
+  - nested b
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+- item one
+- [x] item two
+  - nested a
+  - nested b
+
+#+NAME: Headline levels with section content
+#+BEGIN_FIXTURE
+,* Level 1
+Text under level 1.
+,** Level 2
+More text.
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+# Level 1
+Text under level 1.
+
+## Level 2
+More text.
+
+#+NAME: Footnote reference and definition
+#+BEGIN_FIXTURE
+Text[fn:1] with footnote.
+
+[fn:1] The footnote body.
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+Text[^1] with footnote.
+
+
+[^1]: The footnote body.
+
+#+NAME: Horizontal rule
+#+BEGIN_FIXTURE
+-----
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+---
+
+#+NAME: Title directive and planning line
+#+BEGIN_FIXTURE
+#+TITLE: My Document
+SCHEDULED: <2025-01-01 Wed>
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+# My Document
+
+<p class="org-planning"><span class="org-plan-keyword">SCHEDULED:</span> <span class="org-timestamp"><2025-01-01 Wed></span></p>
+
+#+NAME: Dynamic block
+#+BEGIN_FIXTURE
+#+BEGIN: clocktable :scope file
+| 1 |
+#+END:
+#+END_FIXTURE
+
+#+EXPECTED: :type markdown
+```clocktable
+| 1 |
+```

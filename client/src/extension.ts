@@ -1,5 +1,6 @@
-// The module 'vscode' contains the VS Code extensibility API
-// Import the module and reference it with the alias vscode in your code below
+// The module 'vscode' contains the VS Code extensibility API.
+// The preview feature is registered through PreviewController so this file
+// only owns the language client lifecycle.
 import * as vscode from 'vscode';
 import {
   LanguageClient,
@@ -8,11 +9,11 @@ import {
   TransportKind,
 } from 'vscode-languageclient/node';
 import * as path from 'path';
+import { PreviewController } from './preview/preview-controller';
 
 let client: LanguageClient;
 
-// This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
+// This method is called when your extension is activated.
 export function activate(context: vscode.ExtensionContext) {
   const serverModule = context.asAbsolutePath(
     path.join('server', 'dist', 'server.js'),
@@ -40,10 +41,15 @@ export function activate(context: vscode.ExtensionContext) {
     clientOptions,
   );
 
-  client.start();
+  const clientReady = client.start();
+  clientReady.catch((error) => {
+    console.error('[orgdown] Language server failed to start:', error);
+  });
+
+  context.subscriptions.push(new PreviewController(client, clientReady));
 }
 
-// This method is called when your extension is deactivated
+// This method is called when your extension is deactivated.
 export function deactivate(): Thenable<void> | undefined {
   if (!client) {
     return undefined;

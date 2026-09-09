@@ -13,6 +13,10 @@ import { Parser, Language } from 'web-tree-sitter';
 import * as path from 'path';
 import { provideFoldingRanges } from './features/folding';
 import { provideDocumentSymbols } from './features/symbols';
+import { providePreviewMarkdown } from './features/preview';
+import {
+  ORGDOWN_PREVIEW_REQUEST,
+} from '../../common/src/preview/protocol';
 
 const connection = createConnection(ProposedFeatures.all);
 const documents: TextDocuments<TextDocument> = new TextDocuments(TextDocument);
@@ -81,4 +85,8 @@ connection.onFoldingRanges((params: FoldingRangeParams) => {
     return [];
   }
   return provideFoldingRanges(tree);
+});
+
+connection.onRequest(ORGDOWN_PREVIEW_REQUEST, (params) => {
+  return providePreviewMarkdown(params, documents, parser);
 });

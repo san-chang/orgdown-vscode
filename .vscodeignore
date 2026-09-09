@@ -1,5 +1,6 @@
 # Include built artifacts explicitly
 !client/dist/**
+!client/preview/**
 !server/out/**
 !syntaxes/org.tmLanguage.json
 !syntaxes/org.configuration.json
